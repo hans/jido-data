@@ -387,67 +387,24 @@
         </mood>
     </verbset>
 
-    <verbset id="ä-1">
+    <verbset id="ä-1" inherit="reg">
         <participles>
-            <participle id="present" endlength="0">
-                <append>d</append>
-            </participle>
             <participle id="past" endlength="0" irregular="true">
                 <prepend>ge</prepend>
             </participle>
         </participles>
         <mood id="indicative">
             <group id="PRS" endlength="2">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <append>e</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <append>en</append>
-                    </paradigm>
-                </pdgmgroup>
                 <pdgmgroup id="2">
                     <paradigm id="SG" irregular="true">
                         <mod match="first" search="a" replace="ä" />
                         <append>st</append>
                     </paradigm>
-                    <paradigm id="PL">
-                        <append>t</append>
-                    </paradigm>
                 </pdgmgroup>
                 <pdgmgroup id="3">
                     <paradigm id="SG" irregular="true">
                         <mod match="first" search="a" replace="ä" />
                         <append>t</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <append>en</append>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
-            <group id="PRF" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <prepend>habe ge</prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>habt ge</prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <prepend>hast ge</prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>hat ge</prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <prepend>hat ge</prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>haben ge</prepend>
                     </paradigm>
                 </pdgmgroup>
             </group>
@@ -481,144 +438,8 @@
                     </paradigm>
                 </pdgmgroup>
             </group>
-            <group id="PLU" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <prepend>hatte ge</prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>hatten ge</prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <prepend>hattest ge</prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>hattet ge</prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <prepend>hatte ge</prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>hatten ge</prepend>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
-            <group id="FUT1" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <prepend>werde </prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>werden </prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <prepend>wirst </prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>werdet </prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <prepend>wird </prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>werden </prepend>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
-            <group id="FUT2" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <prepend>werde ge</prepend>
-                        <append> haben</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>werden ge</prepend>
-                        <append> haben</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <prepend>wirst ge</prepend>
-                        <append> haben</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>werdet ge</prepend>
-                        <append> haben</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <prepend>wird ge</prepend>
-                        <append> haben</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>werden ge</prepend>
-                        <append> haben</append>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
         </mood>
         <mood id="conjunctive">
-            <group id="CPRS" endlength="2">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <append>e</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <append>en</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <append>est</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <append>et</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <append>e</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <append>en</append>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
-            <group id="CPRF" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <prepend>habe ge</prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>haben ge</prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <prepend>habest ge</prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>habet ge</prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <prepend>habe ge</prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>haben ge</prepend>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
             <group id="CPST" endlength="2">
                 <pdgmgroup id="1">
                     <paradigm id="SG" irregular="true">
@@ -651,168 +472,27 @@
                     </paradigm>
                 </pdgmgroup>
             </group>
-            <group id="CPLU" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <prepend>hätte ge</prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>hätten ge</prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <prepend>hättest ge</prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>hättet ge</prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <prepend>hätte ge</prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>hätten ge</prepend>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
-        </mood>
-        <mood id="conditional">
-            <group id="COPRS" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <prepend>würde </prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>würden </prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <prepend>würdest </prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>würdet </prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <prepend>würde </prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>würden </prepend>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
-            <group id="COPRF" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <prepend>würde ge</prepend>
-                        <append> haben</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>würden ge</prepend>
-                        <append> haben</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <prepend>würdest ge</prepend>
-                        <append> haben</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>würdet ge</prepend>
-                        <append> haben</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <prepend>würde ge</prepend>
-                        <append> haben</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>würden ge</prepend>
-                        <append> haben</append>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
-        </mood>
-        <mood id="imperative">
-            <group id="IMP" endlength="2">
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <append>e</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <append>t</append>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
         </mood>
     </verbset>
 
-    <verbset id="a-ie">
+    <verbset id="a-ie" inherit="reg">
         <participles>
-            <participle id="present" endlength="0">
-                <append>d</append>
-            </participle>
             <participle id="past" endlength="0" irregular="true">
                 <prepend>ge</prepend>
             </participle>
         </participles>
         <mood id="indicative">
             <group id="PRS" endlength="2">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <append>e</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <append>en</append>
-                    </paradigm>
-                </pdgmgroup>
                 <pdgmgroup id="2">
                     <paradigm id="SG" irregular="true">
                         <mod match="first" search="a" replace="ä" />
                         <append>st</append>
                     </paradigm>
-                    <paradigm id="PL">
-                        <append>t</append>
-                    </paradigm>
                 </pdgmgroup>
                 <pdgmgroup id="3">
                     <paradigm id="SG" irregular="true">
                         <mod match="first" search="a" replace="ä" />
                         <append>t</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <append>en</append>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
-            <group id="PRF" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <prepend>habe ge</prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>haben ge</prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <prepend>hast ge</prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>hat ge</prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <prepend>hat ge</prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>haben ge</prepend>
                     </paradigm>
                 </pdgmgroup>
             </group>
@@ -846,144 +526,8 @@
                     </paradigm>
                 </pdgmgroup>
             </group>
-            <group id="PLU" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <prepend>hatte ge</prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>hatten ge</prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <prepend>hattest ge</prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>hattet ge</prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <prepend>hatte ge</prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>hatten ge</prepend>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
-            <group id="FUT1" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <prepend>werde </prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>werden </prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <prepend>wirst </prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>werdet </prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <prepend>wird </prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>werden </prepend>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
-            <group id="FUT2" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <prepend>werde ge</prepend>
-                        <append> haben</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>werden ge</prepend>
-                        <append> haben</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <prepend>wirst ge</prepend>
-                        <append> haben</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>werdet ge</prepend>
-                        <append> haben</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <prepend>wird ge</prepend>
-                        <append> haben</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>werden ge</prepend>
-                        <append> haben</append>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
         </mood>
         <mood id="conjunctive">
-            <group id="CPRS" endlength="2">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <append>e</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <append>en</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <append>est</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <append>et</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <append>e</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <append>en</append>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
-            <group id="CPRF" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <prepend>habe ge</prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>haben ge</prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <prepend>habest ge</prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>habet ge</prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <prepend>habe ge</prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>haben ge</prepend>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
             <group id="CPST" endlength="2">
                 <pdgmgroup id="1">
                     <paradigm id="SG" irregular="true">
@@ -1016,169 +560,16 @@
                     </paradigm>
                 </pdgmgroup>
             </group>
-            <group id="CPLU" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <prepend>hätte ge</prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>hätten ge</prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <prepend>hättest ge</prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>hättet ge</prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <prepend>hätte ge</prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>hätten ge</prepend>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
-        </mood>
-        <mood id="conditional">
-            <group id="COPRS" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <prepend>würde </prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>würden </prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <prepend>würdest </prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>würdet </prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <prepend>würde </prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>würden </prepend>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
-            <group id="COPRF" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <prepend>würde ge</prepend>
-                        <append> haben</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>würden ge</prepend>
-                        <append> haben</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <prepend>würdest ge</prepend>
-                        <append> haben</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>würdet ge</prepend>
-                        <append> haben</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <prepend>würde ge</prepend>
-                        <append> haben</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>würden ge</prepend>
-                        <append> haben</append>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
-        </mood>
-        <mood id="imperative">
-            <group id="IMP" endlength="2">
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <append>e</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <append>t</append>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
         </mood>
     </verbset>
 
-    <verbset id="u-ie">
+    <verbset id="u-ie" inherit="reg">
         <participles>
-            <participle id="present" endlength="0">
-                <append>d</append>
-            </participle>
             <participle id="past" endlength="0" irregular="true">
                 <prepend>ge</prepend>
             </participle>
         </participles>
         <mood id="indicative">
-            <group id="PRS" endlength="2">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <append>e</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <append>en</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <append>st</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <append>t</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <append>t</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <append>en</append>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
-            <group id="PRF" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <prepend>habe ge</prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>haben ge</prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <prepend>hast ge</prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>hat ge</prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <prepend>hat ge</prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>haben ge</prepend>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
             <group id="PST" endlength="2">
                 <pdgmgroup id="1">
                     <paradigm id="SG" irregular="true">
@@ -1209,144 +600,8 @@
                     </paradigm>
                 </pdgmgroup>
             </group>
-            <group id="PLU" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <prepend>hatte ge</prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>hatten ge</prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <prepend>hattest ge</prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>hattet ge</prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <prepend>hatte ge</prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>hatten ge</prepend>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
-            <group id="FUT1" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <prepend>werde </prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>werden </prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <prepend>wirst </prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>werdet </prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <prepend>wird </prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>werden </prepend>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
-            <group id="FUT2" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <prepend>werde ge</prepend>
-                        <append> haben</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>werden ge</prepend>
-                        <append> haben</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <prepend>wirst ge</prepend>
-                        <append> haben</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>werdet ge</prepend>
-                        <append> haben</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <prepend>wird ge</prepend>
-                        <append> haben</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>werden ge</prepend>
-                        <append> haben</append>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
         </mood>
         <mood id="conjunctive">
-            <group id="CPRS" endlength="2">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <append>e</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <append>en</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <append>est</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <append>et</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <append>e</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <append>en</append>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
-            <group id="CPRF" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <prepend>habe ge</prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>haben ge</prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <prepend>habest ge</prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>habet ge</prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <prepend>habe ge</prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>haben ge</prepend>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
             <group id="CPST" endlength="2">
                 <pdgmgroup id="1">
                     <paradigm id="SG" irregular="true">
@@ -1379,112 +634,11 @@
                     </paradigm>
                 </pdgmgroup>
             </group>
-            <group id="CPLU" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <prepend>hätte ge</prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>hätten ge</prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <prepend>hättest ge</prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>hättet ge</prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <prepend>hätte ge</prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>hätten ge</prepend>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
-        </mood>
-        <mood id="conditional">
-            <group id="COPRS" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <prepend>würde </prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>würden </prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <prepend>würdest </prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>würdet </prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <prepend>würde </prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>würden </prepend>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
-            <group id="COPRF" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <prepend>würde ge</prepend>
-                        <append> haben</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>würden ge</prepend>
-                        <append> haben</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <prepend>würdest ge</prepend>
-                        <append> haben</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>würdet ge</prepend>
-                        <append> haben</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <prepend>würde ge</prepend>
-                        <append> haben</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>würden ge</prepend>
-                        <append> haben</append>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
-        </mood>
-        <mood id="imperative">
-            <group id="IMP" endlength="2">
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <append>e</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <append>t</append>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
         </mood>
     </verbset>
 
-    <verbset id="er-ir">
+    <verbset id="er-ir" inherit="reg">
         <participles>
-            <participle id="present" endlength="0">
-                <append>d</append>
-            </participle>
             <participle id="past" endlength="0" irregular="true">
                 <mod match="first" search="er" replace="or" />
                 <prepend>ge</prepend>
@@ -1492,14 +646,6 @@
         </participles>
         <mood id="indicative">
             <group id="PRS" endlength="2">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <append>e</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <append>en</append>
-                    </paradigm>
-                </pdgmgroup>
                 <pdgmgroup id="2">
                     <paradigm id="SG" irregular="true">
                         <mod match="first" search="er" replace="ir" />
@@ -1513,9 +659,6 @@
                     <paradigm id="SG" irregular="true">
                         <mod match="first" search="er" replace="ir" />
                         <append>t</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <append>en</append>
                     </paradigm>
                 </pdgmgroup>
             </group>
@@ -1613,32 +756,6 @@
                     </paradigm>
                 </pdgmgroup>
             </group>
-            <group id="FUT1" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <prepend>werde </prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>werden </prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <prepend>wirst </prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>werdet </prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <prepend>wird </prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>werden </prepend>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
             <group id="FUT2" endlength="0">
                 <pdgmgroup id="1">
                     <paradigm id="SG">
@@ -1679,32 +796,6 @@
             </group>
         </mood>
         <mood id="conjunctive">
-            <group id="CPRS" endlength="2">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <append>e</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <append>en</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <append>est</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <append>et</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <append>e</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <append>en</append>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
             <group id="CPRF" endlength="0">
                 <pdgmgroup id="1">
                     <paradigm id="SG">
@@ -1803,32 +894,6 @@
             </group>
         </mood>
         <mood id="conditional">
-            <group id="COPRS" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <prepend>würde </prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>würden </prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <prepend>würdest </prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>würdet </prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <prepend>würde </prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>würden </prepend>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
             <group id="COPRF" endlength="0">
                 <pdgmgroup id="1">
                     <paradigm id="SG">
@@ -1868,56 +933,15 @@
                 </pdgmgroup>
             </group>
         </mood>
-        <mood id="imperative">
-            <group id="IMP" endlength="2">
-                <pdgmgroup id="2">
-                    <paradigm id="SG" irregular="true">
-                        <mod match="first" search="er" replace="ir" />
-                    </paradigm>
-                    <paradigm id="PL">
-                        <append>t</append>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
-        </mood>
     </verbset>
 	
-	<verbset id="ü-o">
+	<verbset id="ü-o" inherit="reg">
         <participles>
-            <participle id="present" endlength="0">
-                <append>d</append>
-            </participle>
             <participle id="past" endlength="0" irregular="true">
                 <mod match="first" search="ü" replace="o" />
             </participle>
         </participles>
         <mood id="indicative">
-            <group id="PRS" endlength="2">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <append>e</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <append>en</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <append>st</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <append>t</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <append>t</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <append>en</append>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
             <group id="PRF" endlength="0">
                 <pdgmgroup id="1">
                     <paradigm id="SG">
@@ -2012,32 +1036,6 @@
                     </paradigm>
                 </pdgmgroup>
             </group>
-            <group id="FUT1" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <prepend>werde </prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>werden </prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <prepend>wirst </prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>werdet </prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <prepend>wird </prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>werden </prepend>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
             <group id="FUT2" endlength="0">
                 <pdgmgroup id="1">
                     <paradigm id="SG">
@@ -2078,32 +1076,6 @@
             </group>
         </mood>
         <mood id="conjunctive">
-            <group id="CPRS" endlength="2">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <append>e</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <append>en</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <append>est</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <append>et</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <append>e</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <append>en</append>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
             <group id="CPRF" endlength="0">
                 <pdgmgroup id="1">
                     <paradigm id="SG">
@@ -2202,32 +1174,6 @@
             </group>
         </mood>
         <mood id="conditional">
-            <group id="COPRS" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <prepend>würde </prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>würden </prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <prepend>würdest </prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>würdet </prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <prepend>würde </prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>würden </prepend>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
             <group id="COPRF" endlength="0">
                 <pdgmgroup id="1">
                     <paradigm id="SG">
@@ -2267,81 +1213,26 @@
                 </pdgmgroup>
             </group>
         </mood>
-        <mood id="imperative">
-            <group id="IMP" endlength="2">
-                <pdgmgroup id="2">
-                    <paradigm id="SG" irregular="true">
-                        <append>e</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <append>t</append>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
-        </mood>
 	</verbset>
 
-    <verb word="backen">
+    <verb word="backen" inherit="reg">
         <participles>
-            <participle id="present" endlength="0">
-                <append>d</append>
-            </participle>
             <participle id="past" endlength="0" irregular="true">
                 <prepend>ge</prepend>
             </participle>
         </participles>
         <mood id="indicative">
             <group id="PRS" endlength="2">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <append>e</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <append>en</append>
-                    </paradigm>
-                </pdgmgroup>
                 <pdgmgroup id="2">
                     <paradigm id="SG" irregular="true">
                         <mod match="first" search="a" replace="ä" />
                         <append>st</append>
                     </paradigm>
-                    <paradigm id="PL">
-                        <append>t</append>
-                    </paradigm>
                 </pdgmgroup>
                 <pdgmgroup id="3">
                     <paradigm id="SG" irregular="true">
                         <mod match="first" search="a" replace="ä" />
                         <append>t</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <append>en</append>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
-            <group id="PRF" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <prepend>habe ge</prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>haben ge</prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <prepend>hast ge</prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>hat ge</prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <prepend>hat ge</prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>haben ge</prepend>
                     </paradigm>
                 </pdgmgroup>
             </group>
@@ -2371,150 +1262,8 @@
                     </paradigm>
                 </pdgmgroup>
             </group>
-            <group id="PLU" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <prepend>hatte ge</prepend>
-                        <append>t</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>hatten ge</prepend>
-                        <append>t</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <prepend>hattest ge</prepend>
-                        <append>t</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>hattet ge</prepend>
-                        <append>t</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <prepend>hatte ge</prepend>
-                        <append>t</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>hatten ge</prepend>
-                        <append>t</append>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
-            <group id="FUT1" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <prepend>werde </prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>werden </prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <prepend>wirst </prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>werdet </prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <prepend>wird </prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>werden </prepend>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
-            <group id="FUT2" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <prepend>werde ge</prepend>
-                        <append> haben</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>werden ge</prepend>
-                        <append> haben</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <prepend>wirst ge</prepend>
-                        <append> haben</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>werdet ge</prepend>
-                        <append> haben</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <prepend>wird ge</prepend>
-                        <append> haben</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>werden ge</prepend>
-                        <append> haben</append>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
         </mood>
         <mood id="conjunctive">
-            <group id="CPRS" endlength="2">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <append>e</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <append>en</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <append>est</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <append>et</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <append>e</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <append>en</append>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
-            <group id="CPRF" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <prepend>habe ge</prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>haben ge</prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <prepend>habest ge</prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>habet ge</prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <prepend>habe ge</prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>haben ge</prepend>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
             <group id="CPST" endlength="5">
                 <pdgmgroup id="1">
                     <paradigm id="SG" irregular="true">
@@ -2541,131 +1290,16 @@
                     </paradigm>
                 </pdgmgroup>
             </group>
-            <group id="CPLU" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <prepend>hätte ge</prepend>
-                        <append>t</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>hätten ge</prepend>
-                        <append>t</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <prepend>hättest ge</prepend>
-                        <append>t</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>hättet ge</prepend>
-                        <append>t</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <prepend>hätte ge</prepend>
-                        <append>t</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>hätten ge</prepend>
-                        <append>t</append>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
-        </mood>
-        <mood id="conditional">
-            <group id="COPRS" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <prepend>würde </prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>würden </prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <prepend>würdest </prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>würdet </prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <prepend>würde </prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>würden </prepend>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
-            <group id="COPRF" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <prepend>würde ge</prepend>
-                        <append> haben</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>würden ge</prepend>
-                        <append> haben</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <prepend>würdest ge</prepend>
-                        <append> haben</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>würdet ge</prepend>
-                        <append> haben</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <prepend>würde ge</prepend>
-                        <append> haben</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>würden ge</prepend>
-                        <append> haben</append>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
-        </mood>
-        <mood id="imperative">
-            <group id="IMP" endlength="2">
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <append>e</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <append>t</append>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
         </mood>
     </verb>
-    <verb word="befehlen">
+    <verb word="befehlen" inherit="reg">
         <participles>
-            <participle id="present" endlength="0">
-                <append>d</append>
-            </participle>
             <participle id="past" endlength="0" irregular="true">
                 <mod match="first" search="eh" replace="oh" />
             </participle>
         </participles>
         <mood id="indicative">
             <group id="PRS" endlength="2">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <append>e</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <append>en</append>
-                    </paradigm>
-                </pdgmgroup>
                 <pdgmgroup id="2">
                     <paradigm id="SG" irregular="true">
                         <mod match="first" search="eh" replace="ieh" />
@@ -2679,9 +1313,6 @@
                     <paradigm id="SG" irregular="true">
                         <mod match="first" search="eh" replace="ieh" />
                         <append>t</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <append>en</append>
                     </paradigm>
                 </pdgmgroup>
             </group>
@@ -2779,32 +1410,6 @@
                     </paradigm>
                 </pdgmgroup>
             </group>
-            <group id="FUT1" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <prepend>werde </prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>werden </prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <prepend>wirst </prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>werdet </prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <prepend>wird </prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>werden </prepend>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
             <group id="FUT2" endlength="0">
                 <pdgmgroup id="1">
                     <paradigm id="SG">
@@ -2845,32 +1450,6 @@
             </group>
         </mood>
         <mood id="conjunctive">
-            <group id="CPRS" endlength="2">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <append>e</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <append>en</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <append>est</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <append>et</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <append>e</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <append>en</append>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
             <group id="CPRF" endlength="0">
                 <pdgmgroup id="1">
                     <paradigm id="SG">
@@ -2969,32 +1548,6 @@
             </group>
         </mood>
         <mood id="conditional">
-            <group id="COPRS" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <prepend>würde </prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>würden </prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <prepend>würdest </prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>würdet </prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <prepend>würde </prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>würden </prepend>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
             <group id="COPRF" endlength="0">
                 <pdgmgroup id="1">
                     <paradigm id="SG">
@@ -3034,81 +1587,14 @@
                 </pdgmgroup>
             </group>
         </mood>
-        <mood id="imperative">
-            <group id="IMP" endlength="2">
-                <pdgmgroup id="2">
-                    <paradigm id="SG" irregular="true">
-                        <mod match="first" search="eh" replace="ieh" />
-                    </paradigm>
-                    <paradigm id="PL">
-                        <append>t</append>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
-        </mood>
     </verb>
-    <verb word="beginnen">
+    <verb word="beginnen" inherit="reg">
         <participles>
-            <participle id="present" endlength="0">
-                <append>d</append>
-            </participle>
             <participle id="past" endlength="0" irregular="true">
                 <mod match="first" search="i" replace="o" />
             </participle>
         </participles>
         <mood id="indicative">
-            <group id="PRS" endlength="2">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <append>e</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <append>en</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <append>st</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <append>t</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <append>t</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <append>en</append>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
-            <group id="PRF" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <prepend>habe </prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>haben </prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <prepend>hast </prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>hat </prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <prepend>hat </prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>haben </prepend>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
             <group id="PST" endlength="2">
                 <pdgmgroup id="1">
                     <paradigm id="SG" irregular="true">
@@ -3139,144 +1625,8 @@
                     </paradigm>
                 </pdgmgroup>
             </group>
-            <group id="PLU" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <prepend>hatte </prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>hatten </prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <prepend>hattest </prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>hattet </prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <prepend>hatte </prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>hatten </prepend>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
-            <group id="FUT1" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <prepend>werde </prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>werden </prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <prepend>wirst </prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>werdet </prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <prepend>wird </prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>werden </prepend>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
-            <group id="FUT2" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <prepend>werde </prepend>
-                        <append> haben</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>werden </prepend>
-                        <append> haben</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <prepend>wirst </prepend>
-                        <append> haben</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>werdet </prepend>
-                        <append> haben</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <prepend>wird </prepend>
-                        <append> haben</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>werden </prepend>
-                        <append> haben</append>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
         </mood>
         <mood id="conjunctive">
-            <group id="CPRS" endlength="2">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <append>e</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <append>en</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <append>est</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <append>et</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <append>e</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <append>en</append>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
-            <group id="CPRF" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <prepend>habe </prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>haben </prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <prepend>habest </prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>habet </prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <prepend>habe </prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>haben </prepend>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
             <group id="CPST" endlength="2">
                 <pdgmgroup id="1">
                     <paradigm id="SG" irregular="true">
@@ -3309,166 +1659,13 @@
                     </paradigm>
                 </pdgmgroup>
             </group>
-            <group id="CPLU" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <prepend>hätte </prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>hätten </prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <prepend>hättest </prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>hättet </prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <prepend>hätte </prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>hätten </prepend>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
-        </mood>
-        <mood id="conditional">
-            <group id="COPRS" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <prepend>würde </prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>würden </prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <prepend>würdest </prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>würdet </prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <prepend>würde </prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>würden </prepend>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
-            <group id="COPRF" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <prepend>würde </prepend>
-                        <append> haben</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>würden </prepend>
-                        <append> haben</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <prepend>würdest </prepend>
-                        <append> haben</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>würdet </prepend>
-                        <append> haben</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <prepend>würde </prepend>
-                        <append> haben</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>würden </prepend>
-                        <append> haben</append>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
-        </mood>
-        <mood id="imperative">
-            <group id="IMP" endlength="2">
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <append>e</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <append>t</append>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
         </mood>
     </verb>
-    <verb word="bekommen">
+    <verb word="bekommen" inherit="reg">
         <participles>
-            <participle id="present" endlength="0">
-                <append>d</append>
-            </participle>
             <participle id="past" endlength="0" irregular="true" />
         </participles>
         <mood id="indicative">
-            <group id="PRS" endlength="2">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <append>e</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <append>en</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <append>st</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <append>t</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <append>t</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <append>en</append>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
-            <group id="PRF" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <prepend>habe ge</prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>haben ge</prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <prepend>hast ge</prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>hat ge</prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <prepend>hat ge</prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>haben ge</prepend>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
             <group id="PST" endlength="3">
                 <pdgmgroup id="1">
                     <paradigm id="SG" irregular="true">
@@ -3499,144 +1696,8 @@
                     </paradigm>
                 </pdgmgroup>
             </group>
-            <group id="PLU" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <prepend>hatte ge</prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>hatten ge</prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <prepend>hattest ge</prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>hattet ge</prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <prepend>hatte ge</prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>hatten ge</prepend>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
-            <group id="FUT1" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <prepend>werde </prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>werden </prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <prepend>wirst </prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>werdet </prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <prepend>wird </prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>werden </prepend>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
-            <group id="FUT2" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <prepend>werde </prepend>
-                        <append> haben</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>werden </prepend>
-                        <append> haben</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <prepend>wirst </prepend>
-                        <append> haben</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>werdet </prepend>
-                        <append> haben</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <prepend>wird </prepend>
-                        <append> haben</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>werden </prepend>
-                        <append> haben</append>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
         </mood>
         <mood id="conjunctive">
-            <group id="CPRS" endlength="2">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <append>e</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <append>en</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <append>est</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <append>et</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <append>e</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <append>en</append>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
-            <group id="CPRF" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <prepend>habe </prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>haben </prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <prepend>habest </prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>habet </prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <prepend>habe </prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>haben </prepend>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
             <group id="CPST" endlength="3">
                 <pdgmgroup id="1">
                     <paradigm id="SG" irregular="true">
@@ -3669,143 +1730,16 @@
                     </paradigm>
                 </pdgmgroup>
             </group>
-            <group id="CPLU" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <prepend>hätte ge</prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>hätten ge</prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <prepend>hättest ge</prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>hättet ge</prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <prepend>hätte ge</prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>hätten ge</prepend>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
-        </mood>
-        <mood id="conditional">
-            <group id="COPRS" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <prepend>würde </prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>würden </prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <prepend>würdest </prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>würdet </prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <prepend>würde </prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>würden </prepend>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
-            <group id="COPRF" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <prepend>würde </prepend>
-                        <append> haben</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>würden </prepend>
-                        <append> haben</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <prepend>würdest </prepend>
-                        <append> haben</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>würdet </prepend>
-                        <append> haben</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <prepend>würde </prepend>
-                        <append> haben</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>würden </prepend>
-                        <append> haben</append>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
-        </mood>
-        <mood id="imperative">
-            <group id="IMP" endlength="2">
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <append>e</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <append>t</append>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
         </mood>
     </verb>
-    <verb word="beißen">
+    <verb word="beißen" inherit="reg">
         <participles>
-            <participle id="present" endlength="0">
-                <append>d</append>
-            </participle>
             <participle id="past" endlength="0" irregular="true">
                 <mod match="first" search="eiß" replace="iss" />
                 <prepend>ge</prepend>
             </participle>
         </participles>
         <mood id="indicative">
-            <group id="PRS" endlength="2">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <append>e</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <append>en</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <append>st</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <append>t</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <append>t</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <append>en</append>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
             <group id="PRF" endlength="0">
                 <pdgmgroup id="1">
                     <paradigm id="SG">
@@ -3896,32 +1830,6 @@
                     </paradigm>
                 </pdgmgroup>
             </group>
-            <group id="FUT1" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <prepend>werde </prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>werden </prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <prepend>wirst </prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>werdet </prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <prepend>wird </prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>werden </prepend>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
             <group id="FUT2" endlength="0">
                 <pdgmgroup id="1">
                     <paradigm id="SG">
@@ -3962,32 +1870,6 @@
             </group>
         </mood>
         <mood id="conjunctive">
-            <group id="CPRS" endlength="2">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <append>e</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <append>en</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <append>est</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <append>et</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <append>e</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <append>en</append>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
             <group id="CPRF" endlength="0">
                 <pdgmgroup id="1">
                     <paradigm id="SG">
@@ -4086,32 +1968,6 @@
             </group>
         </mood>
         <mood id="conditional">
-            <group id="COPRS" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <prepend>würde </prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>würden </prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <prepend>würdest </prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>würdet </prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <prepend>würde </prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>würden </prepend>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
             <group id="COPRF" endlength="0">
                 <pdgmgroup id="1">
                     <paradigm id="SG">
@@ -4151,25 +2007,10 @@
                 </pdgmgroup>
             </group>
         </mood>
-        <mood id="imperative">
-            <group id="IMP" endlength="2">
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <append>e</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <append>t</append>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
-        </mood>
     </verb>
     <verb word="bergen" ref="er-ir" />
-    <verb word="bersten">                                                       <!-- almost er-ir but there is -st in stem -->
+    <verb word="bersten" inherit="reg">
         <participles>
-            <participle id="present" endlength="0">
-                <append>d</append>
-            </participle>
             <participle id="past" endlength="0" irregular="true">
                 <mod match="first" search="er" replace="or" />
                 <prepend>ge</prepend>
@@ -4177,26 +2018,14 @@
         </participles>
         <mood id="indicative">
             <group id="PRS" endlength="2">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <append>e</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <append>en</append>
-                    </paradigm>
-                </pdgmgroup>
                 <pdgmgroup id="2">
                     <paradigm id="SG" irregular="true">
                         <mod match="first" search="er" replace="ir" />
                     </paradigm>
-                    <paradigm id="PL" />
                 </pdgmgroup>
                 <pdgmgroup id="3">
                     <paradigm id="SG" irregular="true">
                         <mod match="first" search="er" replace="ir" />
-                    </paradigm>
-                    <paradigm id="PL">
-                        <append>en</append>
                     </paradigm>
                 </pdgmgroup>
             </group>
@@ -4292,32 +2121,6 @@
                     </paradigm>
                 </pdgmgroup>
             </group>
-            <group id="FUT1" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <prepend>werde </prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>werden </prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <prepend>wirst </prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>werdet </prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <prepend>wird </prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>werden </prepend>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
             <group id="FUT2" endlength="0">
                 <pdgmgroup id="1">
                     <paradigm id="SG">
@@ -4358,32 +2161,6 @@
             </group>
         </mood>
         <mood id="conjunctive">
-            <group id="CPRS" endlength="2">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <append>e</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <append>en</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <append>est</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <append>et</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <append>e</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <append>en</append>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
             <group id="CPRF" endlength="0">
                 <pdgmgroup id="1">
                     <paradigm id="SG">
@@ -4482,32 +2259,6 @@
             </group>
         </mood>
         <mood id="conditional">
-            <group id="COPRS" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <prepend>würde </prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>würden </prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <prepend>würdest </prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>würdet </prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <prepend>würde </prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>würden </prepend>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
             <group id="COPRF" endlength="0">
                 <pdgmgroup id="1">
                     <paradigm id="SG">
@@ -4547,55 +2298,26 @@
                 </pdgmgroup>
             </group>
         </mood>
-        <mood id="imperative">
-            <group id="IMP" endlength="2">
-                <pdgmgroup id="2">
-                    <paradigm id="SG" irregular="true">
-                        <mod match="first" search="er" replace="ir" />
-                    </paradigm>
-                    <paradigm id="PL">
-                        <append>t</append>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
-        </mood>
     </verb>
 	<verb word="betrügen" ref="ü-o" />
-    <verb word="fahren">
+    <verb word="fahren" inherit="reg">
         <participles>
-            <participle id="present" endlength="0">
-                <append>d</append>
-            </participle>
             <participle id="past" endlength="0" irregular="true">
                 <prepend>ge</prepend>
             </participle>
         </participles>
         <mood id="indicative">
             <group id="PRS" endlength="2">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <append>e</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <append>en</append>
-                    </paradigm>
-                </pdgmgroup>
                 <pdgmgroup id="2">
                     <paradigm id="SG" irregular="true">
                         <mod match="first" search="a" replace="ä" />
                         <append>st</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <append>t</append>
                     </paradigm>
                 </pdgmgroup>
                 <pdgmgroup id="3">
                     <paradigm id="SG" irregular="true">
                         <mod match="first" search="a" replace="ä" />
                         <append>t</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <append>en</append>
                     </paradigm>
                 </pdgmgroup>
             </group>
@@ -4741,32 +2463,6 @@
             </group>
         </mood>
         <mood id="conjunctive">
-            <group id="CPRS" endlength="2">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <append>e</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <append>en</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <append>est</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <append>et</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <append>e</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <append>en</append>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
             <group id="CPRF" endlength="0">
                 <pdgmgroup id="1">
                     <paradigm id="SG">
@@ -4853,32 +2549,6 @@
             </group>
         </mood>
         <mood id="conditional">
-            <group id="COPRS" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <prepend>würde </prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>würden </prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <prepend>würdest </prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>würdet </prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <prepend>würde </prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>würden </prepend>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
             <group id="COPRF" endlength="0">
                 <pdgmgroup id="1">
                     <paradigm id="SG">
@@ -4912,80 +2582,25 @@
                 </pdgmgroup>
             </group>
         </mood>
-        <mood id="imperative">
-            <group id="IMP" endlength="2">
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <append>e</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <append>t</append>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
-        </mood>
     </verb>
-    <verb word="fangen">
+    <verb word="fangen" inherit="reg">
         <participles>
-            <participle id="present" endlength="0">
-                <append>d</append>
-            </participle>
             <participle id="past" endlength="0" irregular="true">
                 <prepend>ge</prepend>
             </participle>
         </participles>
         <mood id="indicative">
             <group id="PRS" endlength="2">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <append>e</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <append>en</append>
-                    </paradigm>
-                </pdgmgroup>
                 <pdgmgroup id="2">
                     <paradigm id="SG" irregular="true">
                         <mod match="first" search="a" replace="ä" />
                         <append>st</append>
                     </paradigm>
-                    <paradigm id="PL">
-                        <append>t</append>
-                    </paradigm>
                 </pdgmgroup>
                 <pdgmgroup id="3">
                     <paradigm id="SG" irregular="true">
                         <mod match="first" search="a" replace="ä" />
                         <append>t</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <append>en</append>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
-            <group id="PRF" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <prepend>habe ge</prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>haben ge</prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <prepend>hast ge</prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>hat ge</prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <prepend>hat ge</prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>haben ge</prepend>
                     </paradigm>
                 </pdgmgroup>
             </group>
@@ -5019,144 +2634,8 @@
                     </paradigm>
                 </pdgmgroup>
             </group>
-            <group id="PLU" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <prepend>hatte ge</prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>hatten ge</prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <prepend>hattest ge</prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>hattet ge</prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <prepend>hatte ge</prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>hatten ge</prepend>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
-            <group id="FUT1" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <prepend>werde </prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>werden </prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <prepend>wirst </prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>werdet </prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <prepend>wird </prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>werden </prepend>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
-            <group id="FUT2" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <prepend>werde ge</prepend>
-                        <append> haben</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>werden ge</prepend>
-                        <append> haben</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <prepend>wirst ge</prepend>
-                        <append> haben</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>werdet ge</prepend>
-                        <append> haben</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <prepend>wird ge</prepend>
-                        <append> haben</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>werden ge</prepend>
-                        <append> haben</append>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
         </mood>
         <mood id="conjunctive">
-            <group id="CPRS" endlength="2">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <append>e</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <append>en</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <append>est</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <append>et</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <append>e</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <append>en</append>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
-            <group id="CPRF" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <prepend>habe ge</prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>haben ge</prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <prepend>habest ge</prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>habet ge</prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <prepend>habe ge</prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>haben ge</prepend>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
             <group id="CPST" endlength="2">
                 <pdgmgroup id="1">
                     <paradigm id="SG" irregular="true">
@@ -5189,143 +2668,16 @@
                     </paradigm>
                 </pdgmgroup>
             </group>
-            <group id="CPLU" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <prepend>hätte ge</prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>hätten ge</prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <prepend>hättest ge</prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>hättet ge</prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <prepend>hätte ge</prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>hätten ge</prepend>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
-        </mood>
-        <mood id="conditional">
-            <group id="COPRS" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <prepend>würde </prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>würden </prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <prepend>würdest </prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>würdet </prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <prepend>würde </prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>würden </prepend>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
-            <group id="COPRF" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <prepend>würde ge</prepend>
-                        <append> haben</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>würden ge</prepend>
-                        <append> haben</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <prepend>würdest ge</prepend>
-                        <append> haben</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>würdet ge</prepend>
-                        <append> haben</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <prepend>würde ge</prepend>
-                        <append> haben</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>würden ge</prepend>
-                        <append> haben</append>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
-        </mood>
-        <mood id="imperative">
-            <group id="IMP" endlength="2">
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <append>e</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <append>t</append>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
         </mood>
     </verb>
     <verb word="graben" ref="ä-1" />
-    <verb word="kommen">
+    <verb word="kommen" inherit="reg">
         <participles>
-            <participle id="present" endlength="0">
-                <append>d</append>
-            </participle>
             <participle id="past" endlength="0" irregular="true">
                 <prepend>ge</prepend>
             </participle>
         </participles>
         <mood id="indicative">
-            <group id="PRS" endlength="2">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <append>e</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <append>en</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <append>st</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <append>t</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <append>t</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <append>en</append>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
             <group id="PRF" endlength="0">
                 <pdgmgroup id="1">
                     <paradigm id="SG">
@@ -5468,32 +2820,6 @@
             </group>
         </mood>
         <mood id="conjunctive">
-            <group id="CPRS" endlength="2">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <append>e</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <append>en</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <append>est</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <append>et</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <append>e</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <append>en</append>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
             <group id="CPRF" endlength="0">
                 <pdgmgroup id="1">
                     <paradigm id="SG">
@@ -5580,32 +2906,6 @@
             </group>
         </mood>
         <mood id="conditional">
-            <group id="COPRS" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <prepend>würde </prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>würden </prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <prepend>würdest </prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>würdet </prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <prepend>würde </prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>würden </prepend>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
             <group id="COPRF" endlength="0">
                 <pdgmgroup id="1">
                     <paradigm id="SG">
@@ -5635,18 +2935,6 @@
                     <paradigm id="PL">
                         <prepend>würden ge</prepend>
                         <append> sein</append>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
-        </mood>
-        <mood id="imperative">
-            <group id="IMP" endlength="2">
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <append>e</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <append>t</append>
                     </paradigm>
                 </pdgmgroup>
             </group>
