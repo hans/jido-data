@@ -1,1674 +1,1666 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--<!DOCTYPE verbs SYSTEM "verbs.dtd">-->
-
-<!--
-    Document   : verbs.de.xml
-    Created on : February 17, 2010, 2:44 PM
-    Author     : 136412
-    Description:
-        Purpose of the document follows.
--->
 <verbs lang="en">
-    <verbset id="reg">
-        <participles>
-            <participle id="present" endlength="0">
-                <append>ing</append>
-            </participle>
-            <participle id="past" endlength="0">
-                <append>ed</append>
-            </participle>
-        </participles>
-        <mood id="indicative">
-            <group id="PRS" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG" />
-                    <paradigm id="PL" />
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG" />
-                    <paradigm id="PL" />
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <append>s</append>
-                    </paradigm>
-                    <paradigm id="PL" />
-                </pdgmgroup>
-            </group>
-            <group id="PRF" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <prepend>have </prepend>
-                        <append>ed</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>have </prepend>
-                        <append>ed</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <prepend>have </prepend>
-                        <append>ed</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>have </prepend>
-                        <append>ed</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <prepend>has </prepend>
-                        <append>ed</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>have </prepend>
-                        <append>ed</append>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
-            <group id="PST" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <append>ed</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <append>ed</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <append>ed</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <append>ed</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <append>ed</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <append>ed</append>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
-            <group id="PLU" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <prepend>had </prepend>
-                        <append>ed</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>had </prepend>
-                        <append>ed</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <prepend>had </prepend>
-                        <append>ed</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>had </prepend>
-                        <append>ed</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <prepend>had </prepend>
-                        <append>ed</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>had </prepend>
-                        <append>ed</append>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
-            <group id="FUT1" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <prepend>will </prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>will </prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <prepend>will </prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>will </prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <prepend>will </prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>will </prepend>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
-            <group id="FUT2" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <prepend>will have </prepend>
-                        <append>ed</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>will have </prepend>
-                        <append>ed</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <prepend>will have </prepend>
-                        <append>ed</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>will have </prepend>
-                        <append>ed</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <prepend>will have </prepend>
-                        <append>ed</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>will have </prepend>
-                        <append>ed</append>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
-        </mood>
-        <mood id="subjunctive">
-            <group id="SUBPRS" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG" />
-                    <paradigm id="PL" />
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG" />
-                    <paradigm id="PL" />
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG" />
-                    <paradigm id="PL" />
-                </pdgmgroup>
-            </group>
-            <group id="SUBPRF" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <prepend>have </prepend>
-                        <append>ed</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>have </prepend>
-                        <append>ed</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <prepend>have </prepend>
-                        <append>ed</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>have </prepend>
-                        <append>ed</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <prepend>have </prepend>
-                        <append>ed</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>have </prepend>
-                        <append>ed</append>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
-            <group id="SUBIMP" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <append>ed</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <append>ed</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <append>ed</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <append>ed</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <append>ed</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <append>ed</append>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
-            <group id="SUBPLU" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <prepend>had </prepend>
-                        <append>ed</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>had </prepend>
-                        <append>ed</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <prepend>had </prepend>
-                        <append>ed</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>had </prepend>
-                        <append>ed</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <prepend>had </prepend>
-                        <append>ed</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>had </prepend>
-                        <append>ed</append>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
-        </mood>
-        <mood id="conditional">
-            <group id="COPRS" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <prepend>would </prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>would </prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <prepend>would </prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>would </prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <prepend>would </prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>would </prepend>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
-            <group id="COPRF" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <prepend>would have </prepend>
-                        <append>ed</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>would have </prepend>
-                        <append>ed</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <prepend>would have </prepend>
-                        <append>ed</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>would have </prepend>
-                        <append>ed</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <prepend>would have </prepend>
-                        <append>ed</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>would have </prepend>
-                        <append>ed</append>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
-        </mood>
-        <mood id="imperative">
-            <group id="IMP" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="PL">
-                        <prepend>let's </prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG" />
-                    <paradigm id="PL" />
-                </pdgmgroup>
-            </group>
-        </mood>
-        <mood id="prog-indicative">
-            <group id="PPRS" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <prepend>am </prepend>
-                        <append>ing</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>are </prepend>
-                        <append>ing</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <prepend>are </prepend>
-                        <append>ing</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>are </prepend>
-                        <append>ing</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <prepend>is </prepend>
-                        <append>ing</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>are </prepend>
-                        <append>ing</append>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
-            <group id="PPRF" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <prepend>have been </prepend>
-                        <append>ing</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>have been </prepend>
-                        <append>ing</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <prepend>have been </prepend>
-                        <append>ing</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>have been </prepend>
-                        <append>ing</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <prepend>has been </prepend>
-                        <append>ing</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>have been </prepend>
-                        <append>ing</append>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
-            <group id="PPST" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <prepend>was </prepend>
-                        <append>ing</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>were </prepend>
-                        <append>ing</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <prepend>were </prepend>
-                        <append>ing</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>were </prepend>
-                        <append>ing</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <prepend>was </prepend>
-                        <append>ing</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>were </prepend>
-                        <append>ing</append>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
-            <group id="PPLU" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <prepend>had been </prepend>
-                        <append>ing</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>had been </prepend>
-                        <append>ing</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <prepend>had been </prepend>
-                        <append>ing</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>had been </prepend>
-                        <append>ing</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <prepend>had been </prepend>
-                        <append>ing</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>had been </prepend>
-                        <append>ing</append>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
-            <group id="PFUT1" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <prepend>will be </prepend>
-                        <append>ing</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>will be </prepend>
-                        <append>ing</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <prepend>will be </prepend>
-                        <append>ing</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>will be </prepend>
-                        <append>ing</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <prepend>will be </prepend>
-                        <append>ing</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>will be </prepend>
-                        <append>ing</append>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
-            <group id="PFUT2" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <prepend>will have been </prepend>
-                        <append>ing</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>will have been </prepend>
-                        <append>ing</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <prepend>will have been </prepend>
-                        <append>ing</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>will have been </prepend>
-                        <append>ing</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <prepend>will have been </prepend>
-                        <append>ing</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>will have been </prepend>
-                        <append>ing</append>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
-        </mood>
-        <mood id="prog-conditional">
-            <group id="PCOPRS" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <prepend>would be </prepend>
-                        <append>ing</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>would be </prepend>
-                        <append>ing</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <prepend>would be </prepend>
-                        <append>ing</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>would be </prepend>
-                        <append>ing</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <prepend>would be </prepend>
-                        <append>ing</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>would be </prepend>
-                        <append>ing</append>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
-            <group id="PCOPRF" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <prepend>would have been </prepend>
-                        <append>ing</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>would have been </prepend>
-                        <append>ing</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <prepend>would have been </prepend>
-                        <append>ing</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>would have been </prepend>
-                        <append>ing</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <prepend>would have been </prepend>
-                        <append>ing</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>would have been </prepend>
-                        <append>ing</append>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
-        </mood>
-    </verbset>
+	<verbset id="reg">
+		<participles>
+			<participle id="present" endlength="0">
+				<append>ing</append>
+			</participle>
+			<participle id="past" endlength="0">
+				<append>ed</append>
+			</participle>
+		</participles>
+		<mood id="indicative">
+			<group id="PRS" endlength="0">
+				<pdgmgroup id="1">
+					<paradigm id="SG" />
+					<paradigm id="PL" />
+				</pdgmgroup>
+				<pdgmgroup id="2">
+					<paradigm id="SG" />
+					<paradigm id="PL" />
+				</pdgmgroup>
+				<pdgmgroup id="3">
+					<paradigm id="SG">
+						<append>s</append>
+					</paradigm>
+					<paradigm id="PL" />
+				</pdgmgroup>
+			</group>
+			<group id="PRF" endlength="0">
+				<pdgmgroup id="1">
+					<paradigm id="SG">
+						<prepend>have </prepend>
+						<append>ed</append>
+					</paradigm>
+					<paradigm id="PL">
+						<prepend>have </prepend>
+						<append>ed</append>
+					</paradigm>
+				</pdgmgroup>
+				<pdgmgroup id="2">
+					<paradigm id="SG">
+						<prepend>have </prepend>
+						<append>ed</append>
+					</paradigm>
+					<paradigm id="PL">
+						<prepend>have </prepend>
+						<append>ed</append>
+					</paradigm>
+				</pdgmgroup>
+				<pdgmgroup id="3">
+					<paradigm id="SG">
+						<prepend>has </prepend>
+						<append>ed</append>
+					</paradigm>
+					<paradigm id="PL">
+						<prepend>have </prepend>
+						<append>ed</append>
+					</paradigm>
+				</pdgmgroup>
+			</group>
+			<group id="PST" endlength="0">
+				<pdgmgroup id="1">
+					<paradigm id="SG">
+						<append>ed</append>
+					</paradigm>
+					<paradigm id="PL">
+						<append>ed</append>
+					</paradigm>
+				</pdgmgroup>
+				<pdgmgroup id="2">
+					<paradigm id="SG">
+						<append>ed</append>
+					</paradigm>
+					<paradigm id="PL">
+						<append>ed</append>
+					</paradigm>
+				</pdgmgroup>
+				<pdgmgroup id="3">
+					<paradigm id="SG">
+						<append>ed</append>
+					</paradigm>
+					<paradigm id="PL">
+						<append>ed</append>
+					</paradigm>
+				</pdgmgroup>
+			</group>
+			<group id="PLU" endlength="0">
+				<pdgmgroup id="1">
+					<paradigm id="SG">
+						<prepend>had </prepend>
+						<append>ed</append>
+					</paradigm>
+					<paradigm id="PL">
+						<prepend>had </prepend>
+						<append>ed</append>
+					</paradigm>
+				</pdgmgroup>
+				<pdgmgroup id="2">
+					<paradigm id="SG">
+						<prepend>had </prepend>
+						<append>ed</append>
+					</paradigm>
+					<paradigm id="PL">
+						<prepend>had </prepend>
+						<append>ed</append>
+					</paradigm>
+				</pdgmgroup>
+				<pdgmgroup id="3">
+					<paradigm id="SG">
+						<prepend>had </prepend>
+						<append>ed</append>
+					</paradigm>
+					<paradigm id="PL">
+						<prepend>had </prepend>
+						<append>ed</append>
+					</paradigm>
+				</pdgmgroup>
+			</group>
+			<group id="FUT1" endlength="0">
+				<pdgmgroup id="1">
+					<paradigm id="SG">
+						<prepend>will </prepend>
+					</paradigm>
+					<paradigm id="PL">
+						<prepend>will </prepend>
+					</paradigm>
+				</pdgmgroup>
+				<pdgmgroup id="2">
+					<paradigm id="SG">
+						<prepend>will </prepend>
+					</paradigm>
+					<paradigm id="PL">
+						<prepend>will </prepend>
+					</paradigm>
+				</pdgmgroup>
+				<pdgmgroup id="3">
+					<paradigm id="SG">
+						<prepend>will </prepend>
+					</paradigm>
+					<paradigm id="PL">
+						<prepend>will </prepend>
+					</paradigm>
+				</pdgmgroup>
+			</group>
+			<group id="FUT2" endlength="0">
+				<pdgmgroup id="1">
+					<paradigm id="SG">
+						<prepend>will have </prepend>
+						<append>ed</append>
+					</paradigm>
+					<paradigm id="PL">
+						<prepend>will have </prepend>
+						<append>ed</append>
+					</paradigm>
+				</pdgmgroup>
+				<pdgmgroup id="2">
+					<paradigm id="SG">
+						<prepend>will have </prepend>
+						<append>ed</append>
+					</paradigm>
+					<paradigm id="PL">
+						<prepend>will have </prepend>
+						<append>ed</append>
+					</paradigm>
+				</pdgmgroup>
+				<pdgmgroup id="3">
+					<paradigm id="SG">
+						<prepend>will have </prepend>
+						<append>ed</append>
+					</paradigm>
+					<paradigm id="PL">
+						<prepend>will have </prepend>
+						<append>ed</append>
+					</paradigm>
+				</pdgmgroup>
+			</group>
+		</mood>
+		<mood id="subjunctive">
+			<group id="SUBPRS" endlength="0">
+				<pdgmgroup id="1">
+					<paradigm id="SG" />
+					<paradigm id="PL" />
+				</pdgmgroup>
+				<pdgmgroup id="2">
+					<paradigm id="SG" />
+					<paradigm id="PL" />
+				</pdgmgroup>
+				<pdgmgroup id="3">
+					<paradigm id="SG" />
+					<paradigm id="PL" />
+				</pdgmgroup>
+			</group>
+			<group id="SUBPRF" endlength="0">
+				<pdgmgroup id="1">
+					<paradigm id="SG">
+						<prepend>have </prepend>
+						<append>ed</append>
+					</paradigm>
+					<paradigm id="PL">
+						<prepend>have </prepend>
+						<append>ed</append>
+					</paradigm>
+				</pdgmgroup>
+				<pdgmgroup id="2">
+					<paradigm id="SG">
+						<prepend>have </prepend>
+						<append>ed</append>
+					</paradigm>
+					<paradigm id="PL">
+						<prepend>have </prepend>
+						<append>ed</append>
+					</paradigm>
+				</pdgmgroup>
+				<pdgmgroup id="3">
+					<paradigm id="SG">
+						<prepend>have </prepend>
+						<append>ed</append>
+					</paradigm>
+					<paradigm id="PL">
+						<prepend>have </prepend>
+						<append>ed</append>
+					</paradigm>
+				</pdgmgroup>
+			</group>
+			<group id="SUBIMP" endlength="0">
+				<pdgmgroup id="1">
+					<paradigm id="SG">
+						<append>ed</append>
+					</paradigm>
+					<paradigm id="PL">
+						<append>ed</append>
+					</paradigm>
+				</pdgmgroup>
+				<pdgmgroup id="2">
+					<paradigm id="SG">
+						<append>ed</append>
+					</paradigm>
+					<paradigm id="PL">
+						<append>ed</append>
+					</paradigm>
+				</pdgmgroup>
+				<pdgmgroup id="3">
+					<paradigm id="SG">
+						<append>ed</append>
+					</paradigm>
+					<paradigm id="PL">
+						<append>ed</append>
+					</paradigm>
+				</pdgmgroup>
+			</group>
+			<group id="SUBPLU" endlength="0">
+				<pdgmgroup id="1">
+					<paradigm id="SG">
+						<prepend>had </prepend>
+						<append>ed</append>
+					</paradigm>
+					<paradigm id="PL">
+						<prepend>had </prepend>
+						<append>ed</append>
+					</paradigm>
+				</pdgmgroup>
+				<pdgmgroup id="2">
+					<paradigm id="SG">
+						<prepend>had </prepend>
+						<append>ed</append>
+					</paradigm>
+					<paradigm id="PL">
+						<prepend>had </prepend>
+						<append>ed</append>
+					</paradigm>
+				</pdgmgroup>
+				<pdgmgroup id="3">
+					<paradigm id="SG">
+						<prepend>had </prepend>
+						<append>ed</append>
+					</paradigm>
+					<paradigm id="PL">
+						<prepend>had </prepend>
+						<append>ed</append>
+					</paradigm>
+				</pdgmgroup>
+			</group>
+		</mood>
+		<mood id="conditional">
+			<group id="COPRS" endlength="0">
+				<pdgmgroup id="1">
+					<paradigm id="SG">
+						<prepend>would </prepend>
+					</paradigm>
+					<paradigm id="PL">
+						<prepend>would </prepend>
+					</paradigm>
+				</pdgmgroup>
+				<pdgmgroup id="2">
+					<paradigm id="SG">
+						<prepend>would </prepend>
+					</paradigm>
+					<paradigm id="PL">
+						<prepend>would </prepend>
+					</paradigm>
+				</pdgmgroup>
+				<pdgmgroup id="3">
+					<paradigm id="SG">
+						<prepend>would </prepend>
+					</paradigm>
+					<paradigm id="PL">
+						<prepend>would </prepend>
+					</paradigm>
+				</pdgmgroup>
+			</group>
+			<group id="COPRF" endlength="0">
+				<pdgmgroup id="1">
+					<paradigm id="SG">
+						<prepend>would have </prepend>
+						<append>ed</append>
+					</paradigm>
+					<paradigm id="PL">
+						<prepend>would have </prepend>
+						<append>ed</append>
+					</paradigm>
+				</pdgmgroup>
+				<pdgmgroup id="2">
+					<paradigm id="SG">
+						<prepend>would have </prepend>
+						<append>ed</append>
+					</paradigm>
+					<paradigm id="PL">
+						<prepend>would have </prepend>
+						<append>ed</append>
+					</paradigm>
+				</pdgmgroup>
+				<pdgmgroup id="3">
+					<paradigm id="SG">
+						<prepend>would have </prepend>
+						<append>ed</append>
+					</paradigm>
+					<paradigm id="PL">
+						<prepend>would have </prepend>
+						<append>ed</append>
+					</paradigm>
+				</pdgmgroup>
+			</group>
+		</mood>
+		<mood id="imperative">
+			<group id="IMP" endlength="0">
+				<pdgmgroup id="1">
+					<paradigm id="PL">
+						<prepend>let's </prepend>
+					</paradigm>
+				</pdgmgroup>
+				<pdgmgroup id="2">
+					<paradigm id="SG" />
+					<paradigm id="PL" />
+				</pdgmgroup>
+			</group>
+		</mood>
+		<mood id="prog-indicative">
+			<group id="PPRS" endlength="0">
+				<pdgmgroup id="1">
+					<paradigm id="SG">
+						<prepend>am </prepend>
+						<append>ing</append>
+					</paradigm>
+					<paradigm id="PL">
+						<prepend>are </prepend>
+						<append>ing</append>
+					</paradigm>
+				</pdgmgroup>
+				<pdgmgroup id="2">
+					<paradigm id="SG">
+						<prepend>are </prepend>
+						<append>ing</append>
+					</paradigm>
+					<paradigm id="PL">
+						<prepend>are </prepend>
+						<append>ing</append>
+					</paradigm>
+				</pdgmgroup>
+				<pdgmgroup id="3">
+					<paradigm id="SG">
+						<prepend>is </prepend>
+						<append>ing</append>
+					</paradigm>
+					<paradigm id="PL">
+						<prepend>are </prepend>
+						<append>ing</append>
+					</paradigm>
+				</pdgmgroup>
+			</group>
+			<group id="PPRF" endlength="0">
+				<pdgmgroup id="1">
+					<paradigm id="SG">
+						<prepend>have been </prepend>
+						<append>ing</append>
+					</paradigm>
+					<paradigm id="PL">
+						<prepend>have been </prepend>
+						<append>ing</append>
+					</paradigm>
+				</pdgmgroup>
+				<pdgmgroup id="2">
+					<paradigm id="SG">
+						<prepend>have been </prepend>
+						<append>ing</append>
+					</paradigm>
+					<paradigm id="PL">
+						<prepend>have been </prepend>
+						<append>ing</append>
+					</paradigm>
+				</pdgmgroup>
+				<pdgmgroup id="3">
+					<paradigm id="SG">
+						<prepend>has been </prepend>
+						<append>ing</append>
+					</paradigm>
+					<paradigm id="PL">
+						<prepend>have been </prepend>
+						<append>ing</append>
+					</paradigm>
+				</pdgmgroup>
+			</group>
+			<group id="PPST" endlength="0">
+				<pdgmgroup id="1">
+					<paradigm id="SG">
+						<prepend>was </prepend>
+						<append>ing</append>
+					</paradigm>
+					<paradigm id="PL">
+						<prepend>were </prepend>
+						<append>ing</append>
+					</paradigm>
+				</pdgmgroup>
+				<pdgmgroup id="2">
+					<paradigm id="SG">
+						<prepend>were </prepend>
+						<append>ing</append>
+					</paradigm>
+					<paradigm id="PL">
+						<prepend>were </prepend>
+						<append>ing</append>
+					</paradigm>
+				</pdgmgroup>
+				<pdgmgroup id="3">
+					<paradigm id="SG">
+						<prepend>was </prepend>
+						<append>ing</append>
+					</paradigm>
+					<paradigm id="PL">
+						<prepend>were </prepend>
+						<append>ing</append>
+					</paradigm>
+				</pdgmgroup>
+			</group>
+			<group id="PPLU" endlength="0">
+				<pdgmgroup id="1">
+					<paradigm id="SG">
+						<prepend>had been </prepend>
+						<append>ing</append>
+					</paradigm>
+					<paradigm id="PL">
+						<prepend>had been </prepend>
+						<append>ing</append>
+					</paradigm>
+				</pdgmgroup>
+				<pdgmgroup id="2">
+					<paradigm id="SG">
+						<prepend>had been </prepend>
+						<append>ing</append>
+					</paradigm>
+					<paradigm id="PL">
+						<prepend>had been </prepend>
+						<append>ing</append>
+					</paradigm>
+				</pdgmgroup>
+				<pdgmgroup id="3">
+					<paradigm id="SG">
+						<prepend>had been </prepend>
+						<append>ing</append>
+					</paradigm>
+					<paradigm id="PL">
+						<prepend>had been </prepend>
+						<append>ing</append>
+					</paradigm>
+				</pdgmgroup>
+			</group>
+			<group id="PFUT1" endlength="0">
+				<pdgmgroup id="1">
+					<paradigm id="SG">
+						<prepend>will be </prepend>
+						<append>ing</append>
+					</paradigm>
+					<paradigm id="PL">
+						<prepend>will be </prepend>
+						<append>ing</append>
+					</paradigm>
+				</pdgmgroup>
+				<pdgmgroup id="2">
+					<paradigm id="SG">
+						<prepend>will be </prepend>
+						<append>ing</append>
+					</paradigm>
+					<paradigm id="PL">
+						<prepend>will be </prepend>
+						<append>ing</append>
+					</paradigm>
+				</pdgmgroup>
+				<pdgmgroup id="3">
+					<paradigm id="SG">
+						<prepend>will be </prepend>
+						<append>ing</append>
+					</paradigm>
+					<paradigm id="PL">
+						<prepend>will be </prepend>
+						<append>ing</append>
+					</paradigm>
+				</pdgmgroup>
+			</group>
+			<group id="PFUT2" endlength="0">
+				<pdgmgroup id="1">
+					<paradigm id="SG">
+						<prepend>will have been </prepend>
+						<append>ing</append>
+					</paradigm>
+					<paradigm id="PL">
+						<prepend>will have been </prepend>
+						<append>ing</append>
+					</paradigm>
+				</pdgmgroup>
+				<pdgmgroup id="2">
+					<paradigm id="SG">
+						<prepend>will have been </prepend>
+						<append>ing</append>
+					</paradigm>
+					<paradigm id="PL">
+						<prepend>will have been </prepend>
+						<append>ing</append>
+					</paradigm>
+				</pdgmgroup>
+				<pdgmgroup id="3">
+					<paradigm id="SG">
+						<prepend>will have been </prepend>
+						<append>ing</append>
+					</paradigm>
+					<paradigm id="PL">
+						<prepend>will have been </prepend>
+						<append>ing</append>
+					</paradigm>
+				</pdgmgroup>
+			</group>
+		</mood>
+		<mood id="prog-conditional">
+			<group id="PCOPRS" endlength="0">
+				<pdgmgroup id="1">
+					<paradigm id="SG">
+						<prepend>would be </prepend>
+						<append>ing</append>
+					</paradigm>
+					<paradigm id="PL">
+						<prepend>would be </prepend>
+						<append>ing</append>
+					</paradigm>
+				</pdgmgroup>
+				<pdgmgroup id="2">
+					<paradigm id="SG">
+						<prepend>would be </prepend>
+						<append>ing</append>
+					</paradigm>
+					<paradigm id="PL">
+						<prepend>would be </prepend>
+						<append>ing</append>
+					</paradigm>
+				</pdgmgroup>
+				<pdgmgroup id="3">
+					<paradigm id="SG">
+						<prepend>would be </prepend>
+						<append>ing</append>
+					</paradigm>
+					<paradigm id="PL">
+						<prepend>would be </prepend>
+						<append>ing</append>
+					</paradigm>
+				</pdgmgroup>
+			</group>
+			<group id="PCOPRF" endlength="0">
+				<pdgmgroup id="1">
+					<paradigm id="SG">
+						<prepend>would have been </prepend>
+						<append>ing</append>
+					</paradigm>
+					<paradigm id="PL">
+						<prepend>would have been </prepend>
+						<append>ing</append>
+					</paradigm>
+				</pdgmgroup>
+				<pdgmgroup id="2">
+					<paradigm id="SG">
+						<prepend>would have been </prepend>
+						<append>ing</append>
+					</paradigm>
+					<paradigm id="PL">
+						<prepend>would have been </prepend>
+						<append>ing</append>
+					</paradigm>
+				</pdgmgroup>
+				<pdgmgroup id="3">
+					<paradigm id="SG">
+						<prepend>would have been </prepend>
+						<append>ing</append>
+					</paradigm>
+					<paradigm id="PL">
+						<prepend>would have been </prepend>
+						<append>ing</append>
+					</paradigm>
+				</pdgmgroup>
+			</group>
+		</mood>
+	</verbset>
 
-    <verbset id="come" inherit="reg">                                                         <!-- like 'come' -->
-        <participles>
-            <participle id="past" endlength="0" irregular="true" />
-        </participles>
-        <mood id="indicative">
-            <group id="PST" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG" irregular="true">
-                        <mod match="first" search="o" replace="a" />
-                    </paradigm>
-                    <paradigm id="PL" irregular="true">
-                        <mod match="first" search="o" replace="a" />
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG" irregular="true">
-                        <mod match="first" search="o" replace="a" />
-                    </paradigm>
-                    <paradigm id="PL" irregular="true">
-                        <mod match="first" search="o" replace="a" />
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG" irregular="true">
-                        <mod match="first" search="o" replace="a" />
-                    </paradigm>
-                    <paradigm id="PL" irregular="true">
-                        <mod match="first" search="o" replace="a" />
-                    </paradigm>
-                </pdgmgroup>
-            </group>
-        </mood>
-        <mood id="subjunctive">
-            <group id="SUBIMP" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG" irregular="true">
-                        <mod match="first" search="o" replace="a" />
-                    </paradigm>
-                    <paradigm id="PL" irregular="true">
-                        <mod match="first" search="o" replace="a" />
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG" irregular="true">
-                        <mod match="first" search="o" replace="a" />
-                    </paradigm>
-                    <paradigm id="PL" irregular="true">
-                        <mod match="first" search="o" replace="a" />
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG" irregular="true">
-                        <mod match="first" search="o" replace="a" />
-                    </paradigm>
-                    <paradigm id="PL" irregular="true">
-                        <mod match="first" search="o" replace="a" />
-                    </paradigm>
-                </pdgmgroup>
-            </group>
-        </mood>
-    </verbset>
+	<verbset id="come" inherit="reg">														 <!-- like 'come' -->
+		<participles>
+			<participle id="past" endlength="0" irregular="true" />
+		</participles>
+		<mood id="indicative">
+			<group id="PST" endlength="0">
+				<pdgmgroup id="1">
+					<paradigm id="SG" irregular="true">
+						<mod match="first" search="o" replace="a" />
+					</paradigm>
+					<paradigm id="PL" irregular="true">
+						<mod match="first" search="o" replace="a" />
+					</paradigm>
+				</pdgmgroup>
+				<pdgmgroup id="2">
+					<paradigm id="SG" irregular="true">
+						<mod match="first" search="o" replace="a" />
+					</paradigm>
+					<paradigm id="PL" irregular="true">
+						<mod match="first" search="o" replace="a" />
+					</paradigm>
+				</pdgmgroup>
+				<pdgmgroup id="3">
+					<paradigm id="SG" irregular="true">
+						<mod match="first" search="o" replace="a" />
+					</paradigm>
+					<paradigm id="PL" irregular="true">
+						<mod match="first" search="o" replace="a" />
+					</paradigm>
+				</pdgmgroup>
+			</group>
+		</mood>
+		<mood id="subjunctive">
+			<group id="SUBIMP" endlength="0">
+				<pdgmgroup id="1">
+					<paradigm id="SG" irregular="true">
+						<mod match="first" search="o" replace="a" />
+					</paradigm>
+					<paradigm id="PL" irregular="true">
+						<mod match="first" search="o" replace="a" />
+					</paradigm>
+				</pdgmgroup>
+				<pdgmgroup id="2">
+					<paradigm id="SG" irregular="true">
+						<mod match="first" search="o" replace="a" />
+					</paradigm>
+					<paradigm id="PL" irregular="true">
+						<mod match="first" search="o" replace="a" />
+					</paradigm>
+				</pdgmgroup>
+				<pdgmgroup id="3">
+					<paradigm id="SG" irregular="true">
+						<mod match="first" search="o" replace="a" />
+					</paradigm>
+					<paradigm id="PL" irregular="true">
+						<mod match="first" search="o" replace="a" />
+					</paradigm>
+				</pdgmgroup>
+			</group>
+		</mood>
+	</verbset>
 
-    <verbset id="perfect ak-ok" inherit="reg">
-        <participles>
-            <participle id="present" endlength="1" irregular="true">
-                <append>ing</append>
-            </participle>
-            <participle id="past" endlength="1" irregular="true">
-                <mod match="first" search="ak" replace="ok" />
-                <append>en</append>
-            </participle>
-        </participles>
-        <mood id="indicative">
-            <group id="PRF" endlength="1">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <mod match="first" search="ak" replace="ok" />
-                        <prepend>have </prepend>
-                        <append>en</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <mod match="first" search="ak" replace="ok" />
-                        <prepend>have </prepend>
-                        <append>en</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <mod match="first" search="ak" replace="ok" />
-                        <prepend>have </prepend>
-                        <append>en</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <mod match="first" search="ak" replace="ok" />
-                        <prepend>have </prepend>
-                        <append>en</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <mod match="first" search="ak" replace="ok" />
-                        <prepend>has </prepend>
-                        <append>en</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <mod match="first" search="ak" replace="ok" />
-                        <prepend>have </prepend>
-                        <append>en</append>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
-            <group id="PST" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG" irregular="true">
-                        <mod match="first" search="ak" replace="ok" />
-                    </paradigm>
-                    <paradigm id="PL" irregular="true">
-                        <mod match="first" search="ak" replace="ok" />
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG" irregular="true">
-                        <mod match="first" search="ak" replace="ok" />
-                    </paradigm>
-                    <paradigm id="PL" irregular="true">
-                        <mod match="first" search="ak" replace="ok" />
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG" irregular="true">
-                        <mod match="first" search="ak" replace="ok" />
-                    </paradigm>
-                    <paradigm id="PL" irregular="true">
-                        <mod match="first" search="ak" replace="ok" />
-                    </paradigm>
-                </pdgmgroup>
-            </group>
-        </mood>
-        <mood id="subjunctive">
-            <group id="SUBIMP" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG" irregular="true">
-                        <mod match="first" search="ak" replace="ok" />
-                    </paradigm>
-                    <paradigm id="PL" irregular="true">
-                        <mod match="first" search="ak" replace="ok" />
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG" irregular="true">
-                        <mod match="first" search="ak" replace="ok" />
-                    </paradigm>
-                    <paradigm id="PL" irregular="true">
-                        <mod match="first" search="ak" replace="ok" />
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG" irregular="true">
-                        <mod match="first" search="ak" replace="ok" />
-                    </paradigm>
-                    <paradigm id="PL" irregular="true">
-                        <mod match="first" search="ak" replace="ok" />
-                    </paradigm>
-                </pdgmgroup>
-            </group>
-        </mood>
-        <mood id="conditional">
-            <group id="COPRF" endlength="1">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <mod match="first" search="ak" replace="ok" />
-                        <prepend>would have </prepend>
-                        <append>en</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <mod match="first" search="ak" replace="ok" />
-                        <prepend>would have </prepend>
-                        <append>en</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <mod match="first" search="ak" replace="ok" />
-                        <prepend>would have </prepend>
-                        <append>en</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <mod match="first" search="ak" replace="ok" />
-                        <prepend>would have </prepend>
-                        <append>en</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <mod match="first" search="ak" replace="ok" />
-                        <prepend>would have </prepend>
-                        <append>en</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <mod match="first" search="ak" replace="ok" />
-                        <prepend>would have </prepend>
-                        <append>en</append>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
-        </mood>
-    </verbset>
+	<verbset id="perfect ak-ok" inherit="reg">
+		<participles>
+			<participle id="present" endlength="1" irregular="true">
+				<append>ing</append>
+			</participle>
+			<participle id="past" endlength="1" irregular="true">
+				<mod match="first" search="ak" replace="ok" />
+				<append>en</append>
+			</participle>
+		</participles>
+		<mood id="indicative">
+			<group id="PRF" endlength="1">
+				<pdgmgroup id="1">
+					<paradigm id="SG">
+						<mod match="first" search="ak" replace="ok" />
+						<prepend>have </prepend>
+						<append>en</append>
+					</paradigm>
+					<paradigm id="PL">
+						<mod match="first" search="ak" replace="ok" />
+						<prepend>have </prepend>
+						<append>en</append>
+					</paradigm>
+				</pdgmgroup>
+				<pdgmgroup id="2">
+					<paradigm id="SG">
+						<mod match="first" search="ak" replace="ok" />
+						<prepend>have </prepend>
+						<append>en</append>
+					</paradigm>
+					<paradigm id="PL">
+						<mod match="first" search="ak" replace="ok" />
+						<prepend>have </prepend>
+						<append>en</append>
+					</paradigm>
+				</pdgmgroup>
+				<pdgmgroup id="3">
+					<paradigm id="SG">
+						<mod match="first" search="ak" replace="ok" />
+						<prepend>has </prepend>
+						<append>en</append>
+					</paradigm>
+					<paradigm id="PL">
+						<mod match="first" search="ak" replace="ok" />
+						<prepend>have </prepend>
+						<append>en</append>
+					</paradigm>
+				</pdgmgroup>
+			</group>
+			<group id="PST" endlength="0">
+				<pdgmgroup id="1">
+					<paradigm id="SG" irregular="true">
+						<mod match="first" search="ak" replace="ok" />
+					</paradigm>
+					<paradigm id="PL" irregular="true">
+						<mod match="first" search="ak" replace="ok" />
+					</paradigm>
+				</pdgmgroup>
+				<pdgmgroup id="2">
+					<paradigm id="SG" irregular="true">
+						<mod match="first" search="ak" replace="ok" />
+					</paradigm>
+					<paradigm id="PL" irregular="true">
+						<mod match="first" search="ak" replace="ok" />
+					</paradigm>
+				</pdgmgroup>
+				<pdgmgroup id="3">
+					<paradigm id="SG" irregular="true">
+						<mod match="first" search="ak" replace="ok" />
+					</paradigm>
+					<paradigm id="PL" irregular="true">
+						<mod match="first" search="ak" replace="ok" />
+					</paradigm>
+				</pdgmgroup>
+			</group>
+		</mood>
+		<mood id="subjunctive">
+			<group id="SUBIMP" endlength="0">
+				<pdgmgroup id="1">
+					<paradigm id="SG" irregular="true">
+						<mod match="first" search="ak" replace="ok" />
+					</paradigm>
+					<paradigm id="PL" irregular="true">
+						<mod match="first" search="ak" replace="ok" />
+					</paradigm>
+				</pdgmgroup>
+				<pdgmgroup id="2">
+					<paradigm id="SG" irregular="true">
+						<mod match="first" search="ak" replace="ok" />
+					</paradigm>
+					<paradigm id="PL" irregular="true">
+						<mod match="first" search="ak" replace="ok" />
+					</paradigm>
+				</pdgmgroup>
+				<pdgmgroup id="3">
+					<paradigm id="SG" irregular="true">
+						<mod match="first" search="ak" replace="ok" />
+					</paradigm>
+					<paradigm id="PL" irregular="true">
+						<mod match="first" search="ak" replace="ok" />
+					</paradigm>
+				</pdgmgroup>
+			</group>
+		</mood>
+		<mood id="conditional">
+			<group id="COPRF" endlength="1">
+				<pdgmgroup id="1">
+					<paradigm id="SG">
+						<mod match="first" search="ak" replace="ok" />
+						<prepend>would have </prepend>
+						<append>en</append>
+					</paradigm>
+					<paradigm id="PL">
+						<mod match="first" search="ak" replace="ok" />
+						<prepend>would have </prepend>
+						<append>en</append>
+					</paradigm>
+				</pdgmgroup>
+				<pdgmgroup id="2">
+					<paradigm id="SG">
+						<mod match="first" search="ak" replace="ok" />
+						<prepend>would have </prepend>
+						<append>en</append>
+					</paradigm>
+					<paradigm id="PL">
+						<mod match="first" search="ak" replace="ok" />
+						<prepend>would have </prepend>
+						<append>en</append>
+					</paradigm>
+				</pdgmgroup>
+				<pdgmgroup id="3">
+					<paradigm id="SG">
+						<mod match="first" search="ak" replace="ok" />
+						<prepend>would have </prepend>
+						<append>en</append>
+					</paradigm>
+					<paradigm id="PL">
+						<mod match="first" search="ak" replace="ok" />
+						<prepend>would have </prepend>
+						<append>en</append>
+					</paradigm>
+				</pdgmgroup>
+			</group>
+		</mood>
+	</verbset>
 
-    <verb word="awake" ref="perfect ak-ok" />
-    <verb word="be">
-        <participles>
-            <participle id="past" endlength="0">
-                <append>en</append>
-            </participle>
-        </participles>
-        <mood id="indicative">
-            <group id="PRS" endlength="2">
-                <pdgmgroup id="1">
-                    <paradigm id="SG" irregular="true">
-                        <prepend>am</prepend>
-                    </paradigm>
-                    <paradigm id="PL" irregular="true">
-                        <prepend>are</prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG" irregular="true">
-                        <prepend>are</prepend>
-                    </paradigm>
-                    <paradigm id="PL" irregular="true">
-                        <prepend>are</prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG" irregular="true">
-                        <prepend>is</prepend>
-                    </paradigm>
-                    <paradigm id="PL" irregular="true">
-                        <prepend>are</prepend>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
-            <group id="PRF" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <prepend>have </prepend>
-                        <append>en</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>have </prepend>
-                        <append>en</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <prepend>have </prepend>
-                        <append>en</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>have </prepend>
-                        <append>en</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <prepend>has </prepend>
-                        <append>en</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>have </prepend>
-                        <append>en</append>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
-            <group id="PST" endlength="2">
-                <pdgmgroup id="1">
-                    <paradigm id="SG" irregular="true">
-                        <prepend>was</prepend>
-                    </paradigm>
-                    <paradigm id="PL" irregular="true">
-                        <prepend>were</prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG" irregular="true">
-                        <prepend>were</prepend>
-                    </paradigm>
-                    <paradigm id="PL" irregular="true">
-                        <prepend>were</prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG" irregular="true">
-                        <prepend>was</prepend>
-                    </paradigm>
-                    <paradigm id="PL" irregular="true">
-                        <prepend>were</prepend>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
-            <group id="PLU" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <prepend>had </prepend>
-                        <append>en</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>had </prepend>
-                        <append>en</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <prepend>had </prepend>
-                        <append>en</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>had </prepend>
-                        <append>en</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <prepend>had </prepend>
-                        <append>en</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>had </prepend>
-                        <append>en</append>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
-            <group id="FUT2" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <prepend>will have </prepend>
-                        <append>en</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>will have </prepend>
-                        <append>en</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <prepend>will have </prepend>
-                        <append>en</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>will have </prepend>
-                        <append>en</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <prepend>will have </prepend>
-                        <append>en</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>will have </prepend>
-                        <append>en</append>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
-        </mood>
-        <mood id="subjunctive">
-            <group id="SUBPRF" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <prepend>have </prepend>
-                        <append>en</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>have </prepend>
-                        <append>en</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <prepend>have </prepend>
-                        <append>en</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>have </prepend>
-                        <append>en</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <prepend>have </prepend>
-                        <append>en</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>have </prepend>
-                        <append>en</append>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
-            <group id="SUBIMP" endlength="2">
-                <pdgmgroup id="1">
-                    <paradigm id="SG" irregular="true">
-                        <prepend>were</prepend>
-                    </paradigm>
-                    <paradigm id="PL" irregular="true">
-                        <prepend>were</prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG" irregular="true">
-                        <prepend>were</prepend>
-                    </paradigm>
-                    <paradigm id="PL" irregular="true">
-                        <prepend>were</prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG" irregular="true">
-                        <prepend>were</prepend>
-                    </paradigm>
-                    <paradigm id="PL" irregular="true">
-                        <prepend>were</prepend>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
-            <group id="SUBPLU" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <prepend>had </prepend>
-                        <append>en</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>had </prepend>
-                        <append>en</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <prepend>had </prepend>
-                        <append>en</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>had </prepend>
-                        <append>en</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <prepend>had </prepend>
-                        <append>en</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>had </prepend>
-                        <append>en</append>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
-        </mood>
-        <mood id="conditional">
-            <group id="COPRS" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <prepend>would </prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>would </prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <prepend>would </prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>would </prepend>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <prepend>would </prepend>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>would </prepend>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
-            <group id="COPRF" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <prepend>would have </prepend>
-                        <append>en</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>would have </prepend>
-                        <append>en</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <prepend>would have </prepend>
-                        <append>en</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>would have </prepend>
-                        <append>en</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <prepend>would have </prepend>
-                        <append>en</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>would have </prepend>
-                        <append>en</append>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
-        </mood>
-    </verb>
-    <verb word="bear" inherit="reg">
-        <participles>
-            <participle id="past" endlength="0" irregular="true">
-                <mod match="first" search="ea" replace="o" />
-                <append>n</append>
-            </participle>
-        </participles>
-        <mood id="indicative">
-            <group id="PRF" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <prepend>have </prepend>
-                        <append>n</append>
-                        <mod match="first" search="ea" replace="o" />
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>have </prepend>
-                        <append>n</append>
-                        <mod match="first" search="ea" replace="o" />
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <prepend>have </prepend>
-                        <append>n</append>
-                        <mod match="first" search="ea" replace="o" />
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>have </prepend>
-                        <append>n</append>
-                        <mod match="first" search="ea" replace="o" />
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <prepend>has </prepend>
-                        <append>n</append>
-                        <mod match="first" search="ea" replace="o" />
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>have </prepend>
-                        <append>n</append>
-                        <mod match="first" search="ea" replace="o" />
-                    </paradigm>
-                </pdgmgroup>
-            </group>
-            <group id="PST" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG" irregular="true">
-                        <mod match="first" search="ea" replace="o" />
-                        <append>e</append>
-                    </paradigm>
-                    <paradigm id="PL" irregular="true">
-                        <mod match="first" search="ea" replace="o" />
-                        <append>e</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG" irregular="true">
-                        <mod match="first" search="ea" replace="o" />
-                        <append>e</append>
-                    </paradigm>
-                    <paradigm id="PL" irregular="true">
-                        <mod match="first" search="ea" replace="o" />
-                        <append>e</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG" irregular="true">
-                        <mod match="first" search="ea" replace="o" />
-                        <append>e</append>
-                    </paradigm>
-                    <paradigm id="PL" irregular="true">
-                        <mod match="first" search="ea" replace="o" />
-                        <append>e</append>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
-            <group id="PLU" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <mod match="first" search="ea" replace="o" />
-                        <prepend>had </prepend>
-                        <append>n</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <mod match="first" search="ea" replace="o" />
-                        <prepend>had </prepend>
-                        <append>n</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <mod match="first" search="ea" replace="o" />
-                        <prepend>had </prepend>
-                        <append>n</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <mod match="first" search="ea" replace="o" />
-                        <prepend>had </prepend>
-                        <append>n</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <mod match="first" search="ea" replace="o" />
-                        <prepend>had </prepend>
-                        <append>n</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <mod match="first" search="ea" replace="o" />
-                        <prepend>had </prepend>
-                        <append>n</append>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
-            <group id="FUT2" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <mod match="first" search="ea" replace="o" />
-                        <prepend>will have </prepend>
-                        <append>n</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <mod match="first" search="ea" replace="o" />
-                        <prepend>will have </prepend>
-                        <append>n</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <mod match="first" search="ea" replace="o" />
-                        <prepend>will have </prepend>
-                        <append>n</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <mod match="first" search="ea" replace="o" />
-                        <prepend>will have </prepend>
-                        <append>n</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <mod match="first" search="ea" replace="o" />
-                        <prepend>will have </prepend>
-                        <append>n</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <mod match="first" search="ea" replace="o" />
-                        <prepend>will have </prepend>
-                        <append>n</append>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
-        </mood>
-        <mood id="subjunctive">
-            <group id="SUBPRF" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <mod match="first" search="ea" replace="o" />
-                        <prepend>have </prepend>
-                        <append>n</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <mod match="first" search="ea" replace="o" />
-                        <prepend>have </prepend>
-                        <append>n</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <mod match="first" search="ea" replace="o" />
-                        <prepend>have </prepend>
-                        <append>n</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <mod match="first" search="ea" replace="o" />
-                        <prepend>have </prepend>
-                        <append>n</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <mod match="first" search="ea" replace="o" />
-                        <prepend>have </prepend>
-                        <append>n</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <mod match="first" search="ea" replace="o" />
-                        <prepend>have </prepend>
-                        <append>n</append>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
-            <group id="SUBIMP" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG" irregular="true">
-                        <mod match="first" search="ea" replace="o" />
-                        <append>e</append>
-                    </paradigm>
-                    <paradigm id="PL" irregular="true">
-                        <mod match="first" search="ea" replace="o" />
-                        <append>e</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG" irregular="true">
-                        <mod match="first" search="ea" replace="o" />
-                        <append>e</append>
-                    </paradigm>
-                    <paradigm id="PL" irregular="true">
-                        <mod match="first" search="ea" replace="o" />
-                        <append>e</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG" irregular="true">
-                        <mod match="first" search="ea" replace="o" />
-                        <append>e</append>
-                    </paradigm>
-                    <paradigm id="PL" irregular="true">
-                        <mod match="first" search="ea" replace="o" />
-                        <append>e</append>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
-            <group id="SUBPLU" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <mod match="first" search="ea" replace="o" />
-                        <prepend>had </prepend>
-                        <append>n</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <mod match="first" search="ea" replace="o" />
-                        <prepend>had </prepend>
-                        <append>n</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <mod match="first" search="ea" replace="o" />
-                        <prepend>had </prepend>
-                        <append>n</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <mod match="first" search="ea" replace="o" />
-                        <prepend>had </prepend>
-                        <append>n</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <mod match="first" search="ea" replace="o" />
-                        <prepend>had </prepend>
-                        <append>n</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <mod match="first" search="ea" replace="o" />
-                        <prepend>had </prepend>
-                        <append>n</append>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
-        </mood>
-        <mood id="conditional">
-            <group id="COPRF" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <mod match="first" search="ea" replace="o" />
-                        <prepend>would have </prepend>
-                        <append>n</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <mod match="first" search="ea" replace="o" />
-                        <prepend>would have </prepend>
-                        <append>n</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <mod match="first" search="ea" replace="o" />
-                        <prepend>would have </prepend>
-                        <append>n</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <mod match="first" search="ea" replace="o" />
-                        <prepend>would have </prepend>
-                        <append>n</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <mod match="first" search="ea" replace="o" />
-                        <prepend>would have </prepend>
-                        <append>n</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <mod match="first" search="ea" replace="o" />
-                        <prepend>would have </prepend>
-                        <append>n</append>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
-        </mood>
-    </verb>
-    <verb word="beat" inherit="reg">
-        <participles>
-            <participle id="past" endlength="0" irregular="true">
-                <append>en</append>
-            </participle>
-        </participles>
-        <mood id="indicative">
-            <group id="PRF" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <prepend>have </prepend>
-                        <append>en</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>have </prepend>
-                        <append>en</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <prepend>have </prepend>
-                        <append>en</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>have </prepend>
-                        <append>en</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <prepend>has </prepend>
-                        <append>en</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>have </prepend>
-                        <append>en</append>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
-            <group id="PST" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG" irregular="true" />
-                    <paradigm id="PL" irregular="true" />
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG" irregular="true" />
-                    <paradigm id="PL" irregular="true" />
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG" irregular="true" />
-                    <paradigm id="PL" irregular="true" />
-                </pdgmgroup>
-            </group>
-            <group id="PLU" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <prepend>had </prepend>
-                        <append>en</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>had </prepend>
-                        <append>en</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <prepend>had </prepend>
-                        <append>en</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>had </prepend>
-                        <append>en</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <prepend>had </prepend>
-                        <append>en</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>had </prepend>
-                        <append>en</append>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
-            <group id="FUT2" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <prepend>will have </prepend>
-                        <append>en</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>will have </prepend>
-                        <append>en</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <prepend>will have </prepend>
-                        <append>en</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>will have </prepend>
-                        <append>en</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <prepend>will have </prepend>
-                        <append>en</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>will have </prepend>
-                        <append>en</append>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
-        </mood>
-        <mood id="subjunctive">
-            <group id="SUBPRF" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <prepend>have </prepend>
-                        <append>en</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>have </prepend>
-                        <append>en</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <prepend>have </prepend>
-                        <append>en</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>have </prepend>
-                        <append>en</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <prepend>have </prepend>
-                        <append>en</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>have </prepend>
-                        <append>en</append>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
-            <group id="SUBPLU" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <prepend>had </prepend>
-                        <append>en</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>had </prepend>
-                        <append>en</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <prepend>had </prepend>
-                        <append>en</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>had </prepend>
-                        <append>en</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <prepend>had </prepend>
-                        <append>en</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>had </prepend>
-                        <append>en</append>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
-        </mood>
-        <mood id="conditional">
-            <group id="COPRF" endlength="0">
-                <pdgmgroup id="1">
-                    <paradigm id="SG">
-                        <prepend>would have </prepend>
-                        <append>en</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>would have </prepend>
-                        <append>en</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="2">
-                    <paradigm id="SG">
-                        <prepend>would have </prepend>
-                        <append>en</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>would have </prepend>
-                        <append>en</append>
-                    </paradigm>
-                </pdgmgroup>
-                <pdgmgroup id="3">
-                    <paradigm id="SG">
-                        <prepend>would have </prepend>
-                        <append>en</append>
-                    </paradigm>
-                    <paradigm id="PL">
-                        <prepend>would have </prepend>
-                        <append>en</append>
-                    </paradigm>
-                </pdgmgroup>
-            </group>
-        </mood>
-    </verb>
-    <verb word="become" ref="come" />
-    <verb word="come" ref="come" />
-    <verb word="wake" ref="perfect ak-ok" />
+	<verb word="awake" ref="perfect ak-ok" />
+	<verb word="be">
+		<participles>
+			<participle id="past" endlength="0">
+				<append>en</append>
+			</participle>
+		</participles>
+		<mood id="indicative">
+			<group id="PRS" endlength="2">
+				<pdgmgroup id="1">
+					<paradigm id="SG" irregular="true">
+						<prepend>am</prepend>
+					</paradigm>
+					<paradigm id="PL" irregular="true">
+						<prepend>are</prepend>
+					</paradigm>
+				</pdgmgroup>
+				<pdgmgroup id="2">
+					<paradigm id="SG" irregular="true">
+						<prepend>are</prepend>
+					</paradigm>
+					<paradigm id="PL" irregular="true">
+						<prepend>are</prepend>
+					</paradigm>
+				</pdgmgroup>
+				<pdgmgroup id="3">
+					<paradigm id="SG" irregular="true">
+						<prepend>is</prepend>
+					</paradigm>
+					<paradigm id="PL" irregular="true">
+						<prepend>are</prepend>
+					</paradigm>
+				</pdgmgroup>
+			</group>
+			<group id="PRF" endlength="0">
+				<pdgmgroup id="1">
+					<paradigm id="SG">
+						<prepend>have </prepend>
+						<append>en</append>
+					</paradigm>
+					<paradigm id="PL">
+						<prepend>have </prepend>
+						<append>en</append>
+					</paradigm>
+				</pdgmgroup>
+				<pdgmgroup id="2">
+					<paradigm id="SG">
+						<prepend>have </prepend>
+						<append>en</append>
+					</paradigm>
+					<paradigm id="PL">
+						<prepend>have </prepend>
+						<append>en</append>
+					</paradigm>
+				</pdgmgroup>
+				<pdgmgroup id="3">
+					<paradigm id="SG">
+						<prepend>has </prepend>
+						<append>en</append>
+					</paradigm>
+					<paradigm id="PL">
+						<prepend>have </prepend>
+						<append>en</append>
+					</paradigm>
+				</pdgmgroup>
+			</group>
+			<group id="PST" endlength="2">
+				<pdgmgroup id="1">
+					<paradigm id="SG" irregular="true">
+						<prepend>was</prepend>
+					</paradigm>
+					<paradigm id="PL" irregular="true">
+						<prepend>were</prepend>
+					</paradigm>
+				</pdgmgroup>
+				<pdgmgroup id="2">
+					<paradigm id="SG" irregular="true">
+						<prepend>were</prepend>
+					</paradigm>
+					<paradigm id="PL" irregular="true">
+						<prepend>were</prepend>
+					</paradigm>
+				</pdgmgroup>
+				<pdgmgroup id="3">
+					<paradigm id="SG" irregular="true">
+						<prepend>was</prepend>
+					</paradigm>
+					<paradigm id="PL" irregular="true">
+						<prepend>were</prepend>
+					</paradigm>
+				</pdgmgroup>
+			</group>
+			<group id="PLU" endlength="0">
+				<pdgmgroup id="1">
+					<paradigm id="SG">
+						<prepend>had </prepend>
+						<append>en</append>
+					</paradigm>
+					<paradigm id="PL">
+						<prepend>had </prepend>
+						<append>en</append>
+					</paradigm>
+				</pdgmgroup>
+				<pdgmgroup id="2">
+					<paradigm id="SG">
+						<prepend>had </prepend>
+						<append>en</append>
+					</paradigm>
+					<paradigm id="PL">
+						<prepend>had </prepend>
+						<append>en</append>
+					</paradigm>
+				</pdgmgroup>
+				<pdgmgroup id="3">
+					<paradigm id="SG">
+						<prepend>had </prepend>
+						<append>en</append>
+					</paradigm>
+					<paradigm id="PL">
+						<prepend>had </prepend>
+						<append>en</append>
+					</paradigm>
+				</pdgmgroup>
+			</group>
+			<group id="FUT2" endlength="0">
+				<pdgmgroup id="1">
+					<paradigm id="SG">
+						<prepend>will have </prepend>
+						<append>en</append>
+					</paradigm>
+					<paradigm id="PL">
+						<prepend>will have </prepend>
+						<append>en</append>
+					</paradigm>
+				</pdgmgroup>
+				<pdgmgroup id="2">
+					<paradigm id="SG">
+						<prepend>will have </prepend>
+						<append>en</append>
+					</paradigm>
+					<paradigm id="PL">
+						<prepend>will have </prepend>
+						<append>en</append>
+					</paradigm>
+				</pdgmgroup>
+				<pdgmgroup id="3">
+					<paradigm id="SG">
+						<prepend>will have </prepend>
+						<append>en</append>
+					</paradigm>
+					<paradigm id="PL">
+						<prepend>will have </prepend>
+						<append>en</append>
+					</paradigm>
+				</pdgmgroup>
+			</group>
+		</mood>
+		<mood id="subjunctive">
+			<group id="SUBPRF" endlength="0">
+				<pdgmgroup id="1">
+					<paradigm id="SG">
+						<prepend>have </prepend>
+						<append>en</append>
+					</paradigm>
+					<paradigm id="PL">
+						<prepend>have </prepend>
+						<append>en</append>
+					</paradigm>
+				</pdgmgroup>
+				<pdgmgroup id="2">
+					<paradigm id="SG">
+						<prepend>have </prepend>
+						<append>en</append>
+					</paradigm>
+					<paradigm id="PL">
+						<prepend>have </prepend>
+						<append>en</append>
+					</paradigm>
+				</pdgmgroup>
+				<pdgmgroup id="3">
+					<paradigm id="SG">
+						<prepend>have </prepend>
+						<append>en</append>
+					</paradigm>
+					<paradigm id="PL">
+						<prepend>have </prepend>
+						<append>en</append>
+					</paradigm>
+				</pdgmgroup>
+			</group>
+			<group id="SUBIMP" endlength="2">
+				<pdgmgroup id="1">
+					<paradigm id="SG" irregular="true">
+						<prepend>were</prepend>
+					</paradigm>
+					<paradigm id="PL" irregular="true">
+						<prepend>were</prepend>
+					</paradigm>
+				</pdgmgroup>
+				<pdgmgroup id="2">
+					<paradigm id="SG" irregular="true">
+						<prepend>were</prepend>
+					</paradigm>
+					<paradigm id="PL" irregular="true">
+						<prepend>were</prepend>
+					</paradigm>
+				</pdgmgroup>
+				<pdgmgroup id="3">
+					<paradigm id="SG" irregular="true">
+						<prepend>were</prepend>
+					</paradigm>
+					<paradigm id="PL" irregular="true">
+						<prepend>were</prepend>
+					</paradigm>
+				</pdgmgroup>
+			</group>
+			<group id="SUBPLU" endlength="0">
+				<pdgmgroup id="1">
+					<paradigm id="SG">
+						<prepend>had </prepend>
+						<append>en</append>
+					</paradigm>
+					<paradigm id="PL">
+						<prepend>had </prepend>
+						<append>en</append>
+					</paradigm>
+				</pdgmgroup>
+				<pdgmgroup id="2">
+					<paradigm id="SG">
+						<prepend>had </prepend>
+						<append>en</append>
+					</paradigm>
+					<paradigm id="PL">
+						<prepend>had </prepend>
+						<append>en</append>
+					</paradigm>
+				</pdgmgroup>
+				<pdgmgroup id="3">
+					<paradigm id="SG">
+						<prepend>had </prepend>
+						<append>en</append>
+					</paradigm>
+					<paradigm id="PL">
+						<prepend>had </prepend>
+						<append>en</append>
+					</paradigm>
+				</pdgmgroup>
+			</group>
+		</mood>
+		<mood id="conditional">
+			<group id="COPRS" endlength="0">
+				<pdgmgroup id="1">
+					<paradigm id="SG">
+						<prepend>would </prepend>
+					</paradigm>
+					<paradigm id="PL">
+						<prepend>would </prepend>
+					</paradigm>
+				</pdgmgroup>
+				<pdgmgroup id="2">
+					<paradigm id="SG">
+						<prepend>would </prepend>
+					</paradigm>
+					<paradigm id="PL">
+						<prepend>would </prepend>
+					</paradigm>
+				</pdgmgroup>
+				<pdgmgroup id="3">
+					<paradigm id="SG">
+						<prepend>would </prepend>
+					</paradigm>
+					<paradigm id="PL">
+						<prepend>would </prepend>
+					</paradigm>
+				</pdgmgroup>
+			</group>
+			<group id="COPRF" endlength="0">
+				<pdgmgroup id="1">
+					<paradigm id="SG">
+						<prepend>would have </prepend>
+						<append>en</append>
+					</paradigm>
+					<paradigm id="PL">
+						<prepend>would have </prepend>
+						<append>en</append>
+					</paradigm>
+				</pdgmgroup>
+				<pdgmgroup id="2">
+					<paradigm id="SG">
+						<prepend>would have </prepend>
+						<append>en</append>
+					</paradigm>
+					<paradigm id="PL">
+						<prepend>would have </prepend>
+						<append>en</append>
+					</paradigm>
+				</pdgmgroup>
+				<pdgmgroup id="3">
+					<paradigm id="SG">
+						<prepend>would have </prepend>
+						<append>en</append>
+					</paradigm>
+					<paradigm id="PL">
+						<prepend>would have </prepend>
+						<append>en</append>
+					</paradigm>
+				</pdgmgroup>
+			</group>
+		</mood>
+	</verb>
+	<verb word="bear" inherit="reg">
+		<participles>
+			<participle id="past" endlength="0" irregular="true">
+				<mod match="first" search="ea" replace="o" />
+				<append>n</append>
+			</participle>
+		</participles>
+		<mood id="indicative">
+			<group id="PRF" endlength="0">
+				<pdgmgroup id="1">
+					<paradigm id="SG">
+						<prepend>have </prepend>
+						<append>n</append>
+						<mod match="first" search="ea" replace="o" />
+					</paradigm>
+					<paradigm id="PL">
+						<prepend>have </prepend>
+						<append>n</append>
+						<mod match="first" search="ea" replace="o" />
+					</paradigm>
+				</pdgmgroup>
+				<pdgmgroup id="2">
+					<paradigm id="SG">
+						<prepend>have </prepend>
+						<append>n</append>
+						<mod match="first" search="ea" replace="o" />
+					</paradigm>
+					<paradigm id="PL">
+						<prepend>have </prepend>
+						<append>n</append>
+						<mod match="first" search="ea" replace="o" />
+					</paradigm>
+				</pdgmgroup>
+				<pdgmgroup id="3">
+					<paradigm id="SG">
+						<prepend>has </prepend>
+						<append>n</append>
+						<mod match="first" search="ea" replace="o" />
+					</paradigm>
+					<paradigm id="PL">
+						<prepend>have </prepend>
+						<append>n</append>
+						<mod match="first" search="ea" replace="o" />
+					</paradigm>
+				</pdgmgroup>
+			</group>
+			<group id="PST" endlength="0">
+				<pdgmgroup id="1">
+					<paradigm id="SG" irregular="true">
+						<mod match="first" search="ea" replace="o" />
+						<append>e</append>
+					</paradigm>
+					<paradigm id="PL" irregular="true">
+						<mod match="first" search="ea" replace="o" />
+						<append>e</append>
+					</paradigm>
+				</pdgmgroup>
+				<pdgmgroup id="2">
+					<paradigm id="SG" irregular="true">
+						<mod match="first" search="ea" replace="o" />
+						<append>e</append>
+					</paradigm>
+					<paradigm id="PL" irregular="true">
+						<mod match="first" search="ea" replace="o" />
+						<append>e</append>
+					</paradigm>
+				</pdgmgroup>
+				<pdgmgroup id="3">
+					<paradigm id="SG" irregular="true">
+						<mod match="first" search="ea" replace="o" />
+						<append>e</append>
+					</paradigm>
+					<paradigm id="PL" irregular="true">
+						<mod match="first" search="ea" replace="o" />
+						<append>e</append>
+					</paradigm>
+				</pdgmgroup>
+			</group>
+			<group id="PLU" endlength="0">
+				<pdgmgroup id="1">
+					<paradigm id="SG">
+						<mod match="first" search="ea" replace="o" />
+						<prepend>had </prepend>
+						<append>n</append>
+					</paradigm>
+					<paradigm id="PL">
+						<mod match="first" search="ea" replace="o" />
+						<prepend>had </prepend>
+						<append>n</append>
+					</paradigm>
+				</pdgmgroup>
+				<pdgmgroup id="2">
+					<paradigm id="SG">
+						<mod match="first" search="ea" replace="o" />
+						<prepend>had </prepend>
+						<append>n</append>
+					</paradigm>
+					<paradigm id="PL">
+						<mod match="first" search="ea" replace="o" />
+						<prepend>had </prepend>
+						<append>n</append>
+					</paradigm>
+				</pdgmgroup>
+				<pdgmgroup id="3">
+					<paradigm id="SG">
+						<mod match="first" search="ea" replace="o" />
+						<prepend>had </prepend>
+						<append>n</append>
+					</paradigm>
+					<paradigm id="PL">
+						<mod match="first" search="ea" replace="o" />
+						<prepend>had </prepend>
+						<append>n</append>
+					</paradigm>
+				</pdgmgroup>
+			</group>
+			<group id="FUT2" endlength="0">
+				<pdgmgroup id="1">
+					<paradigm id="SG">
+						<mod match="first" search="ea" replace="o" />
+						<prepend>will have </prepend>
+						<append>n</append>
+					</paradigm>
+					<paradigm id="PL">
+						<mod match="first" search="ea" replace="o" />
+						<prepend>will have </prepend>
+						<append>n</append>
+					</paradigm>
+				</pdgmgroup>
+				<pdgmgroup id="2">
+					<paradigm id="SG">
+						<mod match="first" search="ea" replace="o" />
+						<prepend>will have </prepend>
+						<append>n</append>
+					</paradigm>
+					<paradigm id="PL">
+						<mod match="first" search="ea" replace="o" />
+						<prepend>will have </prepend>
+						<append>n</append>
+					</paradigm>
+				</pdgmgroup>
+				<pdgmgroup id="3">
+					<paradigm id="SG">
+						<mod match="first" search="ea" replace="o" />
+						<prepend>will have </prepend>
+						<append>n</append>
+					</paradigm>
+					<paradigm id="PL">
+						<mod match="first" search="ea" replace="o" />
+						<prepend>will have </prepend>
+						<append>n</append>
+					</paradigm>
+				</pdgmgroup>
+			</group>
+		</mood>
+		<mood id="subjunctive">
+			<group id="SUBPRF" endlength="0">
+				<pdgmgroup id="1">
+					<paradigm id="SG">
+						<mod match="first" search="ea" replace="o" />
+						<prepend>have </prepend>
+						<append>n</append>
+					</paradigm>
+					<paradigm id="PL">
+						<mod match="first" search="ea" replace="o" />
+						<prepend>have </prepend>
+						<append>n</append>
+					</paradigm>
+				</pdgmgroup>
+				<pdgmgroup id="2">
+					<paradigm id="SG">
+						<mod match="first" search="ea" replace="o" />
+						<prepend>have </prepend>
+						<append>n</append>
+					</paradigm>
+					<paradigm id="PL">
+						<mod match="first" search="ea" replace="o" />
+						<prepend>have </prepend>
+						<append>n</append>
+					</paradigm>
+				</pdgmgroup>
+				<pdgmgroup id="3">
+					<paradigm id="SG">
+						<mod match="first" search="ea" replace="o" />
+						<prepend>have </prepend>
+						<append>n</append>
+					</paradigm>
+					<paradigm id="PL">
+						<mod match="first" search="ea" replace="o" />
+						<prepend>have </prepend>
+						<append>n</append>
+					</paradigm>
+				</pdgmgroup>
+			</group>
+			<group id="SUBIMP" endlength="0">
+				<pdgmgroup id="1">
+					<paradigm id="SG" irregular="true">
+						<mod match="first" search="ea" replace="o" />
+						<append>e</append>
+					</paradigm>
+					<paradigm id="PL" irregular="true">
+						<mod match="first" search="ea" replace="o" />
+						<append>e</append>
+					</paradigm>
+				</pdgmgroup>
+				<pdgmgroup id="2">
+					<paradigm id="SG" irregular="true">
+						<mod match="first" search="ea" replace="o" />
+						<append>e</append>
+					</paradigm>
+					<paradigm id="PL" irregular="true">
+						<mod match="first" search="ea" replace="o" />
+						<append>e</append>
+					</paradigm>
+				</pdgmgroup>
+				<pdgmgroup id="3">
+					<paradigm id="SG" irregular="true">
+						<mod match="first" search="ea" replace="o" />
+						<append>e</append>
+					</paradigm>
+					<paradigm id="PL" irregular="true">
+						<mod match="first" search="ea" replace="o" />
+						<append>e</append>
+					</paradigm>
+				</pdgmgroup>
+			</group>
+			<group id="SUBPLU" endlength="0">
+				<pdgmgroup id="1">
+					<paradigm id="SG">
+						<mod match="first" search="ea" replace="o" />
+						<prepend>had </prepend>
+						<append>n</append>
+					</paradigm>
+					<paradigm id="PL">
+						<mod match="first" search="ea" replace="o" />
+						<prepend>had </prepend>
+						<append>n</append>
+					</paradigm>
+				</pdgmgroup>
+				<pdgmgroup id="2">
+					<paradigm id="SG">
+						<mod match="first" search="ea" replace="o" />
+						<prepend>had </prepend>
+						<append>n</append>
+					</paradigm>
+					<paradigm id="PL">
+						<mod match="first" search="ea" replace="o" />
+						<prepend>had </prepend>
+						<append>n</append>
+					</paradigm>
+				</pdgmgroup>
+				<pdgmgroup id="3">
+					<paradigm id="SG">
+						<mod match="first" search="ea" replace="o" />
+						<prepend>had </prepend>
+						<append>n</append>
+					</paradigm>
+					<paradigm id="PL">
+						<mod match="first" search="ea" replace="o" />
+						<prepend>had </prepend>
+						<append>n</append>
+					</paradigm>
+				</pdgmgroup>
+			</group>
+		</mood>
+		<mood id="conditional">
+			<group id="COPRF" endlength="0">
+				<pdgmgroup id="1">
+					<paradigm id="SG">
+						<mod match="first" search="ea" replace="o" />
+						<prepend>would have </prepend>
+						<append>n</append>
+					</paradigm>
+					<paradigm id="PL">
+						<mod match="first" search="ea" replace="o" />
+						<prepend>would have </prepend>
+						<append>n</append>
+					</paradigm>
+				</pdgmgroup>
+				<pdgmgroup id="2">
+					<paradigm id="SG">
+						<mod match="first" search="ea" replace="o" />
+						<prepend>would have </prepend>
+						<append>n</append>
+					</paradigm>
+					<paradigm id="PL">
+						<mod match="first" search="ea" replace="o" />
+						<prepend>would have </prepend>
+						<append>n</append>
+					</paradigm>
+				</pdgmgroup>
+				<pdgmgroup id="3">
+					<paradigm id="SG">
+						<mod match="first" search="ea" replace="o" />
+						<prepend>would have </prepend>
+						<append>n</append>
+					</paradigm>
+					<paradigm id="PL">
+						<mod match="first" search="ea" replace="o" />
+						<prepend>would have </prepend>
+						<append>n</append>
+					</paradigm>
+				</pdgmgroup>
+			</group>
+		</mood>
+	</verb>
+	<verb word="beat" inherit="reg">
+		<participles>
+			<participle id="past" endlength="0" irregular="true">
+				<append>en</append>
+			</participle>
+		</participles>
+		<mood id="indicative">
+			<group id="PRF" endlength="0">
+				<pdgmgroup id="1">
+					<paradigm id="SG">
+						<prepend>have </prepend>
+						<append>en</append>
+					</paradigm>
+					<paradigm id="PL">
+						<prepend>have </prepend>
+						<append>en</append>
+					</paradigm>
+				</pdgmgroup>
+				<pdgmgroup id="2">
+					<paradigm id="SG">
+						<prepend>have </prepend>
+						<append>en</append>
+					</paradigm>
+					<paradigm id="PL">
+						<prepend>have </prepend>
+						<append>en</append>
+					</paradigm>
+				</pdgmgroup>
+				<pdgmgroup id="3">
+					<paradigm id="SG">
+						<prepend>has </prepend>
+						<append>en</append>
+					</paradigm>
+					<paradigm id="PL">
+						<prepend>have </prepend>
+						<append>en</append>
+					</paradigm>
+				</pdgmgroup>
+			</group>
+			<group id="PST" endlength="0">
+				<pdgmgroup id="1">
+					<paradigm id="SG" irregular="true" />
+					<paradigm id="PL" irregular="true" />
+				</pdgmgroup>
+				<pdgmgroup id="2">
+					<paradigm id="SG" irregular="true" />
+					<paradigm id="PL" irregular="true" />
+				</pdgmgroup>
+				<pdgmgroup id="3">
+					<paradigm id="SG" irregular="true" />
+					<paradigm id="PL" irregular="true" />
+				</pdgmgroup>
+			</group>
+			<group id="PLU" endlength="0">
+				<pdgmgroup id="1">
+					<paradigm id="SG">
+						<prepend>had </prepend>
+						<append>en</append>
+					</paradigm>
+					<paradigm id="PL">
+						<prepend>had </prepend>
+						<append>en</append>
+					</paradigm>
+				</pdgmgroup>
+				<pdgmgroup id="2">
+					<paradigm id="SG">
+						<prepend>had </prepend>
+						<append>en</append>
+					</paradigm>
+					<paradigm id="PL">
+						<prepend>had </prepend>
+						<append>en</append>
+					</paradigm>
+				</pdgmgroup>
+				<pdgmgroup id="3">
+					<paradigm id="SG">
+						<prepend>had </prepend>
+						<append>en</append>
+					</paradigm>
+					<paradigm id="PL">
+						<prepend>had </prepend>
+						<append>en</append>
+					</paradigm>
+				</pdgmgroup>
+			</group>
+			<group id="FUT2" endlength="0">
+				<pdgmgroup id="1">
+					<paradigm id="SG">
+						<prepend>will have </prepend>
+						<append>en</append>
+					</paradigm>
+					<paradigm id="PL">
+						<prepend>will have </prepend>
+						<append>en</append>
+					</paradigm>
+				</pdgmgroup>
+				<pdgmgroup id="2">
+					<paradigm id="SG">
+						<prepend>will have </prepend>
+						<append>en</append>
+					</paradigm>
+					<paradigm id="PL">
+						<prepend>will have </prepend>
+						<append>en</append>
+					</paradigm>
+				</pdgmgroup>
+				<pdgmgroup id="3">
+					<paradigm id="SG">
+						<prepend>will have </prepend>
+						<append>en</append>
+					</paradigm>
+					<paradigm id="PL">
+						<prepend>will have </prepend>
+						<append>en</append>
+					</paradigm>
+				</pdgmgroup>
+			</group>
+		</mood>
+		<mood id="subjunctive">
+			<group id="SUBPRF" endlength="0">
+				<pdgmgroup id="1">
+					<paradigm id="SG">
+						<prepend>have </prepend>
+						<append>en</append>
+					</paradigm>
+					<paradigm id="PL">
+						<prepend>have </prepend>
+						<append>en</append>
+					</paradigm>
+				</pdgmgroup>
+				<pdgmgroup id="2">
+					<paradigm id="SG">
+						<prepend>have </prepend>
+						<append>en</append>
+					</paradigm>
+					<paradigm id="PL">
+						<prepend>have </prepend>
+						<append>en</append>
+					</paradigm>
+				</pdgmgroup>
+				<pdgmgroup id="3">
+					<paradigm id="SG">
+						<prepend>have </prepend>
+						<append>en</append>
+					</paradigm>
+					<paradigm id="PL">
+						<prepend>have </prepend>
+						<append>en</append>
+					</paradigm>
+				</pdgmgroup>
+			</group>
+			<group id="SUBPLU" endlength="0">
+				<pdgmgroup id="1">
+					<paradigm id="SG">
+						<prepend>had </prepend>
+						<append>en</append>
+					</paradigm>
+					<paradigm id="PL">
+						<prepend>had </prepend>
+						<append>en</append>
+					</paradigm>
+				</pdgmgroup>
+				<pdgmgroup id="2">
+					<paradigm id="SG">
+						<prepend>had </prepend>
+						<append>en</append>
+					</paradigm>
+					<paradigm id="PL">
+						<prepend>had </prepend>
+						<append>en</append>
+					</paradigm>
+				</pdgmgroup>
+				<pdgmgroup id="3">
+					<paradigm id="SG">
+						<prepend>had </prepend>
+						<append>en</append>
+					</paradigm>
+					<paradigm id="PL">
+						<prepend>had </prepend>
+						<append>en</append>
+					</paradigm>
+				</pdgmgroup>
+			</group>
+		</mood>
+		<mood id="conditional">
+			<group id="COPRF" endlength="0">
+				<pdgmgroup id="1">
+					<paradigm id="SG">
+						<prepend>would have </prepend>
+						<append>en</append>
+					</paradigm>
+					<paradigm id="PL">
+						<prepend>would have </prepend>
+						<append>en</append>
+					</paradigm>
+				</pdgmgroup>
+				<pdgmgroup id="2">
+					<paradigm id="SG">
+						<prepend>would have </prepend>
+						<append>en</append>
+					</paradigm>
+					<paradigm id="PL">
+						<prepend>would have </prepend>
+						<append>en</append>
+					</paradigm>
+				</pdgmgroup>
+				<pdgmgroup id="3">
+					<paradigm id="SG">
+						<prepend>would have </prepend>
+						<append>en</append>
+					</paradigm>
+					<paradigm id="PL">
+						<prepend>would have </prepend>
+						<append>en</append>
+					</paradigm>
+				</pdgmgroup>
+			</group>
+		</mood>
+	</verb>
+	<verb word="become" ref="come" />
+	<verb word="come" ref="come" />
+	<verb word="wake" ref="perfect ak-ok" />
 </verbs>

@@ -1,92 +1,80 @@
 <?xml version='1.0' encoding='UTF-8'?>
 
 <!--
-    TODO define vocabulary identification
-    PUBLIC ID: -//vendor//vocabulary//EN
-    SYSTEM ID: http://server/path/verbs.dtd
+	TODO define vocabulary identification
+	PUBLIC ID: -//vendor//vocabulary//EN
+	SYSTEM ID: http://server/path/verbs.dtd
 
 -->
 
 <!--
-    An example how to use this DTD from your XML document:
+	An example how to use this DTD from your XML document:
+	
+	<?xml version="1.0"?>
 
-    <?xml version="1.0"?>
+	<!DOCTYPE verbs SYSTEM "verbs.dtd">
 
-    <!DOCTYPE verbs SYSTEM "verbs.dtd">
-
-    <verbs>
-    ...
-    </verbs>
+	<verbs>
+	...
+	</verbs>
 -->
 
-<!--- Put your DTDDoc comment here. -->
 <!ELEMENT verbs (verb|verbset)*>
 <!ATTLIST verbs
-    lang CDATA #REQUIRED
+	lang CDATA #REQUIRED
   >
 
-<!--- Put your DTDDoc comment here. -->
 <!ELEMENT verbset (participles, mood+)>
 <!ATTLIST verbset
-    id CDATA #REQUIRED
-    inherit CDATA #IMPLIED
+	id CDATA #REQUIRED
+	inherit CDATA #IMPLIED
   >
 
-<!--- Put your DTDDoc comment here. -->
 <!ELEMENT participles (participle+)>
 
-<!--- Put your DTDDoc comment here. -->
 <!ELEMENT participle (mod?, prepend?, append?)>
 <!ATTLIST participle
-    irregular CDATA #IMPLIED
-    endlength CDATA #REQUIRED
-    id CDATA #REQUIRED
+	irregular CDATA #IMPLIED
+	endlength CDATA #REQUIRED
+	id CDATA #REQUIRED
   >
 
-<!--- Put your DTDDoc comment here. -->
 <!ELEMENT append (#PCDATA)>
 
-<!--- Put your DTDDoc comment here. -->
 <!ELEMENT mood (group+)>
 <!ATTLIST mood
-    id CDATA #REQUIRED
+	id CDATA #REQUIRED
   >
 
-<!--- Put your DTDDoc comment here. -->
 <!ELEMENT group (pdgmgroup+)>
 <!ATTLIST group
-    endlength CDATA #REQUIRED
-    id CDATA #REQUIRED
+	endlength CDATA #REQUIRED
+	id CDATA #REQUIRED
   >
 
-<!--- Put your DTDDoc comment here. -->
 <!ELEMENT pdgmgroup (paradigm*)>
 <!ATTLIST pdgmgroup
-    id CDATA #REQUIRED
+	id CDATA #REQUIRED
   >
 
-<!--- Put your DTDDoc comment here. -->
 <!ELEMENT paradigm (mod|prepend|append)*>
 <!ATTLIST paradigm
-    irregular CDATA #IMPLIED
-    id CDATA #REQUIRED
+	irregular CDATA #IMPLIED
+	id CDATA #REQUIRED
   >
 
-<!--- Put your DTDDoc comment here. -->
 <!ELEMENT prepend (#PCDATA)>
 
-<!--- Put your DTDDoc comment here. -->
 <!ELEMENT mod EMPTY>
 <!ATTLIST mod
-    replace CDATA #REQUIRED
-    search CDATA #REQUIRED
-    match CDATA #REQUIRED
+	replace CDATA #REQUIRED
+	search CDATA #REQUIRED
+	match CDATA #REQUIRED
   >
 
-<!--- Put your DTDDoc comment here. -->
 <!ELEMENT verb (participles*, mood*)>
 <!ATTLIST verb
-    ref CDATA #IMPLIED
-    inherit CDATA #IMPLIED
-    word CDATA #IMPLIED
+	ref CDATA #IMPLIED
+	inherit CDATA #IMPLIED
+	word CDATA #IMPLIED
   >
