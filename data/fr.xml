@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--<!DOCTYPE verbs SYSTEM "verbs.dtd">-->
 <verbs lang="fr">
+	<forms>
+		<form desc="present">prs</form>
+		<form desc="passé composé">pcomp</form>
+		<form desc="imperfect">imp</form>
+		<form desc="pluperfect">plu</form>
+		<form desc="future">futsimp</form>
+		<form desc="future perfect">futant</form>
+		<form desc="subjunctive present">subprs</form>
+		<form desc="subjunctive past">subpst</form>
+		<form desc="subjunctive imperfect">subimp</form>
+		<form desc="subjunctive pluperfect">subplu</form>
+		<form desc="conditional present">cprs</form>
+		<form desc="conditional past">cpst</form>
+		<form desc="conditional past II">cpst2</form>
+	</forms>
 	<verbset id="reg.er">
 		<participles>
 			<participle id="present" endlength="2">
