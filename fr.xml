@@ -42,7 +42,9 @@
 				<append>é</append>
 			</participle>
 		</participles>
-		<group id="PRS" endlength="2">
+		<group id="PRS">
+			<endlength>2</endlength>
+			
 			<pdgmgroup id="1">
 				<paradigm id="SG">
 					<append>e</append>
@@ -68,39 +70,38 @@
 				</paradigm>
 			</pdgmgroup>
 		</group>
-		<group id="PCOMP" endlength="2">
+		<group id="PCOMP">
+			<append>é</append>
+			<endlength>2</endlength>
+			
 			<pdgmgroup id="1">
 				<paradigm id="SG">
 					<prepend>ai </prepend>
-					<append>é</append>
 				</paradigm>
 				<paradigm id="PL">
 					<prepend>avons </prepend>
-					<append>é</append>
 				</paradigm>
 			</pdgmgroup>
 			<pdgmgroup id="2">
 				<paradigm id="SG">
 					<prepend>as </prepend>
-					<append>é</append>
 				</paradigm>
 				<paradigm id="PL">
 					<prepend>avez </prepend>
-					<append>é</append>
 				</paradigm>
 			</pdgmgroup>
 			<pdgmgroup id="3">
 				<paradigm id="SG">
 					<prepend>a </prepend>
-					<append>é</append>
 				</paradigm>
 				<paradigm id="PL">
 					<prepend>ont </prepend>
-					<append>é</append>
 				</paradigm>
 			</pdgmgroup>
 		</group>
-		<group id="IMP" endlength="2">
+		<group id="IMP">
+			<endlength>2</endlength>
+			
 			<pdgmgroup id="1">
 				<paradigm id="SG">
 					<append>ais</append>
@@ -126,39 +127,36 @@
 				</paradigm>
 			</pdgmgroup>
 		</group>
-		<group id="PLU" endlength="2">
+		<group id="PLU">
+			<append>é</append>
+			<endlength>2</endlength>
+			
 			<pdgmgroup id="1">
 				<paradigm id="SG">
 					<prepend>avais </prepend>
-					<append>é</append>
 				</paradigm>
 				<paradigm id="PL">
 					<prepend>avions </prepend>
-					<append>é</append>
 				</paradigm>
 			</pdgmgroup>
 			<pdgmgroup id="2">
 				<paradigm id="SG">
 					<prepend>avais </prepend>
-					<append>é</append>
 				</paradigm>
 				<paradigm id="PL">
 					<prepend>aviez </prepend>
-					<append>é</append>
 				</paradigm>
 			</pdgmgroup>
 			<pdgmgroup id="3">
 				<paradigm id="SG">
 					<prepend>avait </prepend>
-					<append>é</append>
 				</paradigm>
 				<paradigm id="PL">
 					<prepend>avaient </prepend>
-					<append>é</append>
 				</paradigm>
 			</pdgmgroup>
 		</group>
-		<group id="FUTSIMP" endlength="0">
+		<group id="FUTSIMP">
 			<pdgmgroup id="1">
 				<paradigm id="SG">
 					<append>ai</append>
@@ -184,39 +182,38 @@
 				</paradigm>
 			</pdgmgroup>
 		</group>
-		<group id="FUTANT" endlength="2">
+		<group id="FUTANT">
+			<append>é</append>
+			<endlength>2</endlength>
+			
 			<pdgmgroup id="1">
 				<paradigm id="SG">
 					<prepend>aurai </prepend>
-					<append>é</append>
 				</paradigm>
 				<paradigm id="PL">
 					<prepend>aurons </prepend>
-					<append>é</append>
 				</paradigm>
 			</pdgmgroup>
 			<pdgmgroup id="2">
 				<paradigm id="SG">
 					<prepend>auras </prepend>
-					<append>é</append>
 				</paradigm>
 				<paradigm id="PL">
 					<prepend>aurez </prepend>
-					<append>é</append>
 				</paradigm>
 			</pdgmgroup>
 			<pdgmgroup id="3">
 				<paradigm id="SG">
 					<prepend>aura </prepend>
-					<append>é</append>
 				</paradigm>
 				<paradigm id="PL">
 					<prepend>auront </prepend>
-					<append>é</append>
 				</paradigm>
 			</pdgmgroup>
 		</group>
-		<group id="PASSIMP" endlength="2">
+		<group id="PASSIMP">
+			<endlength>2</endlength>
+			
 			<pdgmgroup id="1">
 				<paradigm id="SG">
 					<append>ai</append>
@@ -242,39 +239,38 @@
 				</paradigm>
 			</pdgmgroup>
 		</group>
-		<group id="PSTANT" endlength="2">
+		<group id="PSTANT">
+			<append>é</append>
+			<endlength>2</endlength>
+			
 			<pdgmgroup id="1">
 				<paradigm id="SG">
 					<prepend>eus </prepend>
-					<append>é</append>
 				</paradigm>
 				<paradigm id="PL">
 					<prepend>eûmes </prepend>
-					<append>é</append>
 				</paradigm>
 			</pdgmgroup>
 			<pdgmgroup id="2">
 				<paradigm id="SG">
 					<prepend>eus </prepend>
-					<append>é</append>
 				</paradigm>
 				<paradigm id="PL">
 					<prepend>eûtes </prepend>
-					<append>é</append>
 				</paradigm>
 			</pdgmgroup>
 			<pdgmgroup id="3">
 				<paradigm id="SG">
 					<prepend>eut </prepend>
-					<append>é</append>
 				</paradigm>
 				<paradigm id="PL">
 					<prepend>eurent </prepend>
-					<append>é</append>
 				</paradigm>
 			</pdgmgroup>
 		</group>
-		<group id="SUBPRS" endlength="2">
+		<group id="SUBPRS">
+			<endlength>2</endlength>
+			
 			<pdgmgroup id="1">
 				<paradigm id="SG">
 					<append>e</append>
@@ -300,7 +296,9 @@
 				</paradigm>
 			</pdgmgroup>
 		</group>
-		<group id="SUBIMP" endlength="2">
+		<group id="SUBIMP">
+			<endlength>2</endlength>
+			
 			<pdgmgroup id="1">
 				<paradigm id="SG">
 					<append>asse</append>
@@ -326,71 +324,65 @@
 				</paradigm>
 			</pdgmgroup>
 		</group>
-		<group id="SUBPST" endlength="2">
+		<group id="SUBPST">
+			<append>é</append>
+			<endlength>2</endlength>
+			
 			<pdgmgroup id="1">
 				<paradigm id="SG">
 					<prepend>aie </prepend>
-					<append>é</append>
 				</paradigm>
 				<paradigm id="PL">
 					<prepend>ayons </prepend>
-					<append>é</append>
 				</paradigm>
 			</pdgmgroup>
 			<pdgmgroup id="2">
 				<paradigm id="SG">
 					<prepend>aies </prepend>
-					<append>é</append>
 				</paradigm>
 				<paradigm id="PL">
 					<prepend>ayez </prepend>
-					<append>é</append>
 				</paradigm>
 			</pdgmgroup>
 			<pdgmgroup id="3">
 				<paradigm id="SG">
 					<prepend>ait </prepend>
-					<append>é</append>
 				</paradigm>
 				<paradigm id="PL">
 					<prepend>aient </prepend>
-					<append>é</append>
 				</paradigm>
 			</pdgmgroup>
 		</group>
-		<group id="SUBPLU" endlength="2">
+		<group id="SUBPLU">
+			<append>é</append>
+			<endlength>2</endlength>
+			
 			<pdgmgroup id="1">
 				<paradigm id="SG">
 					<prepend>eusse </prepend>
-					<append>é</append>
 				</paradigm>
 				<paradigm id="PL">
 					<prepend>eussions </prepend>
-					<append>é</append>
 				</paradigm>
 			</pdgmgroup>
 			<pdgmgroup id="2">
 				<paradigm id="SG">
 					<prepend>eusses </prepend>
-					<append>é</append>
 				</paradigm>
 				<paradigm id="PL">
 					<prepend>eussiez </prepend>
-					<append>é</append>
 				</paradigm>
 			</pdgmgroup>
 			<pdgmgroup id="3">
 				<paradigm id="SG">
 					<prepend>eût </prepend>
-					<append>é</append>
 				</paradigm>
 				<paradigm id="PL">
 					<prepend>eussent </prepend>
-					<append>é</append>
 				</paradigm>
 			</pdgmgroup>
 		</group>
-		<group id="CPRS" endlength="0">
+		<group id="CPRS">
 			<pdgmgroup id="1">
 				<paradigm id="SG">
 					<append>ais</append>
@@ -401,7 +393,7 @@
 			</pdgmgroup>
 			<pdgmgroup id="2">
 				<paradigm id="SG">
-					<append>as</append>
+					<append>ais</append>
 				</paradigm>
 				<paradigm id="PL">
 					<append>iez</append>
@@ -409,78 +401,74 @@
 			</pdgmgroup>
 			<pdgmgroup id="3">
 				<paradigm id="SG">
-					<append>a</append>
+					<append>ait</append>
 				</paradigm>
 				<paradigm id="PL">
 					<append>aient</append>
 				</paradigm>
 			</pdgmgroup>
 		</group>
-		<group id="CPST" endlength="2">
+		<group id="CPST">
+			<append>é</append>
+			<endlength>2</endlength>
+			
 			<pdgmgroup id="1">
 				<paradigm id="SG">
 					<prepend>aurais </prepend>
-					<append>é</append>
 				</paradigm>
 				<paradigm id="PL">
 					<prepend>aurions </prepend>
-					<append>é</append>
 				</paradigm>
 			</pdgmgroup>
 			<pdgmgroup id="2">
 				<paradigm id="SG">
 					<prepend>aurais </prepend>
-					<append>é</append>
 				</paradigm>
 				<paradigm id="PL">
 					<prepend>auriez </prepend>
-					<append>é</append>
 				</paradigm>
 			</pdgmgroup>
 			<pdgmgroup id="3">
 				<paradigm id="SG">
 					<prepend>aurait </prepend>
-					<append>é</append>
 				</paradigm>
 				<paradigm id="PL">
 					<prepend>auraient </prepend>
-					<append>é</append>
 				</paradigm>
 			</pdgmgroup>
 		</group>
-		<group id="CPST2" endlength="2">
+		<group id="CPST2">
+			<append>é</append>
+			<endlength>2</endlength>
+			
 			<pdgmgroup id="1">
 				<paradigm id="SG">
 					<prepend>eusse </prepend>
-					<append>é</append>
 				</paradigm>
 				<paradigm id="PL">
 					<prepend>eussions </prepend>
-					<append>é</append>
 				</paradigm>
 			</pdgmgroup>
 			<pdgmgroup id="2">
 				<paradigm id="SG">
 					<prepend>eusses </prepend>
-					<append>é</append>
 				</paradigm>
 				<paradigm id="PL">
 					<prepend>eussiez </prepend>
-					<append>é</append>
 				</paradigm>
 			</pdgmgroup>
 			<pdgmgroup id="3">
 				<paradigm id="SG">
 					<prepend>eût </prepend>
-					<append>é</append>
 				</paradigm>
 				<paradigm id="PL">
 					<prepend>eussent </prepend>
-					<append>é</append>
 				</paradigm>
 			</pdgmgroup>
 		</group>
-		<group id="IMPPRS" endlength="2">
+		<group id="IMPPRS">
+			<endlength>2</endlength>
+			
 			<pdgmgroup id="1">
 				<paradigm id="PL">
 					<append>ons !</append>
@@ -495,21 +483,21 @@
 				</paradigm>
 			</pdgmgroup>
 		</group>
-		<group id="IMPPST" endlength="2">
+		<group id="IMPPST">
+			<append>é</append>
+			<endlength>2</endlength>
+			
 			<pdgmgroup id="1">
 				<paradigm id="PL">
 					<prepend>ayons </prepend>
-					<append>é !</append>
 				</paradigm>
 			</pdgmgroup>
 			<pdgmgroup id="2">
 				<paradigm id="SG">
 					<prepend>aie </prepend>
-					<append>é !</append>
 				</paradigm>
 				<paradigm id="PL">
 					<prepend>ayez </prepend>
-					<append>é !</append>
 				</paradigm>
 			</pdgmgroup>
 		</group>
@@ -517,14 +505,18 @@
 
 	<verbset id="reg.ir">
 		<participles>
-			<participle id="present" endlength="2">
+			<participle id="present">
 				<append>issant</append>
+				<endlength>2</endlength>
 			</participle>
-			<participle id="past" endlength="2">
+			<participle id="past">
 				<append>i</append>
+				<endlength>2</endlength>
 			</participle>
 		</participles>
-		<group id="PRS" endlength="2">
+		<group id="PRS">
+			<endlength>2</endlength>
+			
 			<pdgmgroup id="1">
 				<paradigm id="SG">
 					<append>is</append>
@@ -550,39 +542,38 @@
 				</paradigm>
 			</pdgmgroup>
 		</group>
-		<group id="PCOMP" endlength="2">
+		<group id="PCOMP">
+			<append>i</append>
+			<endlength>2</endlength>
+			
 			<pdgmgroup id="1">
 				<paradigm id="SG">
 					<prepend>ai </prepend>
-					<append>i</append>
 				</paradigm>
 				<paradigm id="PL">
 					<prepend>avons </prepend>
-					<append>i</append>
 				</paradigm>
 			</pdgmgroup>
 			<pdgmgroup id="2">
 				<paradigm id="SG">
 					<prepend>as </prepend>
-					<append>i</append>
 				</paradigm>
 				<paradigm id="PL">
 					<prepend>avez </prepend>
-					<append>i</append>
 				</paradigm>
 			</pdgmgroup>
 			<pdgmgroup id="3">
 				<paradigm id="SG">
 					<prepend>a </prepend>
-					<append>i</append>
 				</paradigm>
 				<paradigm id="PL">
 					<prepend>ont </prepend>
-					<append>i</append>
 				</paradigm>
 			</pdgmgroup>
 		</group>
-		<group id="IMP" endlength="2">
+		<group id="IMP">
+			<endlength>2</endlength>
+			
 			<pdgmgroup id="1">
 				<paradigm id="SG">
 					<append>issais</append>
@@ -608,39 +599,36 @@
 				</paradigm>
 			</pdgmgroup>
 		</group>
-		<group id="PLU" endlength="2">
+		<group id="PLU">
+			<append>i</append>
+			<endlength>2</endlength>
+			
 			<pdgmgroup id="1">
 				<paradigm id="SG">
 					<prepend>avais </prepend>
-					<append>i</append>
 				</paradigm>
 				<paradigm id="PL">
 					<prepend>avions </prepend>
-					<append>i</append>
 				</paradigm>
 			</pdgmgroup>
 			<pdgmgroup id="2">
 				<paradigm id="SG">
 					<prepend>avais </prepend>
-					<append>i</append>
 				</paradigm>
 				<paradigm id="PL">
 					<prepend>aviez </prepend>
-					<append>i</append>
 				</paradigm>
 			</pdgmgroup>
 			<pdgmgroup id="3">
 				<paradigm id="SG">
 					<prepend>avait </prepend>
-					<append>i</append>
 				</paradigm>
 				<paradigm id="PL">
 					<prepend>avaient </prepend>
-					<append>i</append>
 				</paradigm>
 			</pdgmgroup>
 		</group>
-		<group id="FUTSIMP" endlength="0">
+		<group id="FUTSIMP">
 			<pdgmgroup id="1">
 				<paradigm id="SG">
 					<append>ai</append>
@@ -666,39 +654,38 @@
 				</paradigm>
 			</pdgmgroup>
 		</group>
-		<group id="FUTANT" endlength="2">
+		<group id="FUTANT">
+			<append>i</append>
+			<endlength>2</endlength>
+			
 			<pdgmgroup id="1">
 				<paradigm id="SG">
 					<prepend>aurai </prepend>
-					<append>i</append>
 				</paradigm>
 				<paradigm id="PL">
 					<prepend>aurons </prepend>
-					<append>i</append>
 				</paradigm>
 			</pdgmgroup>
 			<pdgmgroup id="2">
 				<paradigm id="SG">
 					<prepend>auras </prepend>
-					<append>i</append>
 				</paradigm>
 				<paradigm id="PL">
 					<prepend>aurez </prepend>
-					<append>i</append>
 				</paradigm>
 			</pdgmgroup>
 			<pdgmgroup id="3">
 				<paradigm id="SG">
 					<prepend>aura </prepend>
-					<append>i</append>
 				</paradigm>
 				<paradigm id="PL">
 					<prepend>auront </prepend>
-					<append>i</append>
 				</paradigm>
 			</pdgmgroup>
 		</group>
-		<group id="PASSIMP" endlength="2">
+		<group id="PASSIMP">
+			<endlength>2</endlength>
+			
 			<pdgmgroup id="1">
 				<paradigm id="SG">
 					<append>is</append>
@@ -724,39 +711,38 @@
 				</paradigm>
 			</pdgmgroup>
 		</group>
-		<group id="PSTANT" endlength="2">
+		<group id="PSTANT">
+			<append>i</append>
+			<endlength>2</endlength>
+			
 			<pdgmgroup id="1">
 				<paradigm id="SG">
 					<prepend>eus </prepend>
-					<append>i</append>
 				</paradigm>
 				<paradigm id="PL">
 					<prepend>eûmes </prepend>
-					<append>i</append>
 				</paradigm>
 			</pdgmgroup>
 			<pdgmgroup id="2">
 				<paradigm id="SG">
 					<prepend>eus </prepend>
-					<append>i</append>
 				</paradigm>
 				<paradigm id="PL">
 					<prepend>eûtes </prepend>
-					<append>i</append>
 				</paradigm>
 			</pdgmgroup>
 			<pdgmgroup id="3">
 				<paradigm id="SG">
 					<prepend>eut </prepend>
-					<append>i</append>
 				</paradigm>
 				<paradigm id="PL">
 					<prepend>eurent </prepend>
-					<append>i</append>
 				</paradigm>
 			</pdgmgroup>
 		</group>
-		<group id="SUBPRS" endlength="2">
+		<group id="SUBPRS">
+			<endlength>2</endlength>
+			
 			<pdgmgroup id="1">
 				<paradigm id="SG">
 					<append>issee</append>
@@ -779,6 +765,476 @@
 				</paradigm>
 				<paradigm id="PL">
 					<append>issent</append>
+				</paradigm>
+			</pdgmgroup>
+		</group>
+		<group id="SUBIMP">
+			<endlength>2</endlength>
+			
+			<pdgmgroup id="1">
+				<paradigm id="SG">
+					<append>isse</append>
+				</paradigm>
+				<paradigm id="PL">
+					<append>issions</append>
+				</paradigm>
+			</pdgmgroup>
+			<pdgmgroup id="2">
+				<paradigm id="SG">
+					<append>isses</append>
+				</paradigm>
+				<paradigm id="PL">
+					<append>issiez</append>
+				</paradigm>
+			</pdgmgroup>
+			<pdgmgroup id="3">
+				<paradigm id="SG">
+					<append>ît</append>
+				</paradigm>
+				<paradigm id="PL">
+					<append>issent</append>
+				</paradigm>
+			</pdgmgroup>
+		</group>
+		<group id="SUBPST">
+			<append>i</append>
+			<endlength>2</endlength>
+			
+			<pdgmgroup id="1">
+				<paradigm id="SG">
+					<prepend>aie </prepend>
+				</paradigm>
+				<paradigm id="PL">
+					<prepend>ayons </prepend>
+				</paradigm>
+			</pdgmgroup>
+			<pdgmgroup id="2">
+				<paradigm id="SG">
+					<prepend>aies </prepend>
+				</paradigm>
+				<paradigm id="PL">
+					<prepend>ayez </prepend>
+				</paradigm>
+			</pdgmgroup>
+			<pdgmgroup id="3">
+				<paradigm id="SG">
+					<prepend>ait </prepend>
+				</paradigm>
+				<paradigm id="PL">
+					<prepend>aient </prepend>
+				</paradigm>
+			</pdgmgroup>
+		</group>
+		<group id="SUBPLU">
+			<append>i</append>
+			<endlength>2</endlength>
+			
+			<pdgmgroup id="1">
+				<paradigm id="SG">
+					<prepend>eusse </prepend>
+				</paradigm>
+				<paradigm id="PL">
+					<prepend>eussions </prepend>
+				</paradigm>
+			</pdgmgroup>
+			<pdgmgroup id="2">
+				<paradigm id="SG">
+					<prepend>eusses </prepend>
+				</paradigm>
+				<paradigm id="PL">
+					<prepend>eussiez </prepend>
+				</paradigm>
+			</pdgmgroup>
+			<pdgmgroup id="3">
+				<paradigm id="SG">
+					<prepend>eût </prepend>
+				</paradigm>
+				<paradigm id="PL">
+					<prepend>eussent </prepend>
+				</paradigm>
+			</pdgmgroup>
+		</group>
+		<group id="CPRS">
+			<pdgmgroup id="1">
+				<paradigm id="SG">
+					<append>ais</append>
+				</paradigm>
+				<paradigm id="PL">
+					<append>ions</append>
+				</paradigm>
+			</pdgmgroup>
+			<pdgmgroup id="2">
+				<paradigm id="SG">
+					<append>ais</append>
+				</paradigm>
+				<paradigm id="PL">
+					<append>iez</append>
+				</paradigm>
+			</pdgmgroup>
+			<pdgmgroup id="3">
+				<paradigm id="SG">
+					<append>ait</append>
+				</paradigm>
+				<paradigm id="PL">
+					<append>aient</append>
+				</paradigm>
+			</pdgmgroup>
+		</group>
+		<group id="CPST">
+			<append>i</append>
+			<endlength>2</endlength>
+			
+			<pdgmgroup id="1">
+				<paradigm id="SG">
+					<prepend>aurais </prepend>
+				</paradigm>
+				<paradigm id="PL">
+					<prepend>aurions </prepend>
+				</paradigm>
+			</pdgmgroup>
+			<pdgmgroup id="2">
+				<paradigm id="SG">
+					<prepend>aurais </prepend>
+				</paradigm>
+				<paradigm id="PL">
+					<prepend>auriez </prepend>
+				</paradigm>
+			</pdgmgroup>
+			<pdgmgroup id="3">
+				<paradigm id="SG">
+					<prepend>aurait </prepend>
+				</paradigm>
+				<paradigm id="PL">
+					<prepend>auraient </prepend>
+				</paradigm>
+			</pdgmgroup>
+		</group>
+		<group id="CPST2">
+			<append>i</append>
+			<endlength>2</endlength>
+			
+			<pdgmgroup id="1">
+				<paradigm id="SG">
+					<prepend>eusse </prepend>
+				</paradigm>
+				<paradigm id="PL">
+					<prepend>eussions </prepend>
+				</paradigm>
+			</pdgmgroup>
+			<pdgmgroup id="2">
+				<paradigm id="SG">
+					<prepend>eusses </prepend>
+				</paradigm>
+				<paradigm id="PL">
+					<prepend>eussiez </prepend>
+				</paradigm>
+			</pdgmgroup>
+			<pdgmgroup id="3">
+				<paradigm id="SG">
+					<prepend>eût </prepend>
+				</paradigm>
+				<paradigm id="PL">
+					<prepend>eussent </prepend>
+				</paradigm>
+			</pdgmgroup>
+		</group>
+		<group id="IMPPRS">
+			<endlength>2</endlength>
+			
+			<pdgmgroup id="1">
+				<paradigm id="PL">
+					<append>issons !</append>
+				</paradigm>
+			</pdgmgroup>
+			<pdgmgroup id="2">
+				<paradigm id="SG">
+					<append>is !</append>
+				</paradigm>
+				<paradigm id="PL">
+					<append>issez !</append>
+				</paradigm>
+			</pdgmgroup>
+		</group>
+		<group id="IMPPST">
+			<append>i !</append>
+			<endlength>2</endlength>
+			
+			<pdgmgroup id="1">
+				<paradigm id="PL">
+					<prepend>ayons </prepend>
+				</paradigm>
+			</pdgmgroup>
+			<pdgmgroup id="2">
+				<paradigm id="SG">
+					<prepend>aie </prepend>
+				</paradigm>
+				<paradigm id="PL">
+					<prepend>ayez </prepend>
+				</paradigm>
+			</pdgmgroup>
+		</group>
+	</verbset>
+
+	<verbset id="reg.re">
+		<participles>
+			<participle id="present">
+				<append>ant</append>
+				<endlength>2</endlength>
+			</participle>
+			<participle id="past">
+				<append>u</append>
+				<endlength>2</endlength>
+			</participle>
+		</participles>
+		<group id="PRS">
+			<endlength>2</endlength>
+			
+			<pdgmgroup id="1">
+				<paradigm id="SG">
+					<append>s</append>
+				</paradigm>
+				<paradigm id="PL">
+					<append>ons</append>
+				</paradigm>
+			</pdgmgroup>
+			<pdgmgroup id="2">
+				<paradigm id="SG">
+					<append>s</append>
+				</paradigm>
+				<paradigm id="PL">
+					<append>ez</append>
+				</paradigm>
+			</pdgmgroup>
+			<pdgmgroup id="3">
+				<paradigm id="SG" />
+				<paradigm id="PL">
+					<append>ent</append>
+				</paradigm>
+			</pdgmgroup>
+		</group>
+		<group id="PCOMP">
+			<append>u</append>
+			<endlength>2</endlength>
+			
+			<pdgmgroup id="1">
+				<paradigm id="SG">
+					<prepend>ai </prepend>
+				</paradigm>
+				<paradigm id="PL">
+					<prepend>avons </prepend>
+				</paradigm>
+			</pdgmgroup>
+			<pdgmgroup id="2">
+				<paradigm id="SG">
+					<prepend>as </prepend>
+				</paradigm>
+				<paradigm id="PL">
+					<prepend>avez </prepend>
+				</paradigm>
+			</pdgmgroup>
+			<pdgmgroup id="3">
+				<paradigm id="SG">
+					<prepend>a </prepend>
+				</paradigm>
+				<paradigm id="PL">
+					<prepend>ont </prepend>
+				</paradigm>
+			</pdgmgroup>
+		</group>
+		<group id="IMP">
+			<endlength>2</endlength>
+			
+			<pdgmgroup id="1">
+				<paradigm id="SG">
+					<append>ais</append>
+				</paradigm>
+				<paradigm id="PL">
+					<append>ions</append>
+				</paradigm>
+			</pdgmgroup>
+			<pdgmgroup id="2">
+				<paradigm id="SG">
+					<append>ais</append>
+				</paradigm>
+				<paradigm id="PL">
+					<append>iez</append>
+				</paradigm>
+			</pdgmgroup>
+			<pdgmgroup id="3">
+				<paradigm id="SG">
+					<append>ait</append>
+				</paradigm>
+				<paradigm id="PL">
+					<append>aient</append>
+				</paradigm>
+			</pdgmgroup>
+		</group>
+		<group id="PLU">
+			<append>u</append>
+			<endlength>2</endlength>
+			
+			<pdgmgroup id="1">
+				<paradigm id="SG">
+					<prepend>avais </prepend>
+				</paradigm>
+				<paradigm id="PL">
+					<prepend>avions </prepend>
+				</paradigm>
+			</pdgmgroup>
+			<pdgmgroup id="2">
+				<paradigm id="SG">
+					<prepend>avais </prepend>
+				</paradigm>
+				<paradigm id="PL">
+					<prepend>aviez </prepend>
+				</paradigm>
+			</pdgmgroup>
+			<pdgmgroup id="3">
+				<paradigm id="SG">
+					<prepend>avait </prepend>
+				</paradigm>
+				<paradigm id="PL">
+					<prepend>avaient </prepend>
+				</paradigm>
+			</pdgmgroup>
+		</group>
+		<group id="FUTSIMP">
+			<pdgmgroup id="1">
+				<paradigm id="SG">
+					<append>ai</append>
+				</paradigm>
+				<paradigm id="PL">
+					<append>ons</append>
+				</paradigm>
+			</pdgmgroup>
+			<pdgmgroup id="2">
+				<paradigm id="SG">
+					<append>as</append>
+				</paradigm>
+				<paradigm id="PL">
+					<append>ez</append>
+				</paradigm>
+			</pdgmgroup>
+			<pdgmgroup id="3">
+				<paradigm id="SG">
+					<append>a</append>
+				</paradigm>
+				<paradigm id="PL">
+					<append>ont</append>
+				</paradigm>
+			</pdgmgroup>
+		</group>
+		<group id="FUTANT">
+			<append>u</append>
+			<endlength>2</endlength>
+			
+			<pdgmgroup id="1">
+				<paradigm id="SG">
+					<prepend>aurai </prepend>
+				</paradigm>
+				<paradigm id="PL">
+					<prepend>aurons </prepend>
+				</paradigm>
+			</pdgmgroup>
+			<pdgmgroup id="2">
+				<paradigm id="SG">
+					<prepend>auras </prepend>
+				</paradigm>
+				<paradigm id="PL">
+					<prepend>aurez </prepend>
+				</paradigm>
+			</pdgmgroup>
+			<pdgmgroup id="3">
+				<paradigm id="SG">
+					<prepend>aura </prepend>
+				</paradigm>
+				<paradigm id="PL">
+					<prepend>auront </prepend>
+				</paradigm>
+			</pdgmgroup>
+		</group>
+		<group id="PASSIMP">
+			<endlength>2</endlength>
+			
+			<pdgmgroup id="1">
+				<paradigm id="SG">
+					<append>is</append>
+				</paradigm>
+				<paradigm id="PL">
+					<append>îmes</append>
+				</paradigm>
+			</pdgmgroup>
+			<pdgmgroup id="2">
+				<paradigm id="SG">
+					<append>is</append>
+				</paradigm>
+				<paradigm id="PL">
+					<append>îtes</append>
+				</paradigm>
+			</pdgmgroup>
+			<pdgmgroup id="3">
+				<paradigm id="SG">
+					<append>it</append>
+				</paradigm>
+				<paradigm id="PL">
+					<append>irent</append>
+				</paradigm>
+			</pdgmgroup>
+		</group>
+		<group id="PSTANT">
+			<append>u</append>
+			<endlength>2</endlength>
+			
+			<pdgmgroup id="1">
+				<paradigm id="SG">
+					<prepend>eus </prepend>
+				</paradigm>
+				<paradigm id="PL">
+					<prepend>eûmes </prepend>
+				</paradigm>
+			</pdgmgroup>
+			<pdgmgroup id="2">
+				<paradigm id="SG">
+					<prepend>eus </prepend>
+				</paradigm>
+				<paradigm id="PL">
+					<prepend>eûtes </prepend>
+				</paradigm>
+			</pdgmgroup>
+			<pdgmgroup id="3">
+				<paradigm id="SG">
+					<prepend>eut </prepend>
+				</paradigm>
+				<paradigm id="PL">
+					<prepend>eurent </prepend>
+				</paradigm>
+			</pdgmgroup>
+		</group>
+		<group id="SUBPRS">
+			<endlength>2</endlength>
+			
+			<pdgmgroup id="1">
+				<paradigm id="SG">
+					<append>e</append>
+				</paradigm>
+				<paradigm id="PL">
+					<append>ions</append>
+				</paradigm>
+			</pdgmgroup>
+			<pdgmgroup id="2">
+				<paradigm id="SG">
+					<append>es</append>
+				</paradigm>
+				<paradigm id="PL">
+					<append>iez</append>
+				</paradigm>
+			</pdgmgroup>
+			<pdgmgroup id="3">
+				<paradigm id="SG">
+					<append>e</append>
+				</paradigm>
+				<paradigm id="PL">
+					<append>ent</append>
 				</paradigm>
 			</pdgmgroup>
 		</group>
@@ -808,71 +1264,67 @@
 				</paradigm>
 			</pdgmgroup>
 		</group>
-		<group id="SUBPST" endlength="2">
+		<group id="SUBPST">
+			<append>u</append>
+			<endlength>2</endlength>
+			
 			<pdgmgroup id="1">
 				<paradigm id="SG">
 					<prepend>aie </prepend>
-					<append>i</append>
 				</paradigm>
 				<paradigm id="PL">
 					<prepend>ayons </prepend>
-					<append>i</append>
 				</paradigm>
 			</pdgmgroup>
 			<pdgmgroup id="2">
 				<paradigm id="SG">
 					<prepend>aies </prepend>
-					<append>i</append>
 				</paradigm>
 				<paradigm id="PL">
 					<prepend>ayez </prepend>
-					<append>i</append>
 				</paradigm>
 			</pdgmgroup>
 			<pdgmgroup id="3">
 				<paradigm id="SG">
 					<prepend>ait </prepend>
-					<append>i</append>
 				</paradigm>
 				<paradigm id="PL">
 					<prepend>aient </prepend>
-					<append>i</append>
 				</paradigm>
 			</pdgmgroup>
 		</group>
-		<group id="SUBPLU" endlength="2">
+		<group id="SUBPLU">
+			<append>u</append>
+			<endlength>2</endlength>
+			
 			<pdgmgroup id="1">
 				<paradigm id="SG">
 					<prepend>eusse </prepend>
-					<append>i</append>
 				</paradigm>
 				<paradigm id="PL">
 					<prepend>eussions </prepend>
-					<append>i</append>
 				</paradigm>
 			</pdgmgroup>
 			<pdgmgroup id="2">
 				<paradigm id="SG">
 					<prepend>eusses </prepend>
-					<append>i</append>
 				</paradigm>
 				<paradigm id="PL">
 					<prepend>eussiez </prepend>
-					<append>i</append>
 				</paradigm>
 			</pdgmgroup>
 			<pdgmgroup id="3">
 				<paradigm id="SG">
 					<prepend>eût </prepend>
-					<append>i</append>
 				</paradigm>
 				<paradigm id="PL">
 					<prepend>eussent </prepend>
-					<append>i</append>
 				</paradigm>
 			</pdgmgroup>
 		</group>
-		<group id="CPRS" endlength="0">
+		<group id="CPRS">
+			<endlength>1</endlength>
+			
 			<pdgmgroup id="1">
 				<paradigm id="SG">
 					<append>ais</append>
@@ -898,551 +1350,67 @@
 				</paradigm>
 			</pdgmgroup>
 		</group>
-		<group id="CPST" endlength="2">
+		<group id="CPST">
+			<append>u</append>
+			<endlength>2</endlength>
+			
 			<pdgmgroup id="1">
 				<paradigm id="SG">
 					<prepend>aurais </prepend>
-					<append>i</append>
 				</paradigm>
 				<paradigm id="PL">
 					<prepend>aurions </prepend>
-					<append>i</append>
 				</paradigm>
 			</pdgmgroup>
 			<pdgmgroup id="2">
 				<paradigm id="SG">
 					<prepend>aurais </prepend>
-					<append>i</append>
 				</paradigm>
 				<paradigm id="PL">
 					<prepend>auriez </prepend>
-					<append>i</append>
 				</paradigm>
 			</pdgmgroup>
 			<pdgmgroup id="3">
 				<paradigm id="SG">
 					<prepend>aurait </prepend>
-					<append>i</append>
 				</paradigm>
 				<paradigm id="PL">
 					<prepend>auraient </prepend>
-					<append>i</append>
 				</paradigm>
 			</pdgmgroup>
 		</group>
-		<group id="CPST2" endlength="2">
+		<group id="CPST2">
+			<append>u</append>
+			<endlength>2</endlength>
+			
 			<pdgmgroup id="1">
 				<paradigm id="SG">
 					<prepend>eusse </prepend>
-					<append>i</append>
 				</paradigm>
 				<paradigm id="PL">
 					<prepend>eussions </prepend>
-					<append>i</append>
 				</paradigm>
 			</pdgmgroup>
 			<pdgmgroup id="2">
 				<paradigm id="SG">
 					<prepend>eusses </prepend>
-					<append>i</append>
 				</paradigm>
 				<paradigm id="PL">
 					<prepend>eussiez </prepend>
-					<append>i</append>
 				</paradigm>
 			</pdgmgroup>
 			<pdgmgroup id="3">
 				<paradigm id="SG">
 					<prepend>eût </prepend>
-					<append>i</append>
 				</paradigm>
 				<paradigm id="PL">
 					<prepend>eussent </prepend>
-					<append>i</append>
 				</paradigm>
 			</pdgmgroup>
 		</group>
-		<group id="IMPPRS" endlength="2">
-			<pdgmgroup id="1">
-				<paradigm id="PL">
-					<append>issons !</append>
-				</paradigm>
-			</pdgmgroup>
-			<pdgmgroup id="2">
-				<paradigm id="SG">
-					<append>is !</append>
-				</paradigm>
-				<paradigm id="PL">
-					<append>issez !</append>
-				</paradigm>
-			</pdgmgroup>
-		</group>
-		<group id="IMPPST" endlength="2">
-			<pdgmgroup id="1">
-				<paradigm id="PL">
-					<prepend>ayons </prepend>
-					<append>i !</append>
-				</paradigm>
-			</pdgmgroup>
-			<pdgmgroup id="2">
-				<paradigm id="SG">
-					<prepend>aie </prepend>
-					<append>i !</append>
-				</paradigm>
-				<paradigm id="PL">
-					<prepend>ayez </prepend>
-					<append>i !</append>
-				</paradigm>
-			</pdgmgroup>
-		</group>
-	</verbset>
-
-	<verbset id="reg.re">
-		<participles>
-			<participle id="present" endlength="2">
-				<append>ant</append>
-			</participle>
-			<participle id="past" endlength="2">
-				<append>u</append>
-			</participle>
-		</participles>
-		<group id="PRS" endlength="2">
-			<pdgmgroup id="1">
-				<paradigm id="SG">
-					<append>s</append>
-				</paradigm>
-				<paradigm id="PL">
-					<append>ons</append>
-				</paradigm>
-			</pdgmgroup>
-			<pdgmgroup id="2">
-				<paradigm id="SG">
-					<append>s</append>
-				</paradigm>
-				<paradigm id="PL">
-					<append>ez</append>
-				</paradigm>
-			</pdgmgroup>
-			<pdgmgroup id="3">
-				<paradigm id="SG" />
-				<paradigm id="PL">
-					<append>ent</append>
-				</paradigm>
-			</pdgmgroup>
-		</group>
-		<group id="PCOMP" endlength="2">
-			<pdgmgroup id="1">
-				<paradigm id="SG">
-					<prepend>ai </prepend>
-					<append>u</append>
-				</paradigm>
-				<paradigm id="PL">
-					<prepend>avons </prepend>
-					<append>u</append>
-				</paradigm>
-			</pdgmgroup>
-			<pdgmgroup id="2">
-				<paradigm id="SG">
-					<prepend>as </prepend>
-					<append>u</append>
-				</paradigm>
-				<paradigm id="PL">
-					<prepend>avez </prepend>
-					<append>u</append>
-				</paradigm>
-			</pdgmgroup>
-			<pdgmgroup id="3">
-				<paradigm id="SG">
-					<prepend>a </prepend>
-					<append>u</append>
-				</paradigm>
-				<paradigm id="PL">
-					<prepend>ont </prepend>
-					<append>u</append>
-				</paradigm>
-			</pdgmgroup>
-		</group>
-		<group id="IMP" endlength="2">
-			<pdgmgroup id="1">
-				<paradigm id="SG">
-					<append>ais</append>
-				</paradigm>
-				<paradigm id="PL">
-					<append>ions</append>
-				</paradigm>
-			</pdgmgroup>
-			<pdgmgroup id="2">
-				<paradigm id="SG">
-					<append>ais</append>
-				</paradigm>
-				<paradigm id="PL">
-					<append>iez</append>
-				</paradigm>
-			</pdgmgroup>
-			<pdgmgroup id="3">
-				<paradigm id="SG">
-					<append>ait</append>
-				</paradigm>
-				<paradigm id="PL">
-					<append>aient</append>
-				</paradigm>
-			</pdgmgroup>
-		</group>
-		<group id="PLU" endlength="2">
-			<pdgmgroup id="1">
-				<paradigm id="SG">
-					<prepend>avais </prepend>
-					<append>u</append>
-				</paradigm>
-				<paradigm id="PL">
-					<prepend>avions </prepend>
-					<append>u</append>
-				</paradigm>
-			</pdgmgroup>
-			<pdgmgroup id="2">
-				<paradigm id="SG">
-					<prepend>avais </prepend>
-					<append>é</append>
-				</paradigm>
-				<paradigm id="PL">
-					<prepend>aviez </prepend>
-					<append>é</append>
-				</paradigm>
-			</pdgmgroup>
-			<pdgmgroup id="3">
-				<paradigm id="SG">
-					<prepend>avait </prepend>
-					<append>é</append>
-				</paradigm>
-				<paradigm id="PL">
-					<prepend>avaient </prepend>
-					<append>é</append>
-				</paradigm>
-			</pdgmgroup>
-		</group>
-		<group id="FUTSIMP" endlength="0">
-			<pdgmgroup id="1">
-				<paradigm id="SG">
-					<append>ai</append>
-				</paradigm>
-				<paradigm id="PL">
-					<append>ons</append>
-				</paradigm>
-			</pdgmgroup>
-			<pdgmgroup id="2">
-				<paradigm id="SG">
-					<append>as</append>
-				</paradigm>
-				<paradigm id="PL">
-					<append>ez</append>
-				</paradigm>
-			</pdgmgroup>
-			<pdgmgroup id="3">
-				<paradigm id="SG">
-					<append>a</append>
-				</paradigm>
-				<paradigm id="PL">
-					<append>ont</append>
-				</paradigm>
-			</pdgmgroup>
-		</group>
-		<group id="FUTANT" endlength="2">
-			<pdgmgroup id="1">
-				<paradigm id="SG">
-					<prepend>aurai </prepend>
-					<append>é</append>
-				</paradigm>
-				<paradigm id="PL">
-					<prepend>aurons </prepend>
-					<append>é</append>
-				</paradigm>
-			</pdgmgroup>
-			<pdgmgroup id="2">
-				<paradigm id="SG">
-					<prepend>auras </prepend>
-					<append>é</append>
-				</paradigm>
-				<paradigm id="PL">
-					<prepend>aurez </prepend>
-					<append>é</append>
-				</paradigm>
-			</pdgmgroup>
-			<pdgmgroup id="3">
-				<paradigm id="SG">
-					<prepend>aura </prepend>
-					<append>é</append>
-				</paradigm>
-				<paradigm id="PL">
-					<prepend>auront </prepend>
-					<append>é</append>
-				</paradigm>
-			</pdgmgroup>
-		</group>
-		<group id="PASSIMP" endlength="2">
-			<pdgmgroup id="1">
-				<paradigm id="SG">
-					<append>is</append>
-				</paradigm>
-				<paradigm id="PL">
-					<append>îmes</append>
-				</paradigm>
-			</pdgmgroup>
-			<pdgmgroup id="2">
-				<paradigm id="SG">
-					<append>is</append>
-				</paradigm>
-				<paradigm id="PL">
-					<append>îtes</append>
-				</paradigm>
-			</pdgmgroup>
-			<pdgmgroup id="3">
-				<paradigm id="SG">
-					<append>it</append>
-				</paradigm>
-				<paradigm id="PL">
-					<append>irent</append>
-				</paradigm>
-			</pdgmgroup>
-		</group>
-		<group id="PSTANT" endlength="2">
-			<pdgmgroup id="1">
-				<paradigm id="SG">
-					<prepend>eus </prepend>
-					<append>é</append>
-				</paradigm>
-				<paradigm id="PL">
-					<prepend>eûmes </prepend>
-					<append>�</append>
-				</paradigm>
-			</pdgmgroup>
-			<pdgmgroup id="2">
-				<paradigm id="SG">
-					<prepend>eus </prepend>
-					<append>é</append>
-				</paradigm>
-				<paradigm id="PL">
-					<prepend>eûtes </prepend>
-					<append>�</append>
-				</paradigm>
-			</pdgmgroup>
-			<pdgmgroup id="3">
-				<paradigm id="SG">
-					<prepend>eut </prepend>
-					<append>é</append>
-				</paradigm>
-				<paradigm id="PL">
-					<prepend>eurent </prepend>
-					<append>é</append>
-				</paradigm>
-			</pdgmgroup>
-		</group>
-		<group id="SUBPRS" endlength="2">
-			<pdgmgroup id="1">
-				<paradigm id="SG">
-					<append>e</append>
-				</paradigm>
-				<paradigm id="PL">
-					<append>ions</append>
-				</paradigm>
-			</pdgmgroup>
-			<pdgmgroup id="2">
-				<paradigm id="SG">
-					<append>es</append>
-				</paradigm>
-				<paradigm id="PL">
-					<append>iez</append>
-				</paradigm>
-			</pdgmgroup>
-			<pdgmgroup id="3">
-				<paradigm id="SG">
-					<append>e</append>
-				</paradigm>
-				<paradigm id="PL">
-					<append>ent</append>
-				</paradigm>
-			</pdgmgroup>
-		</group>
-		<group id="SUBIMP" endlength="2">
-			<pdgmgroup id="1">
-				<paradigm id="SG">
-					<append>asse</append>
-				</paradigm>
-				<paradigm id="PL">
-					<append>assions</append>
-				</paradigm>
-			</pdgmgroup>
-			<pdgmgroup id="2">
-				<paradigm id="SG">
-					<append>asses</append>
-				</paradigm>
-				<paradigm id="PL">
-					<append>assiez</append>
-				</paradigm>
-			</pdgmgroup>
-			<pdgmgroup id="3">
-				<paradigm id="SG">
-					<append>ât</append>
-				</paradigm>
-				<paradigm id="PL">
-					<append>assent</append>
-				</paradigm>
-			</pdgmgroup>
-		</group>
-		<group id="SUBPST" endlength="2">
-			<pdgmgroup id="1">
-				<paradigm id="SG">
-					<prepend>aie </prepend>
-					<append>u</append>
-				</paradigm>
-				<paradigm id="PL">
-					<prepend>ayons </prepend>
-					<append>u</append>
-				</paradigm>
-			</pdgmgroup>
-			<pdgmgroup id="2">
-				<paradigm id="SG">
-					<prepend>aies </prepend>
-					<append>u</append>
-				</paradigm>
-				<paradigm id="PL">
-					<prepend>ayez </prepend>
-					<append>u</append>
-				</paradigm>
-			</pdgmgroup>
-			<pdgmgroup id="3">
-				<paradigm id="SG">
-					<prepend>ait </prepend>
-					<append>u</append>
-				</paradigm>
-				<paradigm id="PL">
-					<prepend>aient </prepend>
-					<append>u</append>
-				</paradigm>
-			</pdgmgroup>
-		</group>
-		<group id="SUBPLU" endlength="2">
-			<pdgmgroup id="1">
-				<paradigm id="SG">
-					<prepend>eusse </prepend>
-					<append>u</append>
-				</paradigm>
-				<paradigm id="PL">
-					<prepend>eussions </prepend>
-					<append>u</append>
-				</paradigm>
-			</pdgmgroup>
-			<pdgmgroup id="2">
-				<paradigm id="SG">
-					<prepend>eusses </prepend>
-					<append>u</append>
-				</paradigm>
-				<paradigm id="PL">
-					<prepend>eussiez </prepend>
-					<append>u</append>
-				</paradigm>
-			</pdgmgroup>
-			<pdgmgroup id="3">
-				<paradigm id="SG">
-					<prepend>eût </prepend>
-					<append>u</append>
-				</paradigm>
-				<paradigm id="PL">
-					<prepend>eussent </prepend>
-					<append>u</append>
-				</paradigm>
-			</pdgmgroup>
-		</group>
-		<group id="CPRS" endlength="0">
-			<pdgmgroup id="1">
-				<paradigm id="SG">
-					<append>ais</append>
-				</paradigm>
-				<paradigm id="PL">
-					<append>ions</append>
-				</paradigm>
-			</pdgmgroup>
-			<pdgmgroup id="2">
-				<paradigm id="SG">
-					<append>as</append>
-				</paradigm>
-				<paradigm id="PL">
-					<append>iez</append>
-				</paradigm>
-			</pdgmgroup>
-			<pdgmgroup id="3">
-				<paradigm id="SG">
-					<append>a</append>
-				</paradigm>
-				<paradigm id="PL">
-					<append>aient</append>
-				</paradigm>
-			</pdgmgroup>
-		</group>
-		<group id="CPST" endlength="2">
-			<pdgmgroup id="1">
-				<paradigm id="SG">
-					<prepend>aurais </prepend>
-					<append>u</append>
-				</paradigm>
-				<paradigm id="PL">
-					<prepend>aurions </prepend>
-					<append>u</append>
-				</paradigm>
-			</pdgmgroup>
-			<pdgmgroup id="2">
-				<paradigm id="SG">
-					<prepend>aurais </prepend>
-					<append>u</append>
-				</paradigm>
-				<paradigm id="PL">
-					<prepend>auriez </prepend>
-					<append>u</append>
-				</paradigm>
-			</pdgmgroup>
-			<pdgmgroup id="3">
-				<paradigm id="SG">
-					<prepend>aurait </prepend>
-					<append>u</append>
-				</paradigm>
-				<paradigm id="PL">
-					<prepend>auraient </prepend>
-					<append>u</append>
-				</paradigm>
-			</pdgmgroup>
-		</group>
-		<group id="CPST2" endlength="2">
-			<pdgmgroup id="1">
-				<paradigm id="SG">
-					<prepend>eusse </prepend>
-					<append>u</append>
-				</paradigm>
-				<paradigm id="PL">
-					<prepend>eussions </prepend>
-					<append>u</append>
-				</paradigm>
-			</pdgmgroup>
-			<pdgmgroup id="2">
-				<paradigm id="SG">
-					<prepend>eusses </prepend>
-					<append>u</append>
-				</paradigm>
-				<paradigm id="PL">
-					<prepend>eussiez </prepend>
-					<append>u</append>
-				</paradigm>
-			</pdgmgroup>
-			<pdgmgroup id="3">
-				<paradigm id="SG">
-					<prepend>eût </prepend>
-					<append>u</append>
-				</paradigm>
-				<paradigm id="PL">
-					<prepend>eussent </prepend>
-					<append>u</append>
-				</paradigm>
-			</pdgmgroup>
-		</group>
-		<group id="IMPPRS" endlength="2">
+		<group id="IMPPRS">
+			<endlength>2</endlength>
+			
 			<pdgmgroup id="1">
 				<paradigm id="PL">
 					<append>ons !</append>
@@ -1450,28 +1418,28 @@
 			</pdgmgroup>
 			<pdgmgroup id="2">
 				<paradigm id="SG">
-					<append>e !</append>
+					<append>s !</append>
 				</paradigm>
 				<paradigm id="PL">
 					<append>ez !</append>
 				</paradigm>
 			</pdgmgroup>
 		</group>
-		<group id="IMPPST" endlength="2">
+		<group id="IMPPST">
+			<append>u !</append>
+			<endlength>2</endlength>
+			
 			<pdgmgroup id="1">
 				<paradigm id="PL">
 					<prepend>ayons </prepend>
-					<append>u !</append>
 				</paradigm>
 			</pdgmgroup>
 			<pdgmgroup id="2">
 				<paradigm id="SG">
 					<prepend>aie </prepend>
-					<append>u !</append>
 				</paradigm>
 				<paradigm id="PL">
 					<prepend>ayez </prepend>
-					<append>u !</append>
 				</paradigm>
 			</pdgmgroup>
 		</group>
