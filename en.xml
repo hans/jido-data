@@ -252,6 +252,7 @@
 		</group>
 		<group id="imp">
 			<pdgmgroup id="1">
+				<paradigm id="sg" ignore="true" />
 				<paradigm id="pl">
 					<prepend>let's </prepend>
 				</paradigm>
@@ -260,6 +261,7 @@
 				<paradigm id="sg" />
 				<paradigm id="pl" />
 			</pdgmgroup>
+			<pdgmgroup id="3" ignore="true" />
 		</group>
 		<group id="pprs">
 			<append>ing</append>

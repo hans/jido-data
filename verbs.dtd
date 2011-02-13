@@ -49,12 +49,14 @@
 <!ELEMENT pdgmgroup (paradigm*, mod?, prepend?, append?, endlength?)>
 <!ATTLIST pdgmgroup
 	id CDATA #REQUIRED
+	ignore CDATA #IMPLIED
   >
 
 <!ELEMENT paradigm (mod|prepend|append)*>
 <!ATTLIST paradigm
 	irregular CDATA #IMPLIED
 	id CDATA #REQUIRED
+	ignore CDATA #IMPLIED
   >
 
 <!ELEMENT prepend (#PCDATA)>

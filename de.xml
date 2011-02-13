@@ -384,6 +384,7 @@
 		<group id="imp">
 			<endlength>2</endlength>
 			
+			<pdgmgroup id="1" ignore="true" />
 			<pdgmgroup id="2">
 				<paradigm id="sg">
 					<append>e</append>
@@ -392,6 +393,7 @@
 					<append>t</append>
 				</paradigm>
 			</pdgmgroup>
+			<pdgmgroup id="3" ignore="true" />
 		</group>
 	</verbset>
 
