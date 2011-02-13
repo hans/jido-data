@@ -24,7 +24,7 @@
 			<form desc="progressive indicative future perfect">pfut2</form>
 			<form desc="progressive conditional present">pcoprs</form>
 			<form desc="progressive conditional perfect">pcoprf</form>
-		</form>
+		</forms>
 		
 		<fallbacks>
 			<fallback desc="regular" regex="*" ref="reg" />

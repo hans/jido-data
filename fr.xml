@@ -20,7 +20,7 @@
 			<form desc="conditional past II">cpst2</form>
 			<form desc="imperative present">impprs</form>
 			<form desc="imperative past">imppst</form>
-		</form>
+		</forms>
 		
 		<fallbacks>
 			<fallback desc="-er verb" regex="er$" ref="reg.er" />

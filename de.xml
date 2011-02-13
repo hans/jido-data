@@ -16,7 +16,7 @@
 			<form desc="conditional present">coprs</form>
 			<form desc="conditional perfect">coprf</form>
 			<form desc="imperative">imp</form>
-		</form>
+		</forms>
 		
 		<fallbacks>
 			<fallback desc="regular" regex="*" ref="reg" />
