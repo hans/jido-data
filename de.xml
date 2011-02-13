@@ -12,7 +12,7 @@
 			<form desc="conjunctive present">cprs</form>
 			<form desc="conjunctive perfect">cprf</form>
 			<form desc="conjunctive past">cpst</form>
-			<form desc="conjunctive pluperfect">subplu</form>
+			<form desc="conjunctive pluperfect">cplu</form>
 			<form desc="conditional present">coprs</form>
 			<form desc="conditional perfect">coprf</form>
 			<form desc="imperative">imp</form>
