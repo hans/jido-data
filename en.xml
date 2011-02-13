@@ -27,12 +27,12 @@
 		</form>
 		
 		<paradigms>
-			<paradigm desc="1st-person singular">1sg</paradigm>
-			<paradigm desc="1st-person plural">1pl</paradigm>
-			<paradigm desc="2nd-person singular">2sg</paradigm>
-			<paradigm desc="2nd-person plural">2pl</paradigm>
-			<paradigm desc="3rd-person singular">3sg</paradigm>
-			<paradigm desc="3rd-person plural">3pl</paradigm>
+			<paradigm desc="1st-person singular" person="1" quant="sg" />
+			<paradigm desc="1st-person plural" person="1" quant="pl" />
+			<paradigm desc="2nd-person singular" person="2" quant="sg" />
+			<paradigm desc="2nd-person plural" person="2" quant="pl" />
+			<paradigm desc="3rd-person singular" person="3" quant="sg" />
+			<paradigm desc="3rd-person plural" person="3" quant="pl" />
 		</paradigms>
 	</meta>
 	
