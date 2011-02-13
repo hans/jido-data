@@ -24,7 +24,7 @@
 	lang CDATA #REQUIRED
   >
 
-<!ELEMENT verbset (participles, mood+)>
+<!ELEMENT verbset (participles, group+)>
 <!ATTLIST verbset
 	id CDATA #REQUIRED
 	inherit CDATA #IMPLIED
@@ -32,27 +32,21 @@
 
 <!ELEMENT participles (participle+)>
 
-<!ELEMENT participle (mod?, prepend?, append?)>
+<!ELEMENT participle (mod?, prepend?, append?, endlength?)>
 <!ATTLIST participle
 	irregular CDATA #IMPLIED
-	endlength CDATA #REQUIRED
 	id CDATA #REQUIRED
   >
 
 <!ELEMENT append (#PCDATA)>
 
-<!ELEMENT mood (group+)>
-<!ATTLIST mood
-	id CDATA #REQUIRED
-  >
-
-<!ELEMENT group (pdgmgroup+)>
+<!ELEMENT group (pdgmgroup+, mod?, prepend?, append?, endlength?)>
 <!ATTLIST group
 	endlength CDATA #REQUIRED
 	id CDATA #REQUIRED
   >
 
-<!ELEMENT pdgmgroup (paradigm*)>
+<!ELEMENT pdgmgroup (paradigm*, mod?, prepend?, append?, endlength?)>
 <!ATTLIST pdgmgroup
 	id CDATA #REQUIRED
   >
@@ -72,9 +66,11 @@
 	match CDATA #REQUIRED
   >
 
-<!ELEMENT verb (participles*, mood*)>
+<!ELEMENT verb (participles*, group*)>
 <!ATTLIST verb
 	ref CDATA #IMPLIED
 	inherit CDATA #IMPLIED
 	word CDATA #IMPLIED
   >
+
+<!ELEMENT endlength (#PCDATA)>
