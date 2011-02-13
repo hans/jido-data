@@ -32,7 +32,6 @@
 		<participles>
 			<participle id="present">
 				<append>d</append>
-				<endlength>0</endlength>
 			</participle>
 			<participle id="past">
 				<prepend>ge</prepend>
@@ -155,8 +154,6 @@
 			</pdgmgroup>
 		</group>
 		<group id="FUT1">
-			<endlength>0</endlength>
-			
 			<pdgmgroup id="1">
 				<paradigm id="SG">
 					<prepend>werde </prepend>
@@ -326,8 +323,6 @@
 			</pdgmgroup>
 		</group>
 		<group id="COPRS">
-			<endlength>0</endlength>
-			
 			<pdgmgroup id="1">
 				<paradigm id="SG">
 					<prepend>würde </prepend>
@@ -400,7 +395,6 @@
 		<participles>
 			<participle id="past" irregular="true">
 				<prepend>ge</prepend>
-				<endlength>0</endlength>
 			</participle>
 		</participles>
 		<group id="PRS">
@@ -479,12 +473,10 @@
 		<participles>
 			<participle id="past" irregular="true">
 				<prepend>ge</prepend>
-				<endlength>0</endlength>
 			</participle>
 		</participles>
 		<group id="PRS">
 			<mod match="first" search="a" replace="ä" />
-			<endlength>0</endlength>
 			
 			<pdgmgroup id="2">
 				<paradigm id="SG" irregular="true">
@@ -557,7 +549,6 @@
 		<participles>
 			<participle id="past" irregular="true">
 				<prepend>ge</prepend>
-				<endlength>0</endlength>
 			</participle>
 		</participles>
 		<group id="PST">
@@ -621,7 +612,6 @@
 			<participle id="past" irregular="true">
 				<mod match="first" search="er" replace="or" />
 				<prepend>ge</prepend>
-				<endlength>0</endlength>
 			</participle>
 		</participles>
 		<group id="PRS">
@@ -645,7 +635,6 @@
 		</group>
 		<group id="PRF">
 			<mod match="first" search="er" replace="or" />
-			<endlength>0</endlength>
 			
 			<pdgmgroup id="1">
 				<paradigm id="SG">
@@ -699,7 +688,6 @@
 		</group>
 		<group id="PLU">
 			<mod match="first" search="er" replace="or" />
-			<endlength>0</endlength>
 			
 			<pdgmgroup id="1">
 				<paradigm id="SG">
@@ -729,7 +717,6 @@
 		<group id="FUT2">
 			<append> haben</append>
 			<mod match="first" search="ir" replace="or" />
-			<endlength>0</endlength>
 			
 			<pdgmgroup id="1">
 				<paradigm id="SG">
@@ -758,7 +745,6 @@
 		</group>
 		<group id="CPRF">
 			<mod match="first" search="er" replace="or" />
-			<endlength>0</endlength>
 			
 			<pdgmgroup id="1">
 				<paradigm id="SG">
@@ -816,7 +802,6 @@
 		</group>
 		<group id="CPLU">
 			<mod match="first" search="er" replace="or" />
-			<endlength>0</endlength>
 			
 			<pdgmgroup id="1">
 				<paradigm id="SG">
@@ -846,7 +831,6 @@
 		<group id="COPRF">
 			<append> haben</append>
 			<mod match="first" search="er" replace="or" />
-			<endlength>0</endlength>
 			
 			<pdgmgroup id="1">
 				<paradigm id="SG">
@@ -879,12 +863,10 @@
 		<participles>
 			<participle id="past" irregular="true">
 				<mod match="first" search="ü" replace="o" />
-				<endlength>0</endlength>
 			</participle>
 		</participles>
 		<group id="PRF">
 			<mod match="first" search="ü" replace="o" />
-			<endlength>0</endlength>
 			
 			<pdgmgroup id="1">
 				<paradigm id="SG">
@@ -938,7 +920,6 @@
 		</group>
 		<group id="PLU">
 			<mod match="first" search="ü" replace="o" />
-			<endlength>0</endlength>
 			
 			<pdgmgroup id="1">
 				<paradigm id="SG">
@@ -968,7 +949,6 @@
 		<group id="FUT2">
 			<append> haben</append>
 			<mod match="first" search="ü" replace="o" />
-			<endlength>0</endlength>
 			
 			<pdgmgroup id="1">
 				<paradigm id="SG">
@@ -997,7 +977,6 @@
 		</group>
 		<group id="CPRF">
 			<mod match="first" search="ü" replace="o" />
-			<endlength>0</endlength>
 			
 			<pdgmgroup id="1">
 				<paradigm id="SG">
@@ -1055,7 +1034,6 @@
 		</group>
 		<group id="CPLU">
 			<mod match="first" search="ü" replace="o" />
-			<endlength>0</endlength>
 			
 			<pdgmgroup id="1">
 				<paradigm id="SG">
@@ -1085,7 +1063,6 @@
 		<group id="COPRF">
 			<append> haben</append>
 			<mod match="first" search="ü" replace="o" />
-			<endlength>0</endlength>
 			
 			<pdgmgroup id="1">
 				<paradigm id="SG">
@@ -1118,7 +1095,6 @@
 		<participles>
 			<participle id="past" irregular="true">
 				<prepend>ge</prepend>
-				<endlength>0</endlength>
 			</participle>
 		</participles>
 		<group id="PRS">
@@ -1197,7 +1173,6 @@
 		<participles>
 			<participle id="past" irregular="true">
 				<mod match="first" search="eh" replace="oh" />
-				<endlength>0</endlength>
 			</participle>
 		</participles>
 		<group id="PRS">
@@ -1221,7 +1196,6 @@
 		</group>
 		<group id="PRF">
 			<mod match="first" search="eh" replace="oh" />
-			<endlength>0</endlength>
 			
 			<pdgmgroup id="1">
 				<paradigm id="SG">
@@ -1275,7 +1249,6 @@
 		</group>
 		<group id="PLU">
 			<mod match="first" search="eh" replace="oh" />
-			<endlength>0</endlength>
 			
 			<pdgmgroup id="1">
 				<paradigm id="SG">
@@ -1305,7 +1278,6 @@
 		<group id="FUT2">
 			<append> haben</append>
 			<mod match="first" search="eh" replace="oh" />
-			<endlength>0</endlength>
 			
 			<pdgmgroup id="1">
 				<paradigm id="SG">
@@ -1334,7 +1306,6 @@
 		</group>
 		<group id="CPRF">
 			<mod match="first" search="eh" replace="oh" />
-			<endlength>0</endlength>
 			
 			<pdgmgroup id="1">
 				<paradigm id="SG">
@@ -1392,7 +1363,6 @@
 		</group>
 		<group id="CPLU">
 			<mod match="first" search="eh" replace="oh" />
-			<endlength>0</endlength>
 			
 			<pdgmgroup id="1">
 				<paradigm id="SG">
@@ -1422,7 +1392,6 @@
 		<group id="COPRF">
 			<append> haben</append>
 			<mod match="first" search="eh" replace="oh" />
-			<endlength>0</endlength>
 			
 			<pdgmgroup id="1">
 				<paradigm id="SG">
@@ -1454,7 +1423,6 @@
 		<participles>
 			<participle id="past" irregular="true">
 				<mod match="first" search="i" replace="o" />
-				<endlength>0</endlength>
 			</participle>
 		</participles>
 		<group id="PST">
@@ -1514,9 +1482,7 @@
 	</verb>
 	<verb word="bekommen" inherit="reg">
 		<participles>
-			<participle id="past" irregular="true">
-				<endlength>0</endlength>
-			</participle>
+			<participle id="past" irregular="true" />
 		</participles>
 		<group id="PST">
 			<mod match="first" search="o" replace="a" />
@@ -1578,12 +1544,10 @@
 			<participle id="past" irregular="true">
 				<mod match="first" search="eiß" replace="iss" />
 				<prepend>ge</prepend>
-				<endlength>0</endlength>
 			</participle>
 		</participles>
 		<group id="PRF">
 			<mod match="first" search="eiß" replace="iss" />
-			<endlength>0</endlength>
 			
 			<pdgmgroup id="1">
 				<paradigm id="SG">
@@ -1640,7 +1604,6 @@
 		</group>
 		<group id="PLU">
 			<mod match="first" search="eiß" replace="iss" />
-			<endlength>0</endlength>
 			
 			<pdgmgroup id="1">
 				<paradigm id="SG">
@@ -1670,7 +1633,6 @@
 		<group id="FUT2">
 			<append> haben</append>
 			<mod match="first" search="eiß" replace="iss" />
-			<endlength>0</endlength>
 			
 			<pdgmgroup id="1">
 				<paradigm id="SG">
@@ -1699,7 +1661,6 @@
 		</group>
 		<group id="CPRF">
 			<mod match="first" search="eiß" replace="iss" />
-			<endlength>0</endlength>
 			
 			<pdgmgroup id="1">
 				<paradigm id="SG">
@@ -1757,7 +1718,6 @@
 		</group>
 		<group id="CPLU">
 			<mod match="first" search="eiß" replace="iss" />
-			<endlength>0</endlength>
 			
 			<pdgmgroup id="1">
 				<paradigm id="SG">
@@ -1787,7 +1747,6 @@
 		<group id="COPRF">
 			<append> haben</append>
 			<mod match="first" search="eiß" replace="iss" />
-			<endlength>0</endlength>
 			
 			<pdgmgroup id="1">
 				<paradigm id="SG">
@@ -1821,7 +1780,6 @@
 			<participle id="past" irregular="true">
 				<mod match="first" search="er" replace="or" />
 				<prepend>ge</prepend>
-				<endlength>0</endlength>
 			</participle>
 		</participles>
 		<group id="PRS">
@@ -1837,7 +1795,6 @@
 		</group>
 		<group id="PRF">
 			<mod match="first" search="er" replace="or" />
-			<endlength>0</endlength>
 			
 			<pdgmgroup id="1">
 				<paradigm id="SG">
@@ -1887,7 +1844,6 @@
 		</group>
 		<group id="PLU">
 			<mod match="first" search="er" replace="or" />
-			<endlength>0</endlength>
 			
 			<pdgmgroup id="1">
 				<paradigm id="SG">
@@ -1917,7 +1873,6 @@
 		<group id="FUT2">
 			<append> haben</append>
 			<mod match="first" search="er" replace="or" />
-			<endlength>0</endlength>
 			
 			<pdgmgroup id="1">
 				<paradigm id="SG">
@@ -1946,7 +1901,6 @@
 		</group>
 		<group id="CPRF">
 			<mod match="first" search="er" replace="or" />
-			<endlength>0</endlength>
 			
 			<pdgmgroup id="1">
 				<paradigm id="SG">
@@ -2004,7 +1958,6 @@
 		</group>
 		<group id="CPLU">
 			<mod match="first" search="er" replace="or" />
-			<endlength>0</endlength>
 			
 			<pdgmgroup id="1">
 				<paradigm id="SG">
@@ -2034,7 +1987,6 @@
 		<group id="COPRF">
 			<append> haben</append>
 			<mod match="first" search="er" replace="or" />
-			<endlength>0</endlength>
 			
 			<pdgmgroup id="1">
 				<paradigm id="SG">
@@ -2067,7 +2019,6 @@
 		<participles>
 			<participle id="past" irregular="true">
 				<prepend>ge</prepend>
-				<endlength>0</endlength>
 			</participle>
 		</participles>
 		<group id="PRS">
@@ -2086,8 +2037,6 @@
 			</pdgmgroup>
 		</group>
 		<group id="PRF">
-			<endlength>0</endlength>
-			
 			<pdgmgroup id="1">
 				<paradigm id="SG">
 					<prepend>bin ge</prepend>
@@ -2139,8 +2088,6 @@
 			</pdgmgroup>
 		</group>
 		<group id="PLU">
-			<endlength>0</endlength>
-			
 			<pdgmgroup id="1">
 				<paradigm id="SG">
 					<prepend>war ge</prepend>
@@ -2167,8 +2114,6 @@
 			</pdgmgroup>
 		</group>
 		<group id="FUT1">
-			<endlength>0</endlength>
-			
 			<pdgmgroup id="1">
 				<paradigm id="SG">
 					<prepend>werde </prepend>
@@ -2196,7 +2141,6 @@
 		</group>
 		<group id="FUT2">
 			<append> sein</append>
-			<endlength>0</endlength>
 			
 			<pdgmgroup id="1">
 				<paradigm id="SG">
@@ -2224,8 +2168,6 @@
 			</pdgmgroup>
 		</group>
 		<group id="CPRF">
-			<endlength>0</endlength>
-			
 			<pdgmgroup id="1">
 				<paradigm id="SG">
 					<prepend>sei ge</prepend>
@@ -2281,8 +2223,6 @@
 			</pdgmgroup>
 		</group>
 		<group id="CPLU">
-			<endlength>0</endlength>
-			
 			<pdgmgroup id="1">
 				<paradigm id="SG">
 					<prepend>wäre ge</prepend>
@@ -2310,7 +2250,6 @@
 		</group>
 		<group id="COPRF">
 			<append> sein</append>
-			<endlength>0</endlength>
 			
 			<pdgmgroup id="1">
 				<paradigm id="SG">
@@ -2342,7 +2281,6 @@
 		<participles>
 			<participle id="past" irregular="true">
 				<prepend>ge</prepend>
-				<endlength>0</endlength>
 			</participle>
 		</participles>
 		<group id="PRS">
@@ -2420,12 +2358,9 @@
 		<participles>
 			<participle id="past" irregular="true">
 				<prepend>ge</prepend>
-				<endlength>0</endlength>
 			</participle>
 		</participles>
 		<group id="PRF">
-			<endlength>0</endlength>
-			
 			<pdgmgroup id="1">
 				<paradigm id="SG">
 					<prepend>bin ge</prepend>
@@ -2477,8 +2412,6 @@
 			</pdgmgroup>
 		</group>
 		<group id="PLU">
-			<endlength>0</endlength>
-			
 			<pdgmgroup id="1">
 				<paradigm id="SG">
 					<prepend>war ge</prepend>
@@ -2505,8 +2438,6 @@
 			</pdgmgroup>
 		</group>
 		<group id="FUT1">
-			<endlength>0</endlength>
-			
 			<pdgmgroup id="1">
 				<paradigm id="SG">
 					<prepend>werde </prepend>
@@ -2534,7 +2465,6 @@
 		</group>
 		<group id="FUT2">
 			<append> sein</append>
-			<endlength>0</endlength>
 			
 			<pdgmgroup id="1">
 				<paradigm id="SG">
@@ -2562,8 +2492,6 @@
 			</pdgmgroup>
 		</group>
 		<group id="CPRF">
-			<endlength>0</endlength>
-			
 			<pdgmgroup id="1">
 				<paradigm id="SG">
 					<prepend>sei ge</prepend>
@@ -2619,8 +2547,6 @@
 			</pdgmgroup>
 		</group>
 		<group id="CPLU">
-			<endlength>0</endlength>
-			
 			<pdgmgroup id="1">
 				<paradigm id="SG">
 					<prepend>wäre ge</prepend>
@@ -2648,7 +2574,6 @@
 		</group>
 		<group id="COPRF">
 			<append> sein</append>
-			<endlength>0</endlength>
 			
 			<pdgmgroup id="1">
 				<paradigm id="SG">

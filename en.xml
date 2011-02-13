@@ -40,16 +40,12 @@
 		<participles>
 			<participle id="present">
 				<append>ing</append>
-				<endlength>0</endlength>
 			</participle>
 			<participle id="past">
 				<append>ed</append>
-				<endlength>0</endlength>
 			</participle>
 		</participles>
 		<group id="PRS">
-			<endlength>0</endlength>
-			
 			<pdgmgroup id="1">
 				<paradigm id="SG" />
 				<paradigm id="PL" />
@@ -67,7 +63,6 @@
 		</group>
 		<group id="PRF">
 			<append>ed</append>
-			<endlength>0</endlength>
 			
 			<pdgmgroup id="1">
 				<prepend>have </prepend>
@@ -92,7 +87,6 @@
 		</group>
 		<group id="PST">
 			<append>ed</append>
-			<endlength>0</endlength>
 			
 			<pdgmgroup id="1">
 				<paradigm id="SG" />
@@ -110,7 +104,6 @@
 		<group id="PLU">
 			<prepend>had </prepend>
 			<append>ed</append>
-			<endlength>0</endlength>
 			
 			<pdgmgroup id="1">
 				<paradigm id="SG" />
@@ -127,7 +120,6 @@
 		</group>
 		<group id="FUT1">
 			<prepend>will</prepend>
-			<endlength>0</endlength>
 			
 			<pdgmgroup id="1">
 				<paradigm id="SG" />
@@ -145,7 +137,6 @@
 		<group id="FUT2">
 			<prepend>will have </prepend>
 			<append>ed</append>
-			<endlength>0</endlength>
 			
 			<pdgmgroup id="1">
 				<paradigm id="SG" />
@@ -161,8 +152,6 @@
 			</pdgmgroup>
 		</group>
 		<group id="SUBPRS">
-			<endlength>0</endlength>
-			
 			<pdgmgroup id="1">
 				<paradigm id="SG" />
 				<paradigm id="PL" />
@@ -179,7 +168,6 @@
 		<group id="SUBPRF">
 			<prepend>have </prepend>
 			<append>ed</append>
-			<endlength>0</endlength>
 			
 			<pdgmgroup id="1">
 				<paradigm id="SG" />
@@ -195,8 +183,6 @@
 			</pdgmgroup>
 		</group>
 		<group id="SUBIMP">
-			<endlength>0</endlength>
-			
 			<pdgmgroup id="1">
 				<paradigm id="SG" />
 				<paradigm id="PL" />
@@ -213,7 +199,6 @@
 		<group id="SUBPLU">
 			<prepend>had </prepend>
 			<append>ed</append>
-			<endlength>0</endlength>
 			
 			<pdgmgroup id="1">
 				<paradigm id="SG" />
@@ -230,7 +215,6 @@
 		</group>
 		<group id="COPRS">
 			<prepend>would </prepend>
-			<endlength>0</endlength>
 			
 			<pdgmgroup id="1">
 				<paradigm id="SG" />
@@ -248,7 +232,6 @@
 		<group id="COPRF">
 			<prepend>would have </prepend>
 			<append>ed</append>
-			<endlength>0</endlength>
 			
 			<pdgmgroup id="1">
 				<paradigm id="SG" />
@@ -264,8 +247,6 @@
 			</pdgmgroup>
 		</group>
 		<group id="IMP">
-			<endlength>0</endlength>
-			
 			<pdgmgroup id="1">
 				<paradigm id="PL">
 					<prepend>let's </prepend>
@@ -278,7 +259,6 @@
 		</group>
 		<group id="PPRS">
 			<append>ing</append>
-			<endlength>0</endlength>
 			
 			<pdgmgroup id="1">
 				<paradigm id="SG">
@@ -305,7 +285,6 @@
 		</group>
 		<group id="PPRF">
 			<append>ing</append>
-			<endlength>0</endlength>
 			
 			<pdgmgroup id="1">
 				<prepend>have been </prepend>
@@ -330,7 +309,6 @@
 		</group>
 		<group id="PPST">
 			<append>ing</append>
-			<endlength>0</endlength>
 			
 			<pdgmgroup id="1">
 				<paradigm id="SG">
@@ -358,7 +336,6 @@
 		<group id="PPLU">
 			<prepend>had been </prepend>
 			<append>ing</append>
-			<endlength>0</endlength>
 			
 			<pdgmgroup id="1">
 				<paradigm id="SG" />
@@ -376,7 +353,6 @@
 		<group id="PFUT1">
 			<prepend>will be </prepend>
 			<append>ing</append>
-			<endlength>0</endlength>
 			
 			<pdgmgroup id="1">
 				<paradigm id="SG" />
@@ -394,7 +370,6 @@
 		<group id="PFUT2">
 			<prepend>will have been </prepend>
 			<append>ing</append>
-			<endlength>0</endlength>
 			
 			<pdgmgroup id="1">
 				<paradigm id="SG" />
@@ -412,7 +387,6 @@
 		<group id="PCOPRS">
 			<prepend>would be </prepend>
 			<append>ing</append>
-			<endlength>0</endlength>
 			
 			<pdgmgroup id="1">
 				<paradigm id="SG" />
@@ -430,7 +404,6 @@
 		<group id="PCOPRF">
 			<prepend>would have been </prepend>
 			<append>ing</append>
-			<endlength>0</endlength>
 			
 			<pdgmgroup id="1">
 				<paradigm id="SG" />
@@ -449,13 +422,10 @@
 
 	<verbset id="come" inherit="reg">														 <!-- like 'come' -->
 		<participles>
-			<participle id="past" irregular="true">
-				<endlength>0</endlength>
-			</participle>
+			<participle id="past" irregular="true" />
 		</participles>
 		<group id="PST">
 			<mod match="first" search="o" replace="a" />
-			<endlength>0</endlength>
 			
 			<pdgmgroup id="1">
 				<paradigm id="SG" irregular="true" />
@@ -472,7 +442,6 @@
 		</group>
 		<group id="SUBIMP">
 			<mod match="first" search="o" replace="a" />
-			<endlength>0</endlength>
 			
 			<pdgmgroup id="1">
 				<paradigm id="SG" irregular="true" />
@@ -529,7 +498,6 @@
 		</group>
 		<group id="PST">
 			<mod match="first" search="ak" replace="ok" />
-			<endlength>0</endlength>
 			
 			<pdgmgroup id="1">
 				<paradigm id="SG" irregular="true" />
@@ -546,7 +514,6 @@
 		</group>
 		<group id="SUBIMP">
 			<mod match="first" search="ak" replace="ok" />
-			<endlength>0</endlength>
 			
 			<pdgmgroup id="1">
 				<paradigm id="SG" irregular="true" />
@@ -587,7 +554,6 @@
 		<participles>
 			<participle id="past">
 				<append>en</append>
-				<endlength>0</endlength>
 			</participle>
 		</participles>
 		<group id="PRS">
@@ -620,7 +586,6 @@
 		</group>
 		<group id="PRF">
 			<append>en</append>
-			<endlength>0</endlength>
 			
 			<pdgmgroup id="1">
 				<prepend>have</prepend>
@@ -672,7 +637,6 @@
 		<group id="PLU">
 			<prepend>had </prepend>
 			<append>en</prepend>
-			<endlength>0</endlength>
 			
 			<pdgmgroup id="1">
 				<paradigm id="SG" />
@@ -690,7 +654,6 @@
 		<group id="FUT2">
 			<prepend>will have </prepend>
 			<append>en</append>
-			<endlength>0</endlength>
 			
 			<pdgmgroup id="1">
 				<paradigm id="SG" />
@@ -708,7 +671,6 @@
 		<group id="SUBPRF">
 			<prepend>have </prepend>
 			<append>en</append>
-			<endlength>0</endlength>
 			
 			<pdgmgroup id="1">
 				<paradigm id="SG" />
@@ -743,7 +705,6 @@
 		<group id="SUBPLU">
 			<prepend>had </prepend>
 			<append>en</append>
-			<endlength>0</endlength>
 			
 			<pdgmgroup id="1">
 				<paradigm id="SG" />
@@ -760,7 +721,6 @@
 		</group>
 		<group id="COPRS">
 			<prepend>would </prepend>
-			<endlength>0</endlength>
 			
 			<pdgmgroup id="1">
 				<paradigm id="SG" />
@@ -778,7 +738,6 @@
 		<group id="COPRF">
 			<prepend>would have </prepend>
 			<append>en</append>
-			<endlength>0</endlength>
 			
 			<pdgmgroup id="1">
 				<paradigm id="SG" />
@@ -799,13 +758,11 @@
 			<participle id="past" irregular="true">
 				<mod match="first" search="ea" replace="o" />
 				<append>n</append>
-				<endlength>0</endlength>
 			</participle>
 		</participles>
 		<group id="PRF">
 			<append>n</append>
 			<mod match="first" search="ea" replace="o" />
-			<endlength>0</endlength>
 			
 			<pdgmgroup id="1">
 				<prepend>have </prepend>
@@ -831,7 +788,6 @@
 		<group id="PST">
 			<append>e</append>
 			<mod match="first" search="ea" replace="o" />
-			<endlength>0</endlength>
 			
 			<pdgmgroup id="1">
 				<paradigm id="SG" irregular="true" />
@@ -849,7 +805,6 @@
 		<group id="PLU">
 			<prepend>had </prepend>
 			<append>n</append>
-			<endlength>0</endlength>
 			
 			<pdgmgroup id="1">
 				<paradigm id="SG" />
@@ -868,7 +823,6 @@
 			<prepend>will have </prepend>
 			<append>n</append>
 			<mod match="first" search="ea" replace="o" />
-			<endlength>0</endlength>
 			
 			<pdgmgroup id="1">
 				<paradigm id="SG" />
@@ -887,7 +841,6 @@
 			<prepend>have </prepend>
 			<append>n</append>
 			<mod match="first" search="ea" replace="o" />
-			<endlength>0</endlength>
 			
 			<pdgmgroup id="1">
 				<paradigm id="SG" />
@@ -905,7 +858,6 @@
 		<group id="SUBIMP">
 			<append>e</append>
 			<mod match="first" search="ea" replace="o" />
-			<endlength>0</endlength>
 			
 			<pdgmgroup id="1">
 				<paradigm id="SG" irregular="true" />
@@ -924,7 +876,6 @@
 			<prepend>had </prepend>
 			<append>n</append>
 			<mod match="first" search="ea" replace="o" />
-			<endlength>0</endlength>
 			
 			<pdgmgroup id="1">
 				<paradigm id="SG" />
@@ -943,7 +894,6 @@
 			<prepend>would have </prepend>
 			<append>n</append>
 			<mod match="first" search="ea" replace="o" />
-			<endlength>0</endlength>
 			
 			<pdgmgroup id="1">
 				<paradigm id="SG" />
@@ -963,12 +913,10 @@
 		<participles>
 			<participle id="past" irregular="true">
 				<append>en</append>
-				<endlength>0</endlength>
 			</participle>
 		</participles>
 		<group id="PRF">
 			<append>en</append>
-			<endlength>0</endlength>
 			
 			<pdgmgroup id="1">
 				<prepend>have </prepend>
@@ -991,9 +939,7 @@
 				</paradigm>
 			</pdgmgroup>
 		</group>
-		<group id="PST">
-			<endlength>0</endlength>
-			
+		<group id="PST">			
 			<pdgmgroup id="1">
 				<paradigm id="SG" irregular="true" />
 				<paradigm id="PL" irregular="true" />
@@ -1010,7 +956,6 @@
 		<group id="PLU">
 			<prepend>had </prepend>
 			<append>en</append>
-			<endlength>0</endlength>
 			
 			<pdgmgroup id="1">
 				<paradigm id="SG" />
@@ -1028,7 +973,6 @@
 		<group id="FUT2">
 			<prepend>will have </prepend>
 			<append>en</append>
-			<endlength>0</endlength>
 			
 			<pdgmgroup id="1">
 				<paradigm id="SG" />
@@ -1046,7 +990,6 @@
 		<group id="SUBPRF">
 			<prepend>have </prepend>
 			<append>en</append>
-			<endlength>0</endlength>
 			
 			<pdgmgroup id="1">
 				<paradigm id="SG" />
@@ -1064,7 +1007,6 @@
 		<group id="SUBPLU">
 			<prepend>had </prepend>
 			<append>en</append>
-			<endlength>0</endlength>
 			
 			<pdgmgroup id="1">
 				<paradigm id="SG" />
@@ -1082,7 +1024,6 @@
 		<group id="COPRF">
 			<prepend>would have </prepend>
 			<append>en</append>
-			<endlength>0</endlength>
 			
 			<pdgmgroup id="1">
 				<paradigm id="SG" />
