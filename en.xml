@@ -49,377 +49,377 @@
 				<append>ed</append>
 			</participle>
 		</participles>
-		<group id="PRS">
+		<group id="prs">
 			<pdgmgroup id="1">
-				<paradigm id="SG" />
-				<paradigm id="PL" />
+				<paradigm id="sg" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 			<pdgmgroup id="2">
-				<paradigm id="SG" />
-				<paradigm id="PL" />
+				<paradigm id="sg" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 			<pdgmgroup id="3">
-				<paradigm id="SG">
+				<paradigm id="sg">
 					<append>s</append>
 				</paradigm>
-				<paradigm id="PL" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 		</group>
-		<group id="PRF">
+		<group id="prf">
 			<append>ed</append>
 			
 			<pdgmgroup id="1">
 				<prepend>have </prepend>
 				
-				<paradigm id="SG" />
-				<paradigm id="PL" />
+				<paradigm id="sg" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 			<pdgmgroup id="2">
 				<prepend>have </prepend>
 				
-				<paradigm id="SG" />
-				<paradigm id="PL" />
+				<paradigm id="sg" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 			<pdgmgroup id="3">
-				<paradigm id="SG">
+				<paradigm id="sg">
 					<prepend>has </prepend>
 				</paradigm>
-				<paradigm id="PL">
+				<paradigm id="pl">
 					<prepend>have </prepend>
 				</paradigm>
 			</pdgmgroup>
 		</group>
-		<group id="PST">
+		<group id="pst">
 			<append>ed</append>
 			
 			<pdgmgroup id="1">
-				<paradigm id="SG" />
-				<paradigm id="PL" />
+				<paradigm id="sg" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 			<pdgmgroup id="2">
-				<paradigm id="SG" />
-				<paradigm id="PL" />
+				<paradigm id="sg" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 			<pdgmgroup id="3">
-				<paradigm id="SG" />
-				<paradigm id="PL" />
+				<paradigm id="sg" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 		</group>
-		<group id="PLU">
+		<group id="plu">
 			<prepend>had </prepend>
 			<append>ed</append>
 			
 			<pdgmgroup id="1">
-				<paradigm id="SG" />
-				<paradigm id="PL" />
+				<paradigm id="sg" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 			<pdgmgroup id="2">
-				<paradigm id="SG" />
-				<paradigm id="PL" />
+				<paradigm id="sg" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 			<pdgmgroup id="3">
-				<paradigm id="SG" />
-				<paradigm id="PL" />
+				<paradigm id="sg" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 		</group>
-		<group id="FUT1">
+		<group id="fut1">
 			<prepend>will</prepend>
 			
 			<pdgmgroup id="1">
-				<paradigm id="SG" />
-				<paradigm id="PL" />
+				<paradigm id="sg" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 			<pdgmgroup id="2">
-				<paradigm id="SG" />
-				<paradigm id="PL" />
+				<paradigm id="sg" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 			<pdgmgroup id="3">
-				<paradigm id="SG" />
-				<paradigm id="PL" />
+				<paradigm id="sg" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 		</group>
-		<group id="FUT2">
+		<group id="fut2">
 			<prepend>will have </prepend>
 			<append>ed</append>
 			
 			<pdgmgroup id="1">
-				<paradigm id="SG" />
-				<paradigm id="PL" />
+				<paradigm id="sg" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 			<pdgmgroup id="2">
-				<paradigm id="SG" />
-				<paradigm id="PL" />
+				<paradigm id="sg" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 			<pdgmgroup id="3">
-				<paradigm id="SG" />
-				<paradigm id="PL" />
+				<paradigm id="sg" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 		</group>
-		<group id="SUBPRS">
+		<group id="subprs">
 			<pdgmgroup id="1">
-				<paradigm id="SG" />
-				<paradigm id="PL" />
+				<paradigm id="sg" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 			<pdgmgroup id="2">
-				<paradigm id="SG" />
-				<paradigm id="PL" />
+				<paradigm id="sg" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 			<pdgmgroup id="3">
-				<paradigm id="SG" />
-				<paradigm id="PL" />
+				<paradigm id="sg" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 		</group>
-		<group id="SUBPRF">
+		<group id="subprf">
 			<prepend>have </prepend>
 			<append>ed</append>
 			
 			<pdgmgroup id="1">
-				<paradigm id="SG" />
-				<paradigm id="PL" />
+				<paradigm id="sg" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 			<pdgmgroup id="2">
-				<paradigm id="SG" />
-				<paradigm id="PL" />
+				<paradigm id="sg" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 			<pdgmgroup id="3">
-				<paradigm id="SG" />
-				<paradigm id="PL" />
+				<paradigm id="sg" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 		</group>
-		<group id="SUBIMP">
+		<group id="subimp">
 			<pdgmgroup id="1">
-				<paradigm id="SG" />
-				<paradigm id="PL" />
+				<paradigm id="sg" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 			<pdgmgroup id="2">
-				<paradigm id="SG" />
-				<paradigm id="PL" />
+				<paradigm id="sg" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 			<pdgmgroup id="3">
-				<paradigm id="SG" />
-				<paradigm id="PL" />
+				<paradigm id="sg" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 		</group>
-		<group id="SUBPLU">
+		<group id="subplu">
 			<prepend>had </prepend>
 			<append>ed</append>
 			
 			<pdgmgroup id="1">
-				<paradigm id="SG" />
-				<paradigm id="PL" />
+				<paradigm id="sg" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 			<pdgmgroup id="2">
-				<paradigm id="SG" />
-				<paradigm id="PL" />
+				<paradigm id="sg" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 			<pdgmgroup id="3">
-				<paradigm id="SG" />
-				<paradigm id="PL" />
+				<paradigm id="sg" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 		</group>
-		<group id="COPRS">
+		<group id="coprs">
 			<prepend>would </prepend>
 			
 			<pdgmgroup id="1">
-				<paradigm id="SG" />
-				<paradigm id="PL" />
+				<paradigm id="sg" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 			<pdgmgroup id="2">
-				<paradigm id="SG" />
-				<paradigm id="PL" />
+				<paradigm id="sg" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 			<pdgmgroup id="3">
-				<paradigm id="SG" />
-				<paradigm id="PL" />
+				<paradigm id="sg" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 		</group>
-		<group id="COPRF">
+		<group id="coprf">
 			<prepend>would have </prepend>
 			<append>ed</append>
 			
 			<pdgmgroup id="1">
-				<paradigm id="SG" />
-				<paradigm id="PL" />
+				<paradigm id="sg" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 			<pdgmgroup id="2">
-				<paradigm id="SG" />
-				<paradigm id="PL" />
+				<paradigm id="sg" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 			<pdgmgroup id="3">
-				<paradigm id="SG" />
-				<paradigm id="PL" />
+				<paradigm id="sg" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 		</group>
-		<group id="IMP">
+		<group id="imp">
 			<pdgmgroup id="1">
-				<paradigm id="PL">
+				<paradigm id="pl">
 					<prepend>let's </prepend>
 				</paradigm>
 			</pdgmgroup>
 			<pdgmgroup id="2">
-				<paradigm id="SG" />
-				<paradigm id="PL" />
+				<paradigm id="sg" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 		</group>
-		<group id="PPRS">
+		<group id="pprs">
 			<append>ing</append>
 			
 			<pdgmgroup id="1">
-				<paradigm id="SG">
+				<paradigm id="sg">
 					<prepend>am </prepend>
 				</paradigm>
-				<paradigm id="PL">
+				<paradigm id="pl">
 					<prepend>are </prepend>
 				</paradigm>
 			</pdgmgroup>
 			<pdgmgroup id="2">
 				<prepend>are </prepend>
 				
-				<paradigm id="SG" />
-				<paradigm id="PL" />
+				<paradigm id="sg" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 			<pdgmgroup id="3">
-				<paradigm id="SG">
+				<paradigm id="sg">
 					<prepend>is </prepend>
 				</paradigm>
-				<paradigm id="PL">
+				<paradigm id="pl">
 					<prepend>are </prepend>
 				</paradigm>
 			</pdgmgroup>
 		</group>
-		<group id="PPRF">
+		<group id="pprf">
 			<append>ing</append>
 			
 			<pdgmgroup id="1">
 				<prepend>have been </prepend>
 				
-				<paradigm id="SG" />
-				<paradigm id="PL" />
+				<paradigm id="sg" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 			<pdgmgroup id="2">
 				<prepend>have been </prepend>
 				
-				<paradigm id="SG" />
-				<paradigm id="PL" />
+				<paradigm id="sg" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 			<pdgmgroup id="3">
-				<paradigm id="SG">
+				<paradigm id="sg">
 					<prepend>has been </prepend>
 				</paradigm>
-				<paradigm id="PL">
+				<paradigm id="pl">
 					<prepend>have been </prepend>
 				</paradigm>
 			</pdgmgroup>
 		</group>
-		<group id="PPST">
+		<group id="ppst">
 			<append>ing</append>
 			
 			<pdgmgroup id="1">
-				<paradigm id="SG">
+				<paradigm id="sg">
 					<prepend>was </prepend>
 				</paradigm>
-				<paradigm id="PL">
+				<paradigm id="pl">
 					<prepend>were </prepend>
 				</paradigm>
 			</pdgmgroup>
 			<pdgmgroup id="2">
 				<prepend>were </prepend>
 				
-				<paradigm id="SG" />
-				<paradigm id="PL" />
+				<paradigm id="sg" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 			<pdgmgroup id="3">
-				<paradigm id="SG">
+				<paradigm id="sg">
 					<prepend>was </prepend>
 				</paradigm>
-				<paradigm id="PL">
+				<paradigm id="pl">
 					<prepend>were </prepend>
 				</paradigm>
 			</pdgmgroup>
 		</group>
-		<group id="PPLU">
+		<group id="pplu">
 			<prepend>had been </prepend>
 			<append>ing</append>
 			
 			<pdgmgroup id="1">
-				<paradigm id="SG" />
-				<paradigm id="PL" />
+				<paradigm id="sg" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 			<pdgmgroup id="2">
-				<paradigm id="SG" />
-				<paradigm id="PL" />
+				<paradigm id="sg" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 			<pdgmgroup id="3">
-				<paradigm id="SG" />
-				<paradigm id="PL" />
+				<paradigm id="sg" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 		</group>
-		<group id="PFUT1">
+		<group id="pfut1">
 			<prepend>will be </prepend>
 			<append>ing</append>
 			
 			<pdgmgroup id="1">
-				<paradigm id="SG" />
-				<paradigm id="PL" />
+				<paradigm id="sg" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 			<pdgmgroup id="2">
-				<paradigm id="SG" />
-				<paradigm id="PL" />
+				<paradigm id="sg" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 			<pdgmgroup id="3">
-				<paradigm id="SG" />
-				<paradigm id="PL" />
+				<paradigm id="sg" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 		</group>
-		<group id="PFUT2">
+		<group id="pfut2">
 			<prepend>will have been </prepend>
 			<append>ing</append>
 			
 			<pdgmgroup id="1">
-				<paradigm id="SG" />
-				<paradigm id="PL" />
+				<paradigm id="sg" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 			<pdgmgroup id="2">
-				<paradigm id="SG" />
-				<paradigm id="PL" />
+				<paradigm id="sg" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 			<pdgmgroup id="3">
-				<paradigm id="SG" />
-				<paradigm id="PL" />
+				<paradigm id="sg" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 		</group>
-		<group id="PCOPRS">
+		<group id="pcoprs">
 			<prepend>would be </prepend>
 			<append>ing</append>
 			
 			<pdgmgroup id="1">
-				<paradigm id="SG" />
-				<paradigm id="PL" />
+				<paradigm id="sg" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 			<pdgmgroup id="2">
-				<paradigm id="SG" />
-				<paradigm id="PL" />
+				<paradigm id="sg" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 			<pdgmgroup id="3">
-				<paradigm id="SG" />
-				<paradigm id="PL" />
+				<paradigm id="sg" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 		</group>
-		<group id="PCOPRF">
+		<group id="pcoprf">
 			<prepend>would have been </prepend>
 			<append>ing</append>
 			
 			<pdgmgroup id="1">
-				<paradigm id="SG" />
-				<paradigm id="PL" />
+				<paradigm id="sg" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 			<pdgmgroup id="2">
-				<paradigm id="SG" />
-				<paradigm id="PL" />
+				<paradigm id="sg" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 			<pdgmgroup id="3">
-				<paradigm id="SG" />
-				<paradigm id="PL" />
+				<paradigm id="sg" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 		</group>
 	</verbset>
@@ -428,36 +428,36 @@
 		<participles>
 			<participle id="past" irregular="true" />
 		</participles>
-		<group id="PST">
+		<group id="pst">
 			<mod match="first" search="o" replace="a" />
 			
 			<pdgmgroup id="1">
-				<paradigm id="SG" irregular="true" />
-				<paradigm id="PL" irregular="true" />
+				<paradigm id="sg" irregular="true" />
+				<paradigm id="pl" irregular="true" />
 			</pdgmgroup>
 			<pdgmgroup id="2">
-				<paradigm id="SG" irregular="true" />
-				<paradigm id="PL" irregular="true" />
+				<paradigm id="sg" irregular="true" />
+				<paradigm id="pl" irregular="true" />
 			</pdgmgroup>
 			<pdgmgroup id="3">
-				<paradigm id="SG" irregular="true" />
-				<paradigm id="PL" irregular="true" />
+				<paradigm id="sg" irregular="true" />
+				<paradigm id="pl" irregular="true" />
 			</pdgmgroup>
 		</group>
-		<group id="SUBIMP">
+		<group id="subimp">
 			<mod match="first" search="o" replace="a" />
 			
 			<pdgmgroup id="1">
-				<paradigm id="SG" irregular="true" />
-				<paradigm id="PL" irregular="true" />
+				<paradigm id="sg" irregular="true" />
+				<paradigm id="pl" irregular="true" />
 			</pdgmgroup>
 			<pdgmgroup id="2">
-				<paradigm id="SG" irregular="true" />
-				<paradigm id="PL" irregular="true" />
+				<paradigm id="sg" irregular="true" />
+				<paradigm id="pl" irregular="true" />
 			</pdgmgroup>
 			<pdgmgroup id="3">
-				<paradigm id="SG" irregular="true" />
-				<paradigm id="PL" irregular="true" />
+				<paradigm id="sg" irregular="true" />
+				<paradigm id="pl" irregular="true" />
 			</pdgmgroup>
 		</group>
 	</verbset>
@@ -474,7 +474,7 @@
 				<endlength>1</endlength>
 			</participle>
 		</participles>
-		<group id="PRF">
+		<group id="prf">
 			<mod match="first" search="ak" replace="ok" />
 			<append>en</append>
 			<endlength>1</endlength>
@@ -482,73 +482,73 @@
 			<pdgmgroup id="1">
 				<prepend>have</prepend>
 				
-				<paradigm id="SG" />
-				<paradigm id="PL" />
+				<paradigm id="sg" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 			<pdgmgroup id="2">
 				<prepend>have</prepend>
 				
-				<paradigm id="SG" />
-				<paradigm id="PL" />
+				<paradigm id="sg" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 			<pdgmgroup id="3">
-				<paradigm id="SG">
+				<paradigm id="sg">
 					<prepend>has </prepend>
 				</paradigm>
-				<paradigm id="PL">
+				<paradigm id="pl">
 					<prepend>have </prepend>
 				</paradigm>
 			</pdgmgroup>
 		</group>
-		<group id="PST">
+		<group id="pst">
 			<mod match="first" search="ak" replace="ok" />
 			
 			<pdgmgroup id="1">
-				<paradigm id="SG" irregular="true" />
-				<paradigm id="PL" irregular="true" />
+				<paradigm id="sg" irregular="true" />
+				<paradigm id="pl" irregular="true" />
 			</pdgmgroup>
 			<pdgmgroup id="2">
-				<paradigm id="SG" irregular="true" />
-				<paradigm id="PL" irregular="true" />
+				<paradigm id="sg" irregular="true" />
+				<paradigm id="pl" irregular="true" />
 			</pdgmgroup>
 			<pdgmgroup id="3">
-				<paradigm id="SG" irregular="true" />
-				<paradigm id="PL" irregular="true" />
+				<paradigm id="sg" irregular="true" />
+				<paradigm id="pl" irregular="true" />
 			</pdgmgroup>
 		</group>
-		<group id="SUBIMP">
+		<group id="subimp">
 			<mod match="first" search="ak" replace="ok" />
 			
 			<pdgmgroup id="1">
-				<paradigm id="SG" irregular="true" />
-				<paradigm id="PL" irregular="true" />
+				<paradigm id="sg" irregular="true" />
+				<paradigm id="pl" irregular="true" />
 			</pdgmgroup>
 			<pdgmgroup id="2">
-				<paradigm id="SG" irregular="true" />
-				<paradigm id="PL" irregular="true" />
+				<paradigm id="sg" irregular="true" />
+				<paradigm id="pl" irregular="true" />
 			</pdgmgroup>
 			<pdgmgroup id="3">
-				<paradigm id="SG" irregular="true" />
-				<paradigm id="PL" irregular="true" />
+				<paradigm id="sg" irregular="true" />
+				<paradigm id="pl" irregular="true" />
 			</pdgmgroup>
 		</group>
-		<group id="COPRF">
+		<group id="coprf">
 			<prepend>would have </prepend>
 			<append>en</append>
 			<mod match="first" search="ak" replace="ok" />
 			<endlength>1</endlength>
 			
 			<pdgmgroup id="1">
-				<paradigm id="SG" />
-				<paradigm id="PL" />
+				<paradigm id="sg" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 			<pdgmgroup id="2">
-				<paradigm id="SG" />
-				<paradigm id="PL" />
+				<paradigm id="sg" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 			<pdgmgroup id="3">
-				<paradigm id="SG" />
-				<paradigm id="PL" />
+				<paradigm id="sg" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 		</group>
 	</verbset>
@@ -560,200 +560,200 @@
 				<append>en</append>
 			</participle>
 		</participles>
-		<group id="PRS">
+		<group id="prs">
 			<endlength>2</endlength>
 			
 			<pdgmgroup id="1">
-				<paradigm id="SG" irregular="true">
+				<paradigm id="sg" irregular="true">
 					<prepend>am</prepend>
 				</paradigm>
-				<paradigm id="PL" irregular="true">
+				<paradigm id="pl" irregular="true">
 					<prepend>are</prepend>
 				</paradigm>
 			</pdgmgroup>
 			<pdgmgroup id="2">
-				<paradigm id="SG" irregular="true">
+				<paradigm id="sg" irregular="true">
 					<prepend>are</prepend>
 				</paradigm>
-				<paradigm id="PL" irregular="true">
+				<paradigm id="pl" irregular="true">
 					<prepend>are</prepend>
 				</paradigm>
 			</pdgmgroup>
 			<pdgmgroup id="3">
-				<paradigm id="SG" irregular="true">
+				<paradigm id="sg" irregular="true">
 					<prepend>is</prepend>
 				</paradigm>
-				<paradigm id="PL" irregular="true">
+				<paradigm id="pl" irregular="true">
 					<prepend>are</prepend>
 				</paradigm>
 			</pdgmgroup>
 		</group>
-		<group id="PRF">
+		<group id="prf">
 			<append>en</append>
 			
 			<pdgmgroup id="1">
 				<prepend>have</prepend>
 				
-				<paradigm id="SG" />
-				<paradigm id="PL" />
+				<paradigm id="sg" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 			<pdgmgroup id="2">
 				<prepend>have</prepend>
 				
-				<paradigm id="SG" />
-				<paradigm id="PL" />
+				<paradigm id="sg" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 			<pdgmgroup id="3">
-				<paradigm id="SG">
+				<paradigm id="sg">
 					<prepend>has </prepend>
 				</paradigm>
-				<paradigm id="PL">
+				<paradigm id="pl">
 					<prepend>have </prepend>
 				</paradigm>
 			</pdgmgroup>
 		</group>
-		<group id="PST">
+		<group id="pst">
 			<endlength>2</endlength>
 			
 			<pdgmgroup id="1">
-				<paradigm id="SG" irregular="true">
+				<paradigm id="sg" irregular="true">
 					<prepend>was</prepend>
 				</paradigm>
-				<paradigm id="PL" irregular="true">
+				<paradigm id="pl" irregular="true">
 					<prepend>were</prepend>
 				</paradigm>
 			</pdgmgroup>
 			<pdgmgroup id="2">
 				<prepend>were</prepend>
 				
-				<paradigm id="SG" irregular="true" />
-				<paradigm id="PL" irregular="true" />
+				<paradigm id="sg" irregular="true" />
+				<paradigm id="pl" irregular="true" />
 			</pdgmgroup>
 			<pdgmgroup id="3">
-				<paradigm id="SG" irregular="true">
+				<paradigm id="sg" irregular="true">
 					<prepend>was</prepend>
 				</paradigm>
-				<paradigm id="PL" irregular="true">
+				<paradigm id="pl" irregular="true">
 					<prepend>were</prepend>
 				</paradigm>
 			</pdgmgroup>
 		</group>
-		<group id="PLU">
+		<group id="plu">
 			<prepend>had </prepend>
 			<append>en</prepend>
 			
 			<pdgmgroup id="1">
-				<paradigm id="SG" />
-				<paradigm id="PL" />
+				<paradigm id="sg" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 			<pdgmgroup id="2">
-				<paradigm id="SG" />
-				<paradigm id="PL" />
+				<paradigm id="sg" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 			<pdgmgroup id="3">
-				<paradigm id="SG" />
-				<paradigm id="PL" />
+				<paradigm id="sg" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 		</group>
-		<group id="FUT2">
+		<group id="fut2">
 			<prepend>will have </prepend>
 			<append>en</append>
 			
 			<pdgmgroup id="1">
-				<paradigm id="SG" />
-				<paradigm id="PL" />
+				<paradigm id="sg" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 			<pdgmgroup id="2">
-				<paradigm id="SG" />
-				<paradigm id="PL" />
+				<paradigm id="sg" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 			<pdgmgroup id="3">
-				<paradigm id="SG" />
-				<paradigm id="PL" />
+				<paradigm id="sg" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 		</group>
-		<group id="SUBPRF">
+		<group id="subprf">
 			<prepend>have </prepend>
 			<append>en</append>
 			
 			<pdgmgroup id="1">
-				<paradigm id="SG" />
-				<paradigm id="PL" />
+				<paradigm id="sg" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 			<pdgmgroup id="2">
-				<paradigm id="SG" />
-				<paradigm id="PL" />
+				<paradigm id="sg" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 			<pdgmgroup id="3">
-				<paradigm id="SG" />
-				<paradigm id="PL" />
+				<paradigm id="sg" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 		</group>
-		<group id="SUBIMP">
+		<group id="subimp">
 			<prepend>were</prepend>
 			<endlength>2</endlength>
 			
 			<pdgmgroup id="1">
-				<paradigm id="SG" irregular="true" />
-				<paradigm id="PL" irregular="true" />
+				<paradigm id="sg" irregular="true" />
+				<paradigm id="pl" irregular="true" />
 			</pdgmgroup>
 			<pdgmgroup id="2">
-				<paradigm id="SG" irregular="true" />
-				<paradigm id="PL" irregular="true" />
+				<paradigm id="sg" irregular="true" />
+				<paradigm id="pl" irregular="true" />
 			</pdgmgroup>
 			<pdgmgroup id="3">
-				<paradigm id="SG" irregular="true" />
-				<paradigm id="PL" irregular="true" />
+				<paradigm id="sg" irregular="true" />
+				<paradigm id="pl" irregular="true" />
 			</pdgmgroup>
 		</group>
-		<group id="SUBPLU">
+		<group id="subplu">
 			<prepend>had </prepend>
 			<append>en</append>
 			
 			<pdgmgroup id="1">
-				<paradigm id="SG" />
-				<paradigm id="PL" />
+				<paradigm id="sg" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 			<pdgmgroup id="2">
-				<paradigm id="SG" />
-				<paradigm id="PL" />
+				<paradigm id="sg" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 			<pdgmgroup id="3">
-				<paradigm id="SG" />
-				<paradigm id="PL" />
+				<paradigm id="sg" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 		</group>
-		<group id="COPRS">
+		<group id="coprs">
 			<prepend>would </prepend>
 			
 			<pdgmgroup id="1">
-				<paradigm id="SG" />
-				<paradigm id="PL" />
+				<paradigm id="sg" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 			<pdgmgroup id="2">
-				<paradigm id="SG" />
-				<paradigm id="PL" />
+				<paradigm id="sg" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 			<pdgmgroup id="3">
-				<paradigm id="SG" />
-				<paradigm id="PL" />
+				<paradigm id="sg" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 		</group>
-		<group id="COPRF">
+		<group id="coprf">
 			<prepend>would have </prepend>
 			<append>en</append>
 			
 			<pdgmgroup id="1">
-				<paradigm id="SG" />
-				<paradigm id="PL" />
+				<paradigm id="sg" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 			<pdgmgroup id="2">
-				<paradigm id="SG" />
-				<paradigm id="PL" />
+				<paradigm id="sg" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 			<pdgmgroup id="3">
-				<paradigm id="SG" />
-				<paradigm id="PL" />
+				<paradigm id="sg" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 		</group>
 	</verb>
@@ -764,152 +764,152 @@
 				<append>n</append>
 			</participle>
 		</participles>
-		<group id="PRF">
+		<group id="prf">
 			<append>n</append>
 			<mod match="first" search="ea" replace="o" />
 			
 			<pdgmgroup id="1">
 				<prepend>have </prepend>
 				
-				<paradigm id="SG" />
-				<paradigm id="PL" />
+				<paradigm id="sg" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 			<pdgmgroup id="2">
 				<prepend>have </prepend>
 				
-				<paradigm id="SG" />
-				<paradigm id="PL" />
+				<paradigm id="sg" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 			<pdgmgroup id="3">
-				<paradigm id="SG">
+				<paradigm id="sg">
 					<prepend>has </prepend>
 				</paradigm>
-				<paradigm id="PL">
+				<paradigm id="pl">
 					<prepend>have </prepend>
 				</paradigm>
 			</pdgmgroup>
 		</group>
-		<group id="PST">
+		<group id="pst">
 			<append>e</append>
 			<mod match="first" search="ea" replace="o" />
 			
 			<pdgmgroup id="1">
-				<paradigm id="SG" irregular="true" />
-				<paradigm id="PL" irregular="true" />
+				<paradigm id="sg" irregular="true" />
+				<paradigm id="pl" irregular="true" />
 			</pdgmgroup>
 			<pdgmgroup id="2">
-				<paradigm id="SG" irregular="true" />
-				<paradigm id="PL" irregular="true" />
+				<paradigm id="sg" irregular="true" />
+				<paradigm id="pl" irregular="true" />
 			</pdgmgroup>
 			<pdgmgroup id="3">
-				<paradigm id="SG" irregular="true" />
-				<paradigm id="PL" irregular="true" />
+				<paradigm id="sg" irregular="true" />
+				<paradigm id="pl" irregular="true" />
 			</pdgmgroup>
 		</group>
-		<group id="PLU">
+		<group id="plu">
 			<prepend>had </prepend>
 			<append>n</append>
 			
 			<pdgmgroup id="1">
-				<paradigm id="SG" />
-				<paradigm id="PL" />
+				<paradigm id="sg" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 			<pdgmgroup id="2">
-				<paradigm id="SG" />
-				<paradigm id="PL" />
+				<paradigm id="sg" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 			<pdgmgroup id="3">
-				<paradigm id="SG" />
-				<paradigm id="PL" />
+				<paradigm id="sg" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 		</group>
-		<group id="FUT2">
+		<group id="fut2">
 			<prepend>will have </prepend>
 			<append>n</append>
 			<mod match="first" search="ea" replace="o" />
 			
 			<pdgmgroup id="1">
-				<paradigm id="SG" />
-				<paradigm id="PL" />
+				<paradigm id="sg" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 			<pdgmgroup id="2">
-				<paradigm id="SG" />
-				<paradigm id="PL" />
+				<paradigm id="sg" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 			<pdgmgroup id="3">
-				<paradigm id="SG" />
-				<paradigm id="PL" />
+				<paradigm id="sg" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 		</group>
-		<group id="SUBPRF">
+		<group id="subprf">
 			<prepend>have </prepend>
 			<append>n</append>
 			<mod match="first" search="ea" replace="o" />
 			
 			<pdgmgroup id="1">
-				<paradigm id="SG" />
-				<paradigm id="PL" />
+				<paradigm id="sg" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 			<pdgmgroup id="2">
-				<paradigm id="SG" />
-				<paradigm id="PL" />
+				<paradigm id="sg" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 			<pdgmgroup id="3">
-				<paradigm id="SG" />
-				<paradigm id="PL" />
+				<paradigm id="sg" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 		</group>
-		<group id="SUBIMP">
+		<group id="subimp">
 			<append>e</append>
 			<mod match="first" search="ea" replace="o" />
 			
 			<pdgmgroup id="1">
-				<paradigm id="SG" irregular="true" />
-				<paradigm id="PL" irregular="true" />
+				<paradigm id="sg" irregular="true" />
+				<paradigm id="pl" irregular="true" />
 			</pdgmgroup>
 			<pdgmgroup id="2">
-				<paradigm id="SG" irregular="true" />
-				<paradigm id="PL" irregular="true" />
+				<paradigm id="sg" irregular="true" />
+				<paradigm id="pl" irregular="true" />
 			</pdgmgroup>
 			<pdgmgroup id="3">
-				<paradigm id="SG" irregular="true" />
-				<paradigm id="PL" irregular="true" />
+				<paradigm id="sg" irregular="true" />
+				<paradigm id="pl" irregular="true" />
 			</pdgmgroup>
 		</group>
-		<group id="SUBPLU">
+		<group id="subplu">
 			<prepend>had </prepend>
 			<append>n</append>
 			<mod match="first" search="ea" replace="o" />
 			
 			<pdgmgroup id="1">
-				<paradigm id="SG" />
-				<paradigm id="PL" />
+				<paradigm id="sg" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 			<pdgmgroup id="2">
-				<paradigm id="SG" />
-				<paradigm id="PL" />
+				<paradigm id="sg" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 			<pdgmgroup id="3">
-				<paradigm id="SG" />
-				<paradigm id="PL" />
+				<paradigm id="sg" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 		</group>
-		<group id="COPRF">
+		<group id="coprf">
 			<prepend>would have </prepend>
 			<append>n</append>
 			<mod match="first" search="ea" replace="o" />
 			
 			<pdgmgroup id="1">
-				<paradigm id="SG" />
-				<paradigm id="PL" />
+				<paradigm id="sg" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 			<pdgmgroup id="2">
-				<paradigm id="SG" />
-				<paradigm id="PL" />
+				<paradigm id="sg" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 			<pdgmgroup id="3">
-				<paradigm id="SG" />
-				<paradigm id="PL" />
+				<paradigm id="sg" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 		</group>
 	</verb>
@@ -919,127 +919,127 @@
 				<append>en</append>
 			</participle>
 		</participles>
-		<group id="PRF">
+		<group id="prf">
 			<append>en</append>
 			
 			<pdgmgroup id="1">
 				<prepend>have </prepend>
 				
-				<paradigm id="SG" />
-				<paradigm id="PL" />
+				<paradigm id="sg" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 			<pdgmgroup id="2">
 				<prepend>have </prepend>
 				
-				<paradigm id="SG" />
-				<paradigm id="PL" />
+				<paradigm id="sg" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 			<pdgmgroup id="3">
-				<paradigm id="SG">
+				<paradigm id="sg">
 					<prepend>has </prepend>
 				</paradigm>
-				<paradigm id="PL">
+				<paradigm id="pl">
 					<prepend>have </prepend>
 				</paradigm>
 			</pdgmgroup>
 		</group>
-		<group id="PST">			
+		<group id="pst">			
 			<pdgmgroup id="1">
-				<paradigm id="SG" irregular="true" />
-				<paradigm id="PL" irregular="true" />
+				<paradigm id="sg" irregular="true" />
+				<paradigm id="pl" irregular="true" />
 			</pdgmgroup>
 			<pdgmgroup id="2">
-				<paradigm id="SG" irregular="true" />
-				<paradigm id="PL" irregular="true" />
+				<paradigm id="sg" irregular="true" />
+				<paradigm id="pl" irregular="true" />
 			</pdgmgroup>
 			<pdgmgroup id="3">
-				<paradigm id="SG" irregular="true" />
-				<paradigm id="PL" irregular="true" />
+				<paradigm id="sg" irregular="true" />
+				<paradigm id="pl" irregular="true" />
 			</pdgmgroup>
 		</group>
-		<group id="PLU">
+		<group id="plu">
 			<prepend>had </prepend>
 			<append>en</append>
 			
 			<pdgmgroup id="1">
-				<paradigm id="SG" />
-				<paradigm id="PL" />
+				<paradigm id="sg" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 			<pdgmgroup id="2">
-				<paradigm id="SG" />
-				<paradigm id="PL" />
+				<paradigm id="sg" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 			<pdgmgroup id="3">
-				<paradigm id="SG" />
-				<paradigm id="PL" />
+				<paradigm id="sg" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 		</group>
-		<group id="FUT2">
+		<group id="fut2">
 			<prepend>will have </prepend>
 			<append>en</append>
 			
 			<pdgmgroup id="1">
-				<paradigm id="SG" />
-				<paradigm id="PL" />
+				<paradigm id="sg" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 			<pdgmgroup id="2">
-				<paradigm id="SG" />
-				<paradigm id="PL" />
+				<paradigm id="sg" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 			<pdgmgroup id="3">
-				<paradigm id="SG" />
-				<paradigm id="PL" />
+				<paradigm id="sg" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 		</group>
-		<group id="SUBPRF">
+		<group id="subprf">
 			<prepend>have </prepend>
 			<append>en</append>
 			
 			<pdgmgroup id="1">
-				<paradigm id="SG" />
-				<paradigm id="PL" />
+				<paradigm id="sg" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 			<pdgmgroup id="2">
-				<paradigm id="SG" />
-				<paradigm id="PL" />
+				<paradigm id="sg" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 			<pdgmgroup id="3">
-				<paradigm id="SG" />
-				<paradigm id="PL" />
+				<paradigm id="sg" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 		</group>
-		<group id="SUBPLU">
+		<group id="subplu">
 			<prepend>had </prepend>
 			<append>en</append>
 			
 			<pdgmgroup id="1">
-				<paradigm id="SG" />
-				<paradigm id="PL" />
+				<paradigm id="sg" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 			<pdgmgroup id="2">
-				<paradigm id="SG" />
-				<paradigm id="PL" />
+				<paradigm id="sg" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 			<pdgmgroup id="3">
-				<paradigm id="SG" />
-				<paradigm id="PL" />
+				<paradigm id="sg" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 		</group>
-		<group id="COPRF">
+		<group id="coprf">
 			<prepend>would have </prepend>
 			<append>en</append>
 			
 			<pdgmgroup id="1">
-				<paradigm id="SG" />
-				<paradigm id="PL" />
+				<paradigm id="sg" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 			<pdgmgroup id="2">
-				<paradigm id="SG" />
-				<paradigm id="PL" />
+				<paradigm id="sg" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 			<pdgmgroup id="3">
-				<paradigm id="SG" />
-				<paradigm id="PL" />
+				<paradigm id="sg" />
+				<paradigm id="pl" />
 			</pdgmgroup>
 		</group>
 	</verb>
