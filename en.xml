@@ -549,7 +549,7 @@
 		</group>
 	</verbset>
 
-	<verb word="awake" ref="perfect ak-ok" />
+	<verb word="awake" inherit="perfect ak-ok" />
 	<verb word="be">
 		<participles>
 			<participle id="past">
@@ -1039,7 +1039,7 @@
 			</pdgmgroup>
 		</group>
 	</verb>
-	<verb word="become" ref="come" />
-	<verb word="come" ref="come" />
-	<verb word="wake" ref="perfect ak-ok" />
+	<verb word="become" inherit="come" />
+	<verb word="come" inherit="come" />
+	<verb word="wake" inherit="perfect ak-ok" />
 </verbs>

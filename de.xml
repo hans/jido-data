@@ -1774,7 +1774,7 @@
 			</pdgmgroup>
 		</group>
 	</verb>
-	<verb word="bergen" ref="er-ir" />
+	<verb word="bergen" inherit="er-ir" />
 	<verb word="bersten" inherit="reg">
 		<participles>
 			<participle id="past" irregular="true">
@@ -2014,7 +2014,7 @@
 			</pdgmgroup>
 		</group>
 	</verb>
-	<verb word="betrügen" ref="ü-o" />
+	<verb word="betrügen" inherit="ü-o" />
 	<verb word="fahren" inherit="reg">
 		<participles>
 			<participle id="past" irregular="true">
@@ -2353,7 +2353,7 @@
 			</pdgmgroup>
 		</group>
 	</verb>
-	<verb word="graben" ref="ä-1" />
+	<verb word="graben" inherit="ä-1" />
 	<verb word="kommen" inherit="reg">
 		<participles>
 			<participle id="past" irregular="true">
@@ -2601,8 +2601,8 @@
 			</pdgmgroup>
 		</group>
 	</verb>
-	<verb word="rufen" ref="u-ie" />
-	<verb word="schlafen" ref="a-ie" />
-	<verb word="schlagen" ref="ä-1" />
-	<verb word="tragen" ref="ä-1" />
+	<verb word="rufen" inherit="u-ie" />
+	<verb word="schlafen" inherit="a-ie" />
+	<verb word="schlagen" inherit="ä-1" />
+	<verb word="tragen" inherit="ä-1" />
 </verbs>

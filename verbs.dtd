@@ -68,7 +68,6 @@
 
 <!ELEMENT verb (participles*, group*)>
 <!ATTLIST verb
-	ref CDATA #IMPLIED
 	inherit CDATA #IMPLIED
 	word CDATA #IMPLIED
   >
