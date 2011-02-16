@@ -496,6 +496,7 @@
 			<endlength>2</endlength>
 			
 			<pdgmgroup id="1">
+				<paradigm id="sg" ignore="true" />
 				<paradigm id="pl">
 					<prepend>ayons </prepend>
 				</paradigm>
@@ -508,6 +509,7 @@
 					<prepend>ayez </prepend>
 				</paradigm>
 			</pdgmgroup>
+			<pdgmgroup id="3" ignore="true" />
 		</group>
 	</verbset>
 
