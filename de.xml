@@ -19,7 +19,7 @@
 		</forms>
 		
 		<fallbacks>
-			<fallback desc="regular" regex="*" ref="reg" />
+			<fallback desc="regular" regex=".*" ref="reg" />
 		</fallbacks>
 		
 		<paradigms>
