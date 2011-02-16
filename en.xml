@@ -555,7 +555,7 @@
 	</verbset>
 
 	<verb word="awake" inherit="perfect ak-ok" />
-	<verb word="be">
+	<verb word="be" inherit="reg">
 		<participles>
 			<participle id="past">
 				<append>en</append>
