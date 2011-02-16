@@ -122,7 +122,7 @@
 			</pdgmgroup>
 		</group>
 		<group id="fut1">
-			<prepend>will</prepend>
+			<prepend>will </prepend>
 			
 			<pdgmgroup id="1">
 				<paradigm id="sg" />
