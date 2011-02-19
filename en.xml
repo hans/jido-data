@@ -425,7 +425,8 @@
 		</group>
 	</verbset>
 
-	<verbset id="come" inherit="reg">														 <!-- like 'come' -->
+	<!-- come, become -->
+	<verbset id="come" inherit="reg">
 		<participles>
 			<participle id="past" irregular="true" />
 		</participles>
@@ -463,6 +464,7 @@
 		</group>
 	</verbset>
 
+	<!-- awake, wake -->
 	<verbset id="perfect ak-ok" inherit="reg">
 		<participles>
 			<participle id="present" irregular="true">
@@ -554,7 +556,6 @@
 		</group>
 	</verbset>
 
-	<verb word="awake" inherit="perfect ak-ok" />
 	<verb word="be" inherit="reg">
 		<participles>
 			<participle id="past">
@@ -1044,6 +1045,8 @@
 			</pdgmgroup>
 		</group>
 	</verb>
+	
+	<verb word="awake" inherit="perfect ak-ok" />
 	<verb word="become" inherit="come" />
 	<verb word="come" inherit="come" />
 	<verb word="wake" inherit="perfect ak-ok" />
