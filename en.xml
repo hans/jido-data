@@ -483,13 +483,13 @@
 			<endlength>1</endlength>
 			
 			<pdgmgroup id="1">
-				<prepend>have</prepend>
+				<prepend>have </prepend>
 				
 				<paradigm id="sg" />
 				<paradigm id="pl" />
 			</pdgmgroup>
 			<pdgmgroup id="2">
-				<prepend>have</prepend>
+				<prepend>have </prepend>
 				
 				<paradigm id="sg" />
 				<paradigm id="pl" />
@@ -594,13 +594,13 @@
 			<append>en</append>
 			
 			<pdgmgroup id="1">
-				<prepend>have</prepend>
+				<prepend>have </prepend>
 				
 				<paradigm id="sg" />
 				<paradigm id="pl" />
 			</pdgmgroup>
 			<pdgmgroup id="2">
-				<prepend>have</prepend>
+				<prepend>have </prepend>
 				
 				<paradigm id="sg" />
 				<paradigm id="pl" />
