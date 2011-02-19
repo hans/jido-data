@@ -555,6 +555,165 @@
 			</pdgmgroup>
 		</group>
 	</verbset>
+	
+	<!-- bend, send, spend -->
+	<verbset id="past d-t" inherit="reg">
+		<participles>
+			<participle id="past">
+				<endlength>1</endlength>
+				<append>t</append>
+			</participle>
+		</participles>
+		<group id="prf">
+			<endlength>1</endlength>
+			<append>t</append>
+			
+			<pdgmgroup id="1">
+				<prepend>have </prepend>
+				
+				<paradigm id="sg" />
+				<paradigm id="pl" />
+			</pdgmgroup>
+			<pdgmgroup id="2">
+				<prepend>have </prepend>
+				
+				<paradigm id="sg" />
+				<paradigm id="pl" />
+			</pdgmgroup>
+			<pdgmgroup id="3">
+				<paradigm id="sg">
+					<prepend>has </prepend>
+				</paradigm>
+				<paradigm id="pl">
+					<prepend>have </prepend>
+				</paradigm>
+			</pdgmgroup>
+		</group>
+		<group id="pst">
+			<endlength>1</endlength>
+			<append>t</append>
+			
+			<pdgmgroup id="1">
+				<paradigm id="sg" />
+				<paradigm id="pl" />
+			</pdgmgroup>
+			<pdgmgroup id="2">
+				<paradigm id="sg" />
+				<paradigm id="pl" />
+			</pdgmgroup>
+			<pdgmgroup id="3">
+				<paradigm id="sg" />
+				<paradigm id="pl" />
+			</pdgmgroup>
+		</group>
+		<group id="plu">
+			<prepend>had </prepend>
+			<endlength>1</endlength>
+			<append>t</append>
+			
+			<pdgmgroup id="1">
+				<paradigm id="sg" />
+				<paradigm id="pl" />
+			</pdgmgroup>
+			<pdgmgroup id="2">
+				<paradigm id="sg" />
+				<paradigm id="pl" />
+			</pdgmgroup>
+			<pdgmgroup id="3">
+				<paradigm id="sg" />
+				<paradigm id="pl" />
+			</pdgmgroup>
+		</group>
+		<group id="fut2">
+			<prepend>will have </prepend>
+			<endlength>1</endlength>
+			<append>t</append>
+			
+			<pdgmgroup id="1">
+				<paradigm id="sg" />
+				<paradigm id="pl" />
+			</pdgmgroup>
+			<pdgmgroup id="2">
+				<paradigm id="sg" />
+				<paradigm id="pl" />
+			</pdgmgroup>
+			<pdgmgroup id="3">
+				<paradigm id="sg" />
+				<paradigm id="pl" />
+			</pdgmgroup>
+		</group>
+		<group id="subprf">
+			<prepend>have </prepend>
+			<endlength>1</endlength>
+			<append>t</append>
+			
+			<pdgmgroup id="1">
+				<paradigm id="sg" />
+				<paradigm id="pl" />
+			</pdgmgroup>
+			<pdgmgroup id="2">
+				<paradigm id="sg" />
+				<paradigm id="pl" />
+			</pdgmgroup>
+			<pdgmgroup id="3">
+				<paradigm id="sg" />
+				<paradigm id="pl" />
+			</pdgmgroup>
+		</group>
+		<group id="subimp">
+			<endlength>1</endlength>
+			<append>t</append>
+			
+			<pdgmgroup id="1">
+				<paradigm id="sg" />
+				<paradigm id="pl" />
+			</pdgmgroup>
+			<pdgmgroup id="2">
+				<paradigm id="sg" />
+				<paradigm id="pl" />
+			</pdgmgroup>
+			<pdgmgroup id="3">
+				<paradigm id="sg" />
+				<paradigm id="pl" />
+			</pdgmgroup>
+		</group>
+		<group id="subplu">
+			<prepend>had </prepend>
+			<endlength>1</endlength>
+			<append>t</append>
+			
+			<pdgmgroup id="1">
+				<paradigm id="sg" />
+				<paradigm id="pl" />
+			</pdgmgroup>
+			<pdgmgroup id="2">
+				<paradigm id="sg" />
+				<paradigm id="pl" />
+			</pdgmgroup>
+			<pdgmgroup id="3">
+				<paradigm id="sg" />
+				<paradigm id="pl" />
+			</pdgmgroup>
+		</group>
+		<group id="coprf">
+			<prepend>would have </prepend>
+			<endlength>1</endlength>
+			<append>t</append>
+			
+			<pdgmgroup id="1">
+				<paradigm id="sg" />
+				<paradigm id="pl" />
+			</pdgmgroup>
+			<pdgmgroup id="2">
+				<paradigm id="sg" />
+				<paradigm id="pl" />
+			</pdgmgroup>
+			<pdgmgroup id="3">
+				<paradigm id="sg" />
+				<paradigm id="pl" />
+			</pdgmgroup>
+		</group>
+	</verbset>
 
 	<verb word="be" inherit="reg">
 		<participles>
@@ -1045,9 +1204,160 @@
 			</pdgmgroup>
 		</group>
 	</verb>
+	<verb word="begin" inherit="reg">
+		<participles>
+			<participle id="past" irregular="true">
+				<mod match="first" search="i" replace="u" />
+			</participle>
+		</participles>
+		<group id="prf">
+			<mod match="first" search="i" replace="u" />
+			
+			<pdgmgroup id="1">
+				<prepend>have </prepend>
+				
+				<paradigm id="sg" />
+				<paradigm id="pl" />
+			</pdgmgroup>
+			<pdgmgroup id="2">
+				<prepend>have </prepend>
+				
+				<paradigm id="sg" />
+				<paradigm id="pl" />
+			</pdgmgroup>
+			<pdgmgroup id="3">
+				<paradigm id="sg">
+					<prepend>has </prepend>
+				</paradigm>
+				<paradigm id="pl">
+					<prepend>have </prepend>
+				</paradigm>
+			</pdgmgroup>
+		</group>
+		<group id="pst">
+			<mod match="first" search="i" replace="a" />
+			
+			<pdgmgroup id="1">
+				<paradigm id="sg" irregular="true" />
+				<paradigm id="pl" irregular="true" />
+			</pdgmgroup>
+			<pdgmgroup id="2">
+				<paradigm id="sg" irregular="true" />
+				<paradigm id="pl" irregular="true" />
+			</pdgmgroup>
+			<pdgmgroup id="3">
+				<paradigm id="sg" irregular="true" />
+				<paradigm id="pl" irregular="true" />
+			</pdgmgroup>
+		</group>
+		<group id="plu">
+			<prepend>had </prepend>
+			<mod match="first" search="i" replace="u" />
+			
+			<pdgmgroup id="1">
+				<paradigm id="sg" />
+				<paradigm id="pl" />
+			</pdgmgroup>
+			<pdgmgroup id="2">
+				<paradigm id="sg" />
+				<paradigm id="pl" />
+			</pdgmgroup>
+			<pdgmgroup id="3">
+				<paradigm id="sg" />
+				<paradigm id="pl" />
+			</pdgmgroup>
+		</group>
+		<group id="fut2">
+			<prepend>will have </prepend>
+			<mod match="first" search="i" replace="u" />
+			
+			<pdgmgroup id="1">
+				<paradigm id="sg" />
+				<paradigm id="pl" />
+			</pdgmgroup>
+			<pdgmgroup id="2">
+				<paradigm id="sg" />
+				<paradigm id="pl" />
+			</pdgmgroup>
+			<pdgmgroup id="3">
+				<paradigm id="sg" />
+				<paradigm id="pl" />
+			</pdgmgroup>
+		</group>
+		<group id="subprf">
+			<prepend>have </prepend>
+			<mod match="first" search="i" replace="u" />
+			
+			<pdgmgroup id="1">
+				<paradigm id="sg" />
+				<paradigm id="pl" />
+			</pdgmgroup>
+			<pdgmgroup id="2">
+				<paradigm id="sg" />
+				<paradigm id="pl" />
+			</pdgmgroup>
+			<pdgmgroup id="3">
+				<paradigm id="sg" />
+				<paradigm id="pl" />
+			</pdgmgroup>
+		</group>
+		<group id="subimp">
+			<mod match="first" search="i" replace="a" />
+			
+			<pdgmgroup id="1">
+				<paradigm id="sg" irregular="true" />
+				<paradigm id="pl" irregular="true" />
+			</pdgmgroup>
+			<pdgmgroup id="2">
+				<paradigm id="sg" irregular="true" />
+				<paradigm id="pl" irregular="true" />
+			</pdgmgroup>
+			<pdgmgroup id="3">
+				<paradigm id="sg" irregular="true" />
+				<paradigm id="pl" irregular="true" />
+			</pdgmgroup>
+		</group>
+		<group id="subplu">
+			<prepend>had </prepend>
+			<mod match="first" search="i" replace="u" />
+			
+			<pdgmgroup id="1">
+				<paradigm id="sg" />
+				<paradigm id="pl" />
+			</pdgmgroup>
+			<pdgmgroup id="2">
+				<paradigm id="sg" />
+				<paradigm id="pl" />
+			</pdgmgroup>
+			<pdgmgroup id="3">
+				<paradigm id="sg" />
+				<paradigm id="pl" />
+			</pdgmgroup>
+		</group>
+		<group id="coprf">
+			<prepend>would have </prepend>
+			<mod match="first" search="i" replace="u" />
+			
+			<pdgmgroup id="1">
+				<paradigm id="sg" />
+				<paradigm id="pl" />
+			</pdgmgroup>
+			<pdgmgroup id="2">
+				<paradigm id="sg" />
+				<paradigm id="pl" />
+			</pdgmgroup>
+			<pdgmgroup id="3">
+				<paradigm id="sg" />
+				<paradigm id="pl" />
+			</pdgmgroup>
+		</group>
+	</verb>
 	
 	<verb word="awake" inherit="perfect ak-ok" />
 	<verb word="become" inherit="come" />
+	<verb word="bend" inherit="past d-t" />
 	<verb word="come" inherit="come" />
+	<verb word="send" inherit="past d-t" />
+	<verb word="spend" inherit="past d-t" />
 	<verb word="wake" inherit="perfect ak-ok" />
 </verbs>
