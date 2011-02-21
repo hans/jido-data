@@ -714,6 +714,156 @@
 			</pdgmgroup>
 		</group>
 	</verbset>
+	
+	<!-- bind, fight, find, grind, overwind, rebind, regrind, rewind, unbind, unwind, wind -->
+	<verbset id="past i-ou" inherit="reg">
+		<participles>
+			<participle id="past">
+				<mod match="first" search="i" replace="ou" />
+			</participle>
+		</participles>
+		<group id="prf">
+			<mod match="first" search="i" replace="ou" />
+			
+			<pdgmgroup id="1">
+				<prepend>have </prepend>
+				
+				<paradigm id="sg" />
+				<paradigm id="pl" />
+			</pdgmgroup>
+			<pdgmgroup id="2">
+				<prepend>have </prepend>
+				
+				<paradigm id="sg" />
+				<paradigm id="pl" />
+			</pdgmgroup>
+			<pdgmgroup id="3">
+				<paradigm id="sg">
+					<prepend>has </prepend>
+				</paradigm>
+				<paradigm id="pl">
+					<prepend>have </prepend>
+				</paradigm>
+			</pdgmgroup>
+		</group>
+		<group id="pst">
+			<mod match="first" search="i" replace="ou" />
+			
+			<pdgmgroup id="1">
+				<paradigm id="sg" />
+				<paradigm id="pl" />
+			</pdgmgroup>
+			<pdgmgroup id="2">
+				<paradigm id="sg" />
+				<paradigm id="pl" />
+			</pdgmgroup>
+			<pdgmgroup id="3">
+				<paradigm id="sg" />
+				<paradigm id="pl" />
+			</pdgmgroup>
+		</group>
+		<group id="plu">
+			<prepend>had </prepend>
+			<mod match="first" search="i" replace="ou" />
+			
+			<pdgmgroup id="1">
+				<paradigm id="sg" />
+				<paradigm id="pl" />
+			</pdgmgroup>
+			<pdgmgroup id="2">
+				<paradigm id="sg" />
+				<paradigm id="pl" />
+			</pdgmgroup>
+			<pdgmgroup id="3">
+				<paradigm id="sg" />
+				<paradigm id="pl" />
+			</pdgmgroup>
+		</group>
+		<group id="fut2">
+			<prepend>will have </prepend>
+			<mod match="first" search="i" replace="ou" />
+			
+			<pdgmgroup id="1">
+				<paradigm id="sg" />
+				<paradigm id="pl" />
+			</pdgmgroup>
+			<pdgmgroup id="2">
+				<paradigm id="sg" />
+				<paradigm id="pl" />
+			</pdgmgroup>
+			<pdgmgroup id="3">
+				<paradigm id="sg" />
+				<paradigm id="pl" />
+			</pdgmgroup>
+		</group>
+		<group id="subprf">
+			<prepend>have </prepend>
+			<mod match="first" search="i" replace="ou" />
+			
+			<pdgmgroup id="1">
+				<paradigm id="sg" />
+				<paradigm id="pl" />
+			</pdgmgroup>
+			<pdgmgroup id="2">
+				<paradigm id="sg" />
+				<paradigm id="pl" />
+			</pdgmgroup>
+			<pdgmgroup id="3">
+				<paradigm id="sg" />
+				<paradigm id="pl" />
+			</pdgmgroup>
+		</group>
+		<group id="subimp">
+			<mod match="first" search="i" replace="ou" />
+			
+			<pdgmgroup id="1">
+				<paradigm id="sg" />
+				<paradigm id="pl" />
+			</pdgmgroup>
+			<pdgmgroup id="2">
+				<paradigm id="sg" />
+				<paradigm id="pl" />
+			</pdgmgroup>
+			<pdgmgroup id="3">
+				<paradigm id="sg" />
+				<paradigm id="pl" />
+			</pdgmgroup>
+		</group>
+		<group id="subplu">
+			<prepend>had </prepend>
+			<mod match="first" search="i" replace="ou" />
+			
+			<pdgmgroup id="1">
+				<paradigm id="sg" />
+				<paradigm id="pl" />
+			</pdgmgroup>
+			<pdgmgroup id="2">
+				<paradigm id="sg" />
+				<paradigm id="pl" />
+			</pdgmgroup>
+			<pdgmgroup id="3">
+				<paradigm id="sg" />
+				<paradigm id="pl" />
+			</pdgmgroup>
+		</group>
+		<group id="coprf">
+			<prepend>would have </prepend>
+			<mod match="first" search="i" replace="ou" />
+			
+			<pdgmgroup id="1">
+				<paradigm id="sg" />
+				<paradigm id="pl" />
+			</pdgmgroup>
+			<pdgmgroup id="2">
+				<paradigm id="sg" />
+				<paradigm id="pl" />
+			</pdgmgroup>
+			<pdgmgroup id="3">
+				<paradigm id="sg" />
+				<paradigm id="pl" />
+			</pdgmgroup>
+		</group>
+	</verbset>
 
 	<verb word="be" inherit="reg">
 		<participles>
@@ -1356,15 +1506,26 @@
 	<verb word="awake" inherit="perfect ak-ok" />
 	<verb word="become" inherit="come" />
 	<verb word="bend" inherit="past d-t" />
+	<verb word="bind" inherit="past i-ou" />
 	<verb word="build" inherit="past d-t" />
 	<verb word="come" inherit="come" />
+	<verb word="fight" inherit="past i-ou" />
+	<verb word="find" inherit="past i-ou" />
+	<verb word="grind" inherit="past i-ou" />
 	<verb word="lend" inherit="past d-t" />
 	<verb word="misspend" inherit="past d-t" />
 	<verb word="overbuild" inherit="past d-t" />
 	<verb word="overspend" inherit="past d-t" />
+	<verb word="overwind" inherit="past i-ou" />
+	<verb word="rebind" inherit="past i-ou" />
 	<verb word="rebuild" inherit="past d-t" />
+	<verb word="regrind" inherit="past i-ou" />
+	<verb word="rewind" inherit="past i-ou" />
 	<verb word="send" inherit="past d-t" />
 	<verb word="shend" inherit="past d-t" />
 	<verb word="spend" inherit="past d-t" />
+	<verb word="unbind" inherit="past i-ou" />
+	<verb word="unwind" inherit="past i-ou" />
 	<verb word="wake" inherit="perfect ak-ok" />
+	<verb word="wind" inherit="past i-ou" />
 </verbs>
