@@ -406,6 +406,200 @@
                     ]
                 }
             }
+        },
+
+        {
+            'id': 'past d-t',
+            'type': 'verbset',
+            'inherit': 'reg',
+
+            'extras': [
+                {
+                    'id': 'pstp',
+                    'modifiers': [
+                        {'type': 'trim', 'position': 'end', 'n': 1},
+                        {'type': 'append', 'data': 't'}
+                    ]
+                }
+            ],
+
+            'groups': {
+                'prf': {
+                    'modifiers': [
+                        {'type': 'trim', 'position': 'end', 'n': 1},
+                        {'type': 'append', 'data': 't'}
+                    ]
+                },
+
+                'pst': {
+                    'modifiers': [
+                        {'type': 'trim', 'position': 'end', 'n': 1},
+                        {'type': 'append', 'data': 't'}
+                    ]
+                },
+
+                'plu': {
+                    'modifiers': [
+                        {'type': 'prepend', 'data': 'had '},
+                        {'type': 'trim', 'position': 'end', 'n': 1},
+                        {'type': 'append', 'data': 't'}
+                    ]
+                },
+
+                'fut2': {
+                    'modifiers': [
+                        {'type': 'prepend', 'data': 'will have '},
+                        {'type': 'trim', 'position': 'end', 'n': 1},
+                        {'type': 'append', 'data': 't'}
+                    ]
+                },
+
+                'subprf': {
+                    'modifiers': [
+                        {'type': 'prepend', 'data': 'have '},
+                        {'type': 'trim', 'position': 'end', 'n': 1},
+                        {'type': 'append', 'data': 't'}
+                    ]
+                },
+
+                'subimp': {
+                    'modifiers': [
+                        {'type': 'trim', 'position': 'end', 'n': 1},
+                        {'type': 'append', 'data': 't'}
+                    ]
+                },
+
+                'subplu': {
+                    'modifiers': [
+                        {'type': 'prepend', 'data': 'had '},
+                        {'type': 'trim', 'position': 'end', 'n': 1},
+                        {'type': 'append', 'data': 't'}
+                    ]
+                },
+
+                'coprf': {
+                    'modifiers': [
+                        {'type': 'prepend', 'data': 'would have '},
+                        {'type': 'trim', 'position': 'end', 'n': 1},
+                        {'type': 'append', 'data': 't'}
+                    ]
+                }
+            }
+        },
+
+        {
+            'id': 'past i-ou',
+            'type': 'verbset',
+            'inherit': 'reg',
+
+            'extras': [
+                {
+                    'id': 'pstp',
+                    'modifiers': [
+                        {
+                            'type': 'replace',
+                            'match': 'first',
+                            'search': 'i',
+                            replace: 'ou'
+                        }
+                    ]
+                }
+            ],
+
+            'groups': {
+                'prf': {
+                    'modifiers': [
+                        {
+                            'type': 'replace',
+                            'match': 'first',
+                            'search': 'i',
+                            'replace': 'ou'
+                        }
+                    ]
+                },
+
+                'pst': {
+                    'modifiers': [
+                        {
+                            'type': 'replace',
+                            'match': 'first',
+                            'search': 'i',
+                            'replace': 'ou'
+                        }
+                    ]
+                },
+
+                'plu': {
+                    'modifiers': [
+                        {
+                            'type': 'replace',
+                            'match': 'first',
+                            'search': 'i',
+                            'replace': 'ou'
+                        },
+                        {'type': 'prepend', 'data': 'had '}
+                    ]
+                },
+
+                'fut2': {
+                    'modifiers': [
+                        {
+                            'type': 'replace',
+                            'match': 'first',
+                            'search': 'i',
+                            'replace': 'ou'
+                        },
+                        {'type': 'prepend', 'data': 'will have '}
+                    ]
+                },
+
+                'subprf': {
+                    'modifiers': [
+                        {
+                            'type': 'replace',
+                            'match': 'first',
+                            'search': 'i',
+                            'replace': 'ou'
+                        },
+                        {'type': 'prepend', 'data': 'have '}
+                    ]
+                },
+
+                'subimp': {
+                    'modifiers': [
+                        {
+                            'type': 'replace',
+                            'match': 'first',
+                            'search': 'i',
+                            'replace': 'ou'
+                        }
+                    ]
+                },
+
+                'subplu': {
+                    'modifiers': [
+                        {
+                            'type': 'replace',
+                            'match': 'first',
+                            'search': 'i',
+                            'replace': 'ou'
+                        },
+                        {'type': 'prepend', 'data': 'had '}
+                    ]
+                },
+
+                'coprf': {
+                    'modifiers': [
+                        {
+                            'type': 'replace',
+                            'match': 'first',
+                            'search': 'i',
+                            'replace': 'ou'
+                        },
+                        {'type': 'prepend', 'data': 'would have '}
+                    ]
+                }
+            }
         }
     ]
 }
