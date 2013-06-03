@@ -1,0 +1,302 @@
+* Terms
+
+  - functionally equivalent :: Two declarations are said to be functionally
+       equivalent if each yields exactly the same output when provided as data
+       to Jido (assuming all else remains constant).
+  - conjugational context :: See [[Conjugational context]].
+  - contextual lexical item :: The result of taking an original lexical item
+       and applying all operations in the current conjugational context.
+
+* Tree structure
+
+  Each verb will be conjugated in all of the verb groups detailed within the
+  =groups= property. Within each group, conjugations will be generated for
+  combinations of the properties in =form_structure=. The exact nature of the
+  combinations is determined by the =features= objects within the =form=
+  property.
+
+** Conjugational context
+
+   Let's dive in to what may be a tricky concept concerning how conjugations are
+   evaluated. Each final conjugation [fn:1] is considered to live at the bottom
+   of a tree. This tree as a whole describes all conjugations of a single
+   [[Verb(set)][verb]]. [fn:2]
+
+   Final conjugations operate in a /context/ established by their parents in
+   this tree. A context is augmented with each new modifier declaration.
+
+   Concretely, a *conjugational context* is a sequence of modifiers built up as
+   Jido traverses down a tree toward a leaf. Modifier lists are concatenated at
+   the end of the context as they appear during downward traversal. For
+   example, in the following declaration:
+
+   #+BEGIN_SRC js
+     {
+         // ... omitted lots of groups ... //
+
+         'imp': {
+             'modifiers': [{'type': 'append', 'data': 'a'}],
+             '1': {
+                 'modifiers': [{'type': 'prepend', 'data': 'b'}],
+                 'pl': // (ref:leaf) //
+             }
+         },
+
+         // ... omitted lots more groups .. //
+     }
+   #+END_SRC
+
+   As we'll see later, the value at [[(leaf)][the tree's leaf]] is simply a final list of
+   modifications to make to the context. The modifications within the leaf will
+   operate on the /contextual lexical item/ produced by applying the following
+   /conjugational context/:
+
+   #+BEGIN_SRC js
+     [
+         {'type': 'append', 'data': 'a'},
+         {'type': 'prepend', 'data': 'b'}
+     ]
+   #+END_SRC
+
+* Fallbacks
+
+  TODO
+
+* Data structures
+
+** Verb(set)
+
+   Verbs and verbsets may share the same structure. Each may inherit from other
+   verbsets, and declare custom rules for any group/form combination. The
+   properties are listed below.
+
+   * =id= :: /Optional for verbs./ A unique ID describing the verb(set).
+   * =type= :: One of =verb=, =verbset=.
+   * =groups= :: Here begins the tree. See [[=data.$.groups= dictionary]]
+   * =extras= :: A list of =ExtraConjugation= s. Unlike =groups=, this is not a
+                 tree structure.
+
+** =data.$.groups= dictionary
+
+   This dictionary within a verb(set) represents a tree structure. Any level
+   (including the topmost) may contain modifiers (see [[=modifiers= list]]). In
+   branches, modifiers are denoted in a =modifiers= property; in leaves, they
+   are the sole value of the leaf. The following examples are all valid (but not
+   functionally equivalent):
+
+   #+BEGIN_SRC js
+     {
+         'prs': {
+             'modifiers': [
+                 {'type': 'append', 'data': 'a'}
+             ]
+         }
+     }
+   #+END_SRC
+
+   #+BEGIN_SRC js
+     {
+         'prs': {
+             '1': {
+                 'modifiers': [
+                     {'type': 'append', 'data': 'a'}
+                 ]
+             }
+         }
+     }
+   #+END_SRC
+
+   #+BEGIN_SRC js
+     {
+         'prs': {
+             '1': {
+                 'sg': [
+                     {'type': 'append', 'data': 'a'}
+                 ]
+             }
+         }
+     }
+   #+END_SRC
+
+   The top-level keys of =data.$.groups= should correspond to the members of the
+   top-level =groups= dictionary. Not all groups need to specified -- the
+   conjugations for any omitted groups will be taken from the verb(set)'s
+   parent. [fn:3]
+
+   The values corresponding to each group are dictionaries which represent
+   sub-trees. The branches of this tree correspond to any / all possible values
+   of the first =form_structure= element. Each second-level subtree has keys
+   which correspond to the possible values of the second =form_structure=
+   element.
+
+   Just as at the top level, subtree elements may be omitted. The modifiers for
+   these omitted group conjugations will be inherited from the verb(set)'s
+   parent. [fn:4]
+
+   The tree has a maximum depth of =1 + form_structure.length= (the first
+   branches come from =groups=). The leaves of the tree are not dictionaries
+   but rather modifier lists (see [[=modifiers= list]]).
+
+*** Excluding forms
+
+    Some groups (for example, the English imperative) may not define
+    conjugations for all forms (in English, for all gender/number
+    combinations). The =forms= property at the top level of a group dictionary
+    may be used to define exactly which forms are expected to be conjugated for
+    the given group. See the English regular imperative mood item within the
+    English =data.$.groups= regular group as an example:
+
+    #+BEGIN_SRC js
+      {
+          // ... omitted lots of groups ... //
+
+          'imp': {
+              'forms': ['1pl', '2sg', '2pl'],
+              '1': {
+                  'pl': [
+                      {'type': 'prepend', 'data': "let's "}
+                  ]
+              }
+          },
+
+          // ... omitted lots more groups .. //
+      }
+    #+END_SRC
+
+** =modifiers= list
+
+   The =modifiers= list may appear at any level of the [[=data.$.groups=
+   dictionary]]. It describes an ordered sequence of operations (see [[Modifiers]]) to
+   be performed on a lexical item during conjugation.
+
+   The most significant feature of the =modifiers= property is that it is
+   automatically =inherited= from parent trees, as we saw in [[Conjugational
+   context]]. For example, the following two =data.$.groups= dictionaries are
+   functionally equivalent:
+
+   #+CAPTION: Inherited modifiers (idiomatic way)
+   #+BEGIN_SRC js
+     {
+         'prs': {
+             '1': {
+                 'modifiers': [
+                     {'type': 'append', 'data': 'a'}
+                 ]
+             }
+         }
+     }
+   #+END_SRC
+
+   #+CAPTION: Non-inherited modifiers (awkward way)
+   #+BEGIN_SRC js
+     {
+         'prs': {
+             '1': {
+                 'sg': [
+                     {'type': 'append', 'data': 'a'}
+                 ],
+                 'pl': [
+                     {'type': 'append', 'data': 'a'}
+                 ]
+             }
+         }
+     }
+   #+END_SRC
+
+** Modifiers
+
+   A modifier describes a single operation that may be performed on a lexical
+   item. [fn:5] Each modifier in the [[=modifiers= list]] is an object with a
+   mandatory property =type= and optional properties as required by the
+   modifier's type.
+
+   Modifier objects may optionally declare an =id= property [fn:6]. This ID can
+   be used within the [[conjugational context][conjugational contexts]] of sub-elements in order to
+   override or (gosh!) modify the modifier.
+
+   It's important to remember that a modifier often does not act alone.
+   Depending on its position in relation to sibling modifiers
+
+*** Append
+
+    *Type name*: =append=
+    *Required properties*:
+
+    - =data=: the text to be appended
+
+    The =append= modifier joins a string to the end of the contextual lexical
+    item.
+
+*** Prepend
+
+    *Type name*: =prepend=
+    *Required properties*:
+
+    - =data=: the text to be prepended
+
+    The =prepend= modifier joins a string to the beginning of the contextual
+    lexical item.
+
+*** Replace
+
+    *Type name*: =replace=
+    *Required properties*:
+
+    - =match=: Describes which matches to operate on. One of =first=, =all=,
+      =last=, =n= (i.e., the $n$th match, where $n$ is an integer), or =-n=
+      (i.e., the $n$th match counting backwards from the end of the word, where
+      $n$ is again an integer).
+    - =search=: A regular expression with which to search.
+    - =replace=: A string describing how to replace matches. Backreferences of
+      the =$1=, =$2=, etc. style are allowed.
+
+    Run a search-and-replace operation on the contextual lexical item.
+
+*** Remove modifier
+
+    *Type name*: =remove_modifier=
+    *Required properties*:
+
+    - =id=: The ID of the modifier within the conjugational context to undo.
+
+    This modifier removes a previously applied modifier from the conjugational
+    context by its ID. If the given ID is not present in the conjugational
+    context, this modifier has no effect.
+
+*** Trim
+
+    *Type name*: =trim=
+    *Required properties*:
+
+    - =n=: The number of characters to trim.
+    - =position=: From which end of the contextual lexical item to begin
+      trimming. One of =start=, =end=.
+
+    Remove =n= characters from a string, either from the beginning moving
+    forwards or from the end moving backwards.
+
+* Footnotes
+
+[fn:1] A final conjugation is a combination of a verb group and a sequence of
+verb forms. For example, "present indicative 1st-person singular" is a final
+conjugation, where "present indicative" is the verb group and "1st-person" and
+"singular" are forms.
+
+[fn:2] This tree may also describe a [[Verb(set)][verbset]]: an abstract set of conjugation
+rules which applies to an entire class of verbs (or an entire class of verbs and
+verbsets).
+
+[fn:3] All groups must be defined in a top-level verb(set), however, since there
+is nothing for these items to inherit from.
+
+[fn:4] Again, top-level verb(set) elements are the exception: they must define
+conjugations for all top-level and sub-elements (unless explicitly excluded; see
+[[Excluding forms]]).
+
+[fn:5] This is a simplified description. Modifiers may also act on the
+[[conjugational context]]. Their effects actually take place on the [[contextual
+lexical item]].
+
+[fn:6] This ID must be unique within the context tree in which it operates.
+Different groups in a verb(set) may contain modifiers with the same IDs, but
+different forms within the same group may not have modifiers with the same IDs.

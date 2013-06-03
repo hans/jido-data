@@ -1,0 +1,294 @@
+{
+    'lang': 'en',
+
+    'groups': {
+        'prs': 'indicative present',
+        'prf': 'indicative perfect',
+        'pst': 'indicative past',
+        'plu': 'indicative pluperfect',
+        'fut1': 'indicative future',
+        'fut2': 'indicative future perfect',
+        'subprs': 'subjunctive present',
+        'subprf': 'subjunctive perfect',
+        'subplu': 'subjunctive pluperfect',
+        'coprs': 'conditional present',
+        'coprf': 'conditional perfect',
+        'imp': 'imperative',
+        'pprs': 'progressive indicative present',
+        'pprf': 'progressive indicative perfect',
+        'ppst': 'progressive indicative past',
+        'pplu': 'progressive indicative pluperfect',
+        'pfut1': 'progressive indicative future',
+        'pfut2': 'progressive indicative future perfect',
+        'pcoprs': 'progressive conditional present',
+        'pcoprf': 'progressive conditional perfect'
+    },
+
+    'fallbacks': {
+        'reg': {
+            'desc': 'regular',
+            'regex': '.*'
+        }
+    },
+
+    'forms': {
+        '1sg': {
+            desc: '1st-person singular',
+            features: {
+                'person': '1',
+                'number': 'sg'
+            }
+        },
+
+        '1pl': {
+            desc: '1st-person plural',
+            features: {
+                'person': '1',
+                'number': 'pl'
+            }
+        },
+
+        '2sg': {
+            desc: '2nd-person singular',
+            features: {
+                'person': '2',
+                'number': 'sg'
+            }
+        },
+
+        '2pl': {
+            desc: '2nd-person plural',
+            features: {
+                'person': '2',
+                'number': 'pl'
+            }
+        },
+
+        '3sg': {
+            desc: '3rd-person singular',
+            features: {
+                'person': '3',
+                'number': 'sg'
+            }
+        },
+
+        '3pl': {
+            desc: '3rd-person plural',
+            features: {
+                'person': '3',
+                'number': 'pl'
+            }
+        }
+    },
+
+    /**
+     * Groups will be filtered into individual forms in this order
+     */
+    'form_structure': [
+        'person',
+        'number'
+    ],
+
+    'data': [
+        {
+            'id': 'reg',
+            'type': 'verbset',
+
+            'extras': [
+                {
+                    'id': 'prsp',
+                    'modifiers': [
+                        {'type': 'append', 'data': 'ing'}
+                    ]
+                },
+                {
+                    'id': 'pstp',
+                    'modifiers': [
+                        {'type': 'append', 'data': 'ed'}
+                    ]
+                }
+            ],
+
+            'groups': {
+                'prs': {
+                    '3': {
+                        'sg': [
+                            {'type': 'append', 'data': 's'}
+                        ]
+                    }
+                },
+
+                'prf': {
+                    'modifiers': [
+                        {'type': 'append', 'data': 'ed'}
+                    ],
+                    '1': {
+                        'modifiers': [
+                            {'type': 'prepend', 'data': 'have '}
+                        ]
+                    },
+                    '2': {
+                        'modifiers': [
+                            {'type': 'prepend', 'data': 'have '}
+                        ]
+                    },
+                    '3': {
+                        'sg': {
+                            'modifiers': [
+                                {'type': 'prepend', 'data': 'has '}
+                            ]
+                        },
+                        'pl': {
+                            'modifiers': [
+                                {'type': 'prepend', 'data': 'have '}
+                            ]
+                        }
+                    }
+                },
+
+                'pst': {
+                    'modifiers': [
+                        {'type': 'append', 'data': 'ed'}
+                    ]
+                },
+
+                'plu': {
+                    'modifiers': [
+                        {'type': 'prepend', 'data': 'had '},
+                        {'type': 'append', 'data': 'ed'}
+                    ]
+                },
+
+                'fut1': {
+                    'modifiers': [
+                        {'type': 'prepend', 'data': 'will '}
+                    ]
+                },
+
+                'fut2': {
+                    'modifiers': [
+                        {'type': 'prepend', 'data': 'will have '},
+                        {'type': 'append', 'data': 'ed'}
+                    ]
+                },
+
+                'subprf': {
+                    'modifiers': [
+                        {'type': 'prepend', 'data': 'have '},
+                        {'type': 'append', 'data': 'ed'}
+                    ]
+                },
+
+                'subplu': {
+                    'modifiers': [
+                        {'type': 'append', 'data': 'had '},
+                        {'type': 'prepend', 'data': 'ed'}
+                    ]
+                },
+
+                'coprs': {
+                    'modifiers': [
+                        {'type': 'prepend', 'data': 'would '}
+                    ]
+                },
+
+                'coprf': {
+                    'modifiers': [
+                        {'type': 'prepend', 'data': 'would have '},
+                        {'type': 'append', 'data': 'ed'}
+                    ]
+                },
+
+                'imp': {
+                    'forms': ['1pl', '2sg', '2pl'],
+                    '1': {
+                        'pl': [
+                            {'type': 'prepend', 'data': "let's "}
+                        ]
+                    }
+                },
+
+                'pprs': {
+                    'modifiers': [
+                        {'type': 'append', 'data': 'ing'}
+                    ],
+                    '1': {
+                        'sg': [{'type': 'prepend', 'data': 'am '}],
+                        'pl': [{'type': 'prepend', 'data': 'are '}]
+                    },
+                    '2': {
+                        'modifiers': [{'type': 'prepend', 'data': 'are '}]
+                    },
+                    '3': {
+                        'sg': [{'type': 'prepend', 'data': 'is '}],
+                        'pl': [{'type': 'prepend', 'data': 'are '}]
+                    }
+                },
+
+                'pprf': {
+                    'modifiers': [{'type': 'append', 'data': 'ing'}],
+                    '1': {
+                        'modifiers': [{'type': 'prepend', 'data': 'have been '}]
+                    },
+                    '2': {
+                        'modifiers': [{'type': 'prepend', 'data': 'have been '}]
+                    },
+                    '3': {
+                        'sg': [{'type': 'prepend', 'data': 'has been '}],
+                        'pl': [{'type': 'prepend', 'data': 'have been '}]
+                    }
+                },
+
+                'ppst': {
+                    'modifiers': [{'type': 'append', 'data': 'ing'}],
+                    '1': {
+                        'sg': [{'type': 'prepend', 'data': 'was '}],
+                        'pl': [{'type': 'prepend', 'data': 'were '}]
+                    },
+                    '2': {
+                        'modifiers': [{'type': 'prepend', 'data': 'were '}]
+                    },
+                    '3': {
+                        'sg': [{'type': 'prepend', 'data': 'was '}],
+                        'pl': [{'type': 'prepend', 'data': 'were '}]
+                    }
+                },
+
+                'pplu': {
+                    'modifiers': [
+                        {'type': 'prepend', 'data': 'had been '},
+                        {'type': 'append', 'data': 'ing'}
+                    ]
+                },
+
+                'pfut1': {
+                    'modifiers': [
+                        {'type': 'prepend', 'data': 'will be '},
+                        {'type': 'append', 'data': 'ing'}
+                    ]
+                },
+
+                'pfut2': {
+                    'modifiers': [
+                        {'type': 'prepend', 'data': 'will have been '},
+                        {'type': 'append', 'data': 'ing'}
+                    ]
+                },
+
+                'pcoprs': {
+                    'modifiers': [
+                        {'type': 'prepend', 'data': 'would be '},
+                        {'type': 'append', 'data': 'ing'}
+                    ]
+                },
+
+                'pcoprf': {
+                    'modifiers': [
+                        {'type': 'prepend', 'data': 'would have been '},
+                        {'type': 'append', 'data': 'ing'}
+                    ]
+                }
+            }
+        }
+    ]
+}
