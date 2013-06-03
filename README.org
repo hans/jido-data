@@ -3,6 +3,7 @@
   - functionally equivalent :: Two declarations are said to be functionally
        equivalent if each yields exactly the same output when provided as data
        to Jido (assuming all else remains constant).
+  - modifier :: an operation on a lexical item. See [[Modifiers]].
   - conjugational context :: See [[Conjugational context]].
   - contextual lexical item :: The result of taking an original lexical item
        and applying all operations in the current conjugational context.
@@ -58,6 +59,52 @@
      ]
    #+END_SRC
 
+*** In-depth notes
+
+**** Modifier stacking
+
+    It's important to remember that a modifier often does not act alone.
+    Modifiers operate incrementally, each applying one by one off the result of
+    the previous. It's important to order modifiers within a modifier list
+    correctly in order to account for this.
+
+**** Effects of inheritance
+
+    There are some cases in which modifiers not at the top level may work on
+    unexpected conjugational contexts. Take this example from the English
+    ruleset:
+
+    #+BEGIN_SRC js
+      {
+          'id': 'perfect ak-ok',
+          'type': 'verbset',
+          'inherit': 'reg',
+
+          // ... //
+
+          'groups': {
+              'prf': {
+                  'modifiers': [
+                      {
+                          'type': 'replace',
+                          'match': 'first',
+                          'search': 'ak',
+                          'replace': 'ok'
+                      },
+                      {'type': 'trim', 'position': 'end', 'n': 1},
+                      {'type': 'append', 'data': 'en'}
+                  ]
+              },
+
+              // ... //
+          }
+      }
+    #+END_SRC
+
+    The declaration adds a modifier to all forms in the =prf= group. This means
+    that modifiers in forms within the =prf= group will actually stack on top
+    of this new injected modifier.
+
 * Fallbacks
 
   TODO
@@ -72,9 +119,17 @@
 
    * =id= :: /Optional for verbs./ A unique ID describing the verb(set).
    * =type= :: One of =verb=, =verbset=.
+   * =inherit= :: A verbset (the "parent" verbset) from which to inherit. Rules
+                  for any groups or forms within groups which are omitted from this
+                  verbset will be drawn instead from the parent's groups /
+                  forms. (If the parent lacks them as well, they will be drawn
+                  from the parent's parent, and so on.)
    * =groups= :: Here begins the tree. See [[=data.$.groups= dictionary]]
-   * =extras= :: A list of =ExtraConjugation= s. Unlike =groups=, this is not a
-                 tree structure.
+   * =extras= :: A list of extra conjugations which do not fit into any group /
+                 form pairing (e.g., participles). Unlike =groups=, this is not
+                 a tree structure. Extras are inherited from parent verbsets,
+                 but will be overridden if they are re-declared in the child
+                 with modifiers different from those of the parent.
 
 ** =data.$.groups= dictionary
 
@@ -122,6 +177,10 @@
    top-level =groups= dictionary. Not all groups need to specified -- the
    conjugations for any omitted groups will be taken from the verb(set)'s
    parent. [fn:3]
+
+   Modifier lists for forms declared within a verb(set) merge only with the
+   conjugational context. *They do not merge with modifiers associated with the
+   same form in the parent.*
 
    The values corresponding to each group are dictionaries which represent
    sub-trees. The branches of this tree correspond to any / all possible values
@@ -213,9 +272,6 @@
    Modifier objects may optionally declare an =id= property [fn:6]. This ID can
    be used within the [[conjugational context][conjugational contexts]] of sub-elements in order to
    override or (gosh!) modify the modifier.
-
-   It's important to remember that a modifier often does not act alone.
-   Depending on its position in relation to sibling modifiers
 
 *** Append
 

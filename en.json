@@ -289,6 +289,123 @@
                     ]
                 }
             }
+        },
+
+        {
+            'id': 'come',
+            'type': 'verbset',
+            'inherit': 'reg',
+
+            'extras': [
+                {
+                    'id': 'prsp',
+                    'modifiers': []
+                }
+            ],
+
+            'groups': {
+                'pst': {
+                    'modifiers': [
+                        {
+                            'type': 'replace',
+                            'match': 'first',
+                            'search': 'o',
+                            'replace': 'a'
+                        }
+                    ]
+                },
+
+                'subimp': {
+                    'modifiers': [
+                        {
+                            'type': 'replace',
+                            'match': 'first',
+                            'search': 'o',
+                            'replace': 'a'
+                        }
+                    ]
+                }
+            }
+        },
+
+        {
+            'id': 'perfect ak-ok',
+            'type': 'verbset',
+            'inherit': 'reg',
+
+            'extras': [
+                {
+                    'id': 'prsp',
+                    'modifiers': [
+                        {'type': 'trim', 'position': 'end', 'n': 1},
+                        {'type': 'append', 'data': 'ing'}
+                    ]
+                },
+                {
+                    'id': 'pstp',
+                    'modifiers': [
+                        {
+                            'type': 'replace',
+                            'match': 'first',
+                            'search': 'ak',
+                            'replace': 'ok'
+                        },
+                        {'type': 'trim', 'position': 'end', 'n': 1},
+                        {'type': 'append', 'data': 'en'}
+                    ]
+                }
+            ],
+
+            'groups': {
+                'prf': {
+                    'modifiers': [
+                        {
+                            'type': 'replace',
+                            'match': 'first',
+                            'search': 'ak',
+                            'replace': 'ok'
+                        },
+                        {'type': 'trim', 'position': 'end', 'n': 1},
+                        {'type': 'append', 'data': 'en'}
+                    ]
+                },
+
+                'pst': {
+                    'modifiers': [
+                        {
+                            'type': 'replace',
+                            'match': 'first',
+                            'search': 'ak',
+                            'replace': 'ok'
+                        }
+                    ]
+                },
+
+                'subimp': {
+                    'modifiers': [
+                        {
+                            'type': 'replace',
+                            'match': 'first',
+                            'search': 'ak',
+                            'replace': 'ok'
+                        }
+                    ]
+                },
+
+                'coprf': {
+                    'modifiers': [
+
+                        {
+                            'type': 'replace',
+                            'match': 'first',
+                            'search': 'ak',
+                            'replace': 'ok'
+                        },
+                        {'type': 'trim', 'position': 'end', 'n': 1},
+                        {'type': 'append', 'data': 'en'}
+                    ]
+                }
+            }
         }
     ]
 }
